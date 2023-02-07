@@ -7,3 +7,4 @@
 # whitelist everything in ./config/
 !config/*
 !mods/*
+config/oculus.properties
