@@ -7,5 +7,6 @@
 # whitelist
 !config/**
 !mods/**
+!icon.png
 
 config/oculus.properties
