@@ -8,5 +8,5 @@
 !config/**
 !mods/**
 !icon.png
-
+saves/**/icon.png
 config/oculus.properties
