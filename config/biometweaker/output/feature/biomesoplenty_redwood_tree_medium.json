@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "biomesoplenty:redwood_tree_medium",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:redwood_tree_medium",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "biomesoplenty:redwood_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

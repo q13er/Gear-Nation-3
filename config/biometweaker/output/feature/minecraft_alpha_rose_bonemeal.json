@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:alpha_rose_bonemeal",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:alpha_rose",
+    "placement": [
+      {
+        "predicate": {
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

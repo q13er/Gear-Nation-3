@@ -1,0 +1,55 @@
+
+{
+  "registry_name": "terralith:volcano/lava_tree_meme",
+  "worldgen/configured_feature": {
+    "config": {
+      "decorators": [],
+      "ignore_vines": false,
+      "force_dirt": false,
+      "dirt_provider": {
+        "state": {
+          "Properties": {
+            "level": "0"
+          },
+          "Name": "minecraft:lava"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": {
+        "limit": 1,
+        "lower_size": 0,
+        "upper_size": 1,
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "level": "0"
+          },
+          "Name": "minecraft:lava"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_placer": {
+        "base_height": 1,
+        "height_rand_a": 0,
+        "height_rand_b": 0,
+        "type": "minecraft:straight_trunk_placer"
+      },
+      "foliage_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_placer": {
+        "radius": 0,
+        "offset": 0,
+        "foliage_height": 1,
+        "leaf_placement_attempts": 0,
+        "type": "minecraft:random_spread_foliage_placer"
+      }
+    },
+    "type": "minecraft:tree"
+  }
+}

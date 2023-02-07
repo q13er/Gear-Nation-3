@@ -1,0 +1,24 @@
+
+{
+  "registry_name": "byg:arch_moss_patch_ceiling",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:moss_patch_ceiling",
+    "placement": [
+      {
+        "chance": 350,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "xz_spread": 0,
+        "y_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -15,
+            "max_inclusive": -10
+          }
+        },
+        "type": "minecraft:random_offset"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "terralith:coastal/trees_hawaii",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:coastal/fancy_oak",
+          "chance": 0.1
+        },
+        {
+          "feature": "minecraft:jungle_bush",
+          "chance": 0.5
+        },
+        {
+          "feature": "terralith:coastal/big_hawaii",
+          "chance": 0.1
+        },
+        {
+          "feature": "terralith:coastal/bending_acacia",
+          "chance": 0.1333333
+        }
+      ],
+      "default": "minecraft:jungle_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

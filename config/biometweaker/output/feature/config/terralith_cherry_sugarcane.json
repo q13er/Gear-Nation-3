@@ -1,0 +1,64 @@
+
+{
+  "registry_name": "terralith:cherry/sugarcane",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 20,
+      "xz_spread": 7,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "config": {
+            "layers": [
+              {
+                "height": {
+                  "type": "minecraft:biased_to_bottom",
+                  "value": {
+                    "min_inclusive": 1,
+                    "max_inclusive": 4
+                  }
+                },
+                "provider": {
+                  "state": {
+                    "Properties": {
+                      "age": "0"
+                    },
+                    "Name": "minecraft:sugar_cane"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                }
+              }
+            ],
+            "direction": "up",
+            "allowed_placement": {
+              "state": {
+                "Properties": {
+                  "age": "0"
+                },
+                "Name": "minecraft:sugar_cane"
+              },
+              "type": "minecraft:would_survive"
+            },
+            "prioritize_tip": false
+          },
+          "type": "minecraft:block_column"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "state": {
+                "Properties": {
+                  "age": "0"
+                },
+                "Name": "minecraft:sugar_cane"
+              },
+              "type": "minecraft:would_survive"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

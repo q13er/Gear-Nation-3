@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:cave_vines",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:cave_vine"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

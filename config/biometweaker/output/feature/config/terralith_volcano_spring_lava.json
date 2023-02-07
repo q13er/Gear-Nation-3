@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "terralith:volcano/spring_lava",
+  "worldgen/configured_feature": {
+    "config": {
+      "rock_count": 4,
+      "hole_count": 1,
+      "valid_blocks": [
+        "minecraft:blackstone",
+        "minecraft:basalt",
+        "minecraft:smooth_basalt"
+      ],
+      "state": {
+        "Properties": {
+          "falling": "true"
+        },
+        "Name": "minecraft:lava"
+      },
+      "requires_block_below": true
+    },
+    "type": "minecraft:spring_feature"
+  }
+}

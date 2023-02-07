@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "byg:sythian_fungus_pillars",
+  "worldgen/configured_feature": {
+    "config": {
+      "block_provider": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "byg:sythian_hyphae"
+            },
+            "weight": 9
+          },
+          {
+            "data": {
+              "Properties": {
+                "axis": "y"
+              },
+              "Name": "byg:sythian_hyphae"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    },
+    "type": "byg:pillar"
+  }
+}

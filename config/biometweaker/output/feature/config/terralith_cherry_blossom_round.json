@@ -1,0 +1,87 @@
+
+{
+  "registry_name": "terralith:cherry/blossom_round",
+  "worldgen/configured_feature": {
+    "config": {
+      "decorators": [
+        {
+          "type": "minecraft:leave_vine"
+        }
+      ],
+      "ignore_vines": true,
+      "force_dirt": false,
+      "dirt_provider": {
+        "state": {
+          "Name": "minecraft:dirt"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": {
+        "limit": 0,
+        "lower_size": 0,
+        "upper_size": 0,
+        "min_clipped_height": 0,
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:dark_oak_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_placer": {
+        "base_height": 32,
+        "height_rand_a": 0,
+        "height_rand_b": 18,
+        "type": "minecraft:fancy_trunk_placer"
+      },
+      "foliage_provider": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "persistent": "true",
+                "distance": "7"
+              },
+              "Name": "minecraft:jungle_leaves"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Properties": {
+                "persistent": "true",
+                "distance": "7"
+              },
+              "Name": "minecraft:dark_oak_leaves"
+            },
+            "weight": 12
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "foliage_placer": {
+        "radius": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 3
+          }
+        },
+        "offset": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0,
+            "max_inclusive": 1
+          }
+        },
+        "height": 1,
+        "type": "minecraft:jungle_foliage_placer"
+      }
+    },
+    "type": "minecraft:tree"
+  }
+}

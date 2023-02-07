@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:large_fumarole",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:large_fumarole"
+  }
+}

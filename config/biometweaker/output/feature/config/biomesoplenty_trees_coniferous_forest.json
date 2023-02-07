@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomesoplenty:trees_coniferous_forest",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:fir_tree",
+          "chance": 0.33333334
+        }
+      ],
+      "default": "biomesoplenty:fir_tree_large"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:jungle_tree_no_vine",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:jungle_tree_no_vine",
+    "placement": []
+  }
+}

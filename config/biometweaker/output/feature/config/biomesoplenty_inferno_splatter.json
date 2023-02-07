@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:inferno_splatter",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:inferno_splatter"
+  }
+}

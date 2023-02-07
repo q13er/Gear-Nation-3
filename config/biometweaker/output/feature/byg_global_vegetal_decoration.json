@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "byg:global/vegetal_decoration",
+  "worldgen/placed_feature": {
+    "feature": "byg:global/vegetal_decoration",
+    "placement": []
+  }
+}

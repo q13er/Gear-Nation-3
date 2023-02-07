@@ -1,0 +1,62 @@
+
+{
+  "registry_name": "terralith:cave/fuck_art_just_need_performance/split/granite",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "target": {
+          "Name": "minecraft:stone"
+        },
+        "state": {
+          "Name": "minecraft:granite"
+        },
+        "radius": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 5,
+            "max_inclusive": 12
+          }
+        }
+      },
+      "type": "minecraft:netherrack_replace_blobs"
+    },
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 180,
+              "weight": 100
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "absolute": 256
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "noise_to_count_ratio": -1,
+        "noise_factor": 850.0,
+        "noise_offset": 0.67,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

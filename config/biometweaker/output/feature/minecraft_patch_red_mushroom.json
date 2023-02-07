@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:patch_red_mushroom",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_red_mushroom",
+    "placement": []
+  }
+}

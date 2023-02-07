@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "biomesoplenty:trees_snowy_maple_forest",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:tall_spruce_tree",
+          "chance": 0.2
+        },
+        {
+          "feature": "biomesoplenty:big_maple_tree",
+          "chance": 0.1
+        }
+      ],
+      "default": "biomesoplenty:maple_tree_checked"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "byg:global/strongholds",
+  "worldgen/placed_feature": {
+    "feature": "byg:global/strongholds",
+    "placement": []
+  }
+}

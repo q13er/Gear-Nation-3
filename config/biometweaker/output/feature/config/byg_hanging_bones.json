@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "byg:hanging_bones",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_length": 1,
+      "max_length": 9,
+      "whitelist": [
+        {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:bone_block"
+        },
+        {
+          "Name": "byg:quartzite_sand"
+        }
+      ],
+      "base_block_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:bone_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "block_provider": {
+        "state": {
+          "Name": "byg:hanging_bones"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "end_block_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:hanging_feature"
+  }
+}

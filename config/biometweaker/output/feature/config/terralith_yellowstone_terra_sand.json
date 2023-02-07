@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "terralith:yellowstone/terra_sand",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "state": {
+          "Name": "minecraft:red_sand"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

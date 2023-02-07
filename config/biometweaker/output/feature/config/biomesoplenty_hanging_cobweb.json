@@ -1,0 +1,72 @@
+
+{
+  "registry_name": "biomesoplenty:hanging_cobweb",
+  "worldgen/configured_feature": {
+    "config": {
+      "layers": [
+        {
+          "height": {
+            "distribution": [
+              {
+                "data": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 0,
+                    "max_inclusive": 15
+                  }
+                },
+                "weight": 2
+              },
+              {
+                "data": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 0,
+                    "max_inclusive": 3
+                  }
+                },
+                "weight": 3
+              },
+              {
+                "data": {
+                  "type": "minecraft:uniform",
+                  "value": {
+                    "min_inclusive": 0,
+                    "max_inclusive": 7
+                  }
+                },
+                "weight": 3
+              }
+            ],
+            "type": "minecraft:weighted_list"
+          },
+          "provider": {
+            "state": {
+              "Name": "biomesoplenty:hanging_cobweb_strand"
+            },
+            "type": "minecraft:simple_state_provider"
+          }
+        },
+        {
+          "height": 1,
+          "provider": {
+            "state": {
+              "Properties": {
+                "age": "0"
+              },
+              "Name": "biomesoplenty:hanging_cobweb"
+            },
+            "type": "minecraft:simple_state_provider"
+          }
+        }
+      ],
+      "direction": "down",
+      "allowed_placement": {
+        "blocks": "minecraft:air",
+        "type": "minecraft:matching_blocks"
+      },
+      "prioritize_tip": true
+    },
+    "type": "minecraft:block_column"
+  }
+}

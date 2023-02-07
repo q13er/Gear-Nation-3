@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:mushrooms",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:wood_blewit",
+            "placement": []
+          },
+          "chance": 0.33
+        },
+        {
+          "feature": {
+            "feature": "byg:weeping_milkcap",
+            "placement": []
+          },
+          "chance": 0.33
+        }
+      ],
+      "default": {
+        "feature": "byg:green_mushroom",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

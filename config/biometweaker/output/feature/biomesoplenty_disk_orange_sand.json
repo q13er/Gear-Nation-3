@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:disk_orange_sand",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:disk_orange_sand",
+    "placement": [
+      {
+        "count": 3,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

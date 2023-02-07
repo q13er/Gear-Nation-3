@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "biomesoplenty:big_magic_tree",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:big_magic_tree",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "biomesoplenty:magic_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

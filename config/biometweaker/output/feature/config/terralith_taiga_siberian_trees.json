@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "terralith:taiga/siberian/trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "terralith:taiga/siberian/tall_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

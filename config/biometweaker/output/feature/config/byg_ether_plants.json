@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:ether_plants",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:ether_bush",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "byg:ether_grass",
+            "placement": []
+          },
+          "chance": 0.4
+        }
+      ],
+      "default": {
+        "feature": "byg:tall_ether_grass",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

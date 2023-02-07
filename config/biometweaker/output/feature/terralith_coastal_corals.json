@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "terralith:coastal/corals",
+  "worldgen/placed_feature": {
+    "feature": "terralith:coastal/corals",
+    "placement": [
+      {
+        "noise_to_count_ratio": 4,
+        "noise_factor": 400.0,
+        "noise_offset": 1.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

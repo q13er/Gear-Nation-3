@@ -1,0 +1,52 @@
+
+{
+  "registry_name": "terralith:yellowstone/acid_yellow",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:yellow_terracotta"
+      },
+      "radius": 1,
+      "half_height": 0,
+      "targets": [
+        {
+          "Name": "minecraft:gravel"
+        },
+        {
+          "Name": "minecraft:sand"
+        },
+        {
+          "Name": "minecraft:coarse_dirt"
+        },
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        },
+        {
+          "Name": "minecraft:calcite"
+        },
+        {
+          "Name": "minecraft:red_sand"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:basalt"
+        },
+        {
+          "Name": "minecraft:gravel"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

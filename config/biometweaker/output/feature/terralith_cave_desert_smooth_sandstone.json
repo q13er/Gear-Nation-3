@@ -1,0 +1,34 @@
+
+{
+  "registry_name": "terralith:cave/desert/smooth_sandstone",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/desert/smooth_sandstone",
+    "placement": [
+      {
+        "count": 175,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 0
+          },
+          "max_inclusive": {
+            "absolute": 200
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "min_inclusive": -64,
+        "max_inclusive": -12,
+        "type": "minecraft:surface_relative_threshold_filter"
+      }
+    ]
+  }
+}

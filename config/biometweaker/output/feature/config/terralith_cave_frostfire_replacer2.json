@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "terralith:cave/frostfire/replacer2",
+  "worldgen/configured_feature": {
+    "config": {
+      "target": {
+        "Name": "minecraft:dripstone_block"
+      },
+      "state": {
+        "Name": "minecraft:blue_ice"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 7,
+          "max_inclusive": 12
+        }
+      }
+    },
+    "type": "minecraft:netherrack_replace_blobs"
+  }
+}

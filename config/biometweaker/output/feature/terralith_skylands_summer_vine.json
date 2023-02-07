@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "terralith:skylands/summer/vine",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/summer/vine",
+    "placement": [
+      {
+        "predicate": {
+          "offset": [
+            0,
+            1,
+            0
+          ],
+          "blocks": "minecraft:moss_block",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

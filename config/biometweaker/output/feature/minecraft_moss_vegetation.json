@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:moss_vegetation",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:moss_vegetation",
+    "placement": []
+  }
+}

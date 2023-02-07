@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "repurposed_structures:decor/jungle_fortress_structure_vines",
+  "worldgen/configured_feature": {
+    "config": {
+      "attempts": 10,
+      "length": 3,
+      "xz_range": 3,
+      "height_range": 5
+    },
+    "type": "repurposed_structures:structure_vines"
+  }
+}

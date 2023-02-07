@@ -1,0 +1,70 @@
+
+{
+  "registry_name": "terralith:jungle/violet/tree_2x2_azalea",
+  "worldgen/configured_feature": {
+    "config": {
+      "decorators": [],
+      "ignore_vines": false,
+      "force_dirt": false,
+      "dirt_provider": {
+        "state": {
+          "Name": "minecraft:dirt"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": {
+        "limit": 1,
+        "lower_size": 1,
+        "upper_size": 2,
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:acacia_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_placer": {
+        "base_height": 7,
+        "height_rand_a": 3,
+        "height_rand_b": 2,
+        "type": "minecraft:dark_oak_trunk_placer"
+      },
+      "foliage_provider": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "minecraft:azalea_leaves"
+            },
+            "weight": 3
+          },
+          {
+            "data": {
+              "Properties": {
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "minecraft:flowering_azalea_leaves"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "foliage_placer": {
+        "radius": 1,
+        "offset": 1,
+        "height": 3,
+        "type": "minecraft:jungle_foliage_placer"
+      }
+    },
+    "type": "minecraft:tree"
+  }
+}

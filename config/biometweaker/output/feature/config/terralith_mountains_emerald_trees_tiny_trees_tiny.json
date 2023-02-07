@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:mountains/emerald/trees/tiny/trees_tiny",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:mountains/emerald/trees/tiny/pine_tiny",
+          "chance": 0.8
+        },
+        {
+          "feature": "terralith:mountains/emerald/trees/tiny/spruce_tiny_m",
+          "chance": 0.1
+        }
+      ],
+      "default": "terralith:mountains/emerald/trees/tiny/spruce_tiny"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:cliffs/basalt/seed_deepslate",
+  "worldgen/configured_feature": {
+    "config": {
+      "target": {
+        "Name": "minecraft:smooth_basalt"
+      },
+      "state": {
+        "Name": "minecraft:cobbled_deepslate"
+      },
+      "radius": 0
+    },
+    "type": "minecraft:netherrack_replace_blobs"
+  }
+}

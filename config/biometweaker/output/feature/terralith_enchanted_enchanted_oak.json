@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:enchanted/enchanted_oak",
+  "worldgen/placed_feature": {
+    "feature": "terralith:enchanted/enchanted_oak",
+    "placement": []
+  }
+}

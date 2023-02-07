@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "byg:weeping_roots",
+  "worldgen/placed_feature": {
+    "feature": "byg:weeping_roots",
+    "placement": [
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "below_top": 6
+          },
+          "max_inclusive": {
+            "above_bottom": 6
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "repurposed_structures:decor/ocean_pyramid_structure_plants",
+  "worldgen/configured_feature": {
+    "config": {
+      "attempts": 12
+    },
+    "type": "repurposed_structures:structure_seagrass"
+  }
+}

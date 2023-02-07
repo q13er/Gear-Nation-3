@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "atmospheric:trees_petrified_dunes",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "atmospheric:red_petrified_yucca",
+          "chance": 0.25
+        }
+      ],
+      "default": "atmospheric:petrified_yucca"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

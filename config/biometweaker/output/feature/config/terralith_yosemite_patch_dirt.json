@@ -1,0 +1,39 @@
+
+{
+  "registry_name": "terralith:yosemite/patch_dirt",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": {
+              "config": {
+                "target": {
+                  "Properties": {
+                    "snowy": "false"
+                  },
+                  "Name": "minecraft:grass_block"
+                },
+                "state": {
+                  "Name": "minecraft:coarse_dirt"
+                },
+                "radius": 0
+              },
+              "type": "minecraft:netherrack_replace_blobs"
+            },
+            "placement": []
+          },
+          "chance": 0.02
+        }
+      ],
+      "default": {
+        "feature": {
+          "config": {},
+          "type": "minecraft:no_op"
+        },
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

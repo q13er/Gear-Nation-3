@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:patch_watergrass_250",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:patch_watergrass",
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "count": 100,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

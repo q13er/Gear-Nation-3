@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "byg:mossy_stone_boulder",
+  "worldgen/placed_feature": {
+    "feature": "byg:mossy_stone_boulder",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

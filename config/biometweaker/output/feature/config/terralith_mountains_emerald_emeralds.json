@@ -1,0 +1,33 @@
+
+{
+  "registry_name": "terralith:mountains/emerald/emeralds",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:tuff",
+            "probability": 0.025,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "minecraft:deepslate_emerald_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "probability": 0.025,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "minecraft:emerald_ore"
+          }
+        }
+      ],
+      "size": 58,
+      "discard_chance_on_air_exposure": 0.4
+    },
+    "type": "minecraft:ore"
+  }
+}

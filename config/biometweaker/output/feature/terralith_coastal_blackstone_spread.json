@@ -1,0 +1,46 @@
+
+{
+  "registry_name": "terralith:coastal/blackstone_spread",
+  "worldgen/placed_feature": {
+    "feature": "terralith:coastal/blackstone_spread",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 256,
+              "weight": 0
+            },
+            {
+              "data": 256,
+              "weight": 100
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 175.0,
+        "noise_offset": 1.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 63
+          },
+          "max_inclusive": {
+            "absolute": 65
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

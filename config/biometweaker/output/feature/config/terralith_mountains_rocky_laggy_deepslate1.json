@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "terralith:mountains/rocky_laggy/deepslate1",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "state": {
+          "Name": "minecraft:cobbled_deepslate"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

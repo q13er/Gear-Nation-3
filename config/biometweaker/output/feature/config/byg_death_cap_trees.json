@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:death_cap_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:death_cap_tree3",
+            "placement": []
+          },
+          "chance": 0.35
+        },
+        {
+          "feature": {
+            "feature": "byg:death_cap_tree2",
+            "placement": []
+          },
+          "chance": 0.35
+        }
+      ],
+      "default": {
+        "feature": "byg:death_cap_tree1",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

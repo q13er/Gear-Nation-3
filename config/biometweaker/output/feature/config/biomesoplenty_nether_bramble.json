@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:nether_bramble",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:bramble"
+  }
+}

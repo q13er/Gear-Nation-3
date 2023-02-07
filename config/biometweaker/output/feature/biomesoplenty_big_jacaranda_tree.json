@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "biomesoplenty:big_jacaranda_tree",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:big_jacaranda_tree",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "biomesoplenty:jacaranda_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

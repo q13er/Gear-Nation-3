@@ -1,0 +1,57 @@
+
+{
+  "registry_name": "byg:jungle_flowers",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:bistort",
+            "placement": []
+          },
+          "chance": 0.142
+        },
+        {
+          "feature": {
+            "feature": "byg:guzmania",
+            "placement": []
+          },
+          "chance": 0.142
+        },
+        {
+          "feature": {
+            "feature": "byg:begonia",
+            "placement": []
+          },
+          "chance": 0.142
+        },
+        {
+          "feature": {
+            "feature": "byg:lazarus_bellflower",
+            "placement": []
+          },
+          "chance": 0.142
+        },
+        {
+          "feature": {
+            "feature": "byg:richea",
+            "placement": []
+          },
+          "chance": 0.142
+        },
+        {
+          "feature": {
+            "feature": "byg:torch_ginger",
+            "placement": []
+          },
+          "chance": 0.142
+        }
+      ],
+      "default": {
+        "feature": "byg:incan_lily",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

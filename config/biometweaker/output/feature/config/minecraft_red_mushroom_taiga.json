@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:red_mushroom_taiga",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:patch_red_mushroom"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

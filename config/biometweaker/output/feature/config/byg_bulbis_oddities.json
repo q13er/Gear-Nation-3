@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:bulbis_oddities",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:bulbis_oddity",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:purple_bulbis_oddity",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,52 @@
+
+{
+  "registry_name": "terralith:dark/trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:huge_brown_mushroom",
+          "chance": 0.025
+        },
+        {
+          "feature": "terralith:dark/brown_mushroom",
+          "chance": 0.0125
+        },
+        {
+          "feature": "terralith:dark/brown_mushroom_2",
+          "chance": 0.0125
+        },
+        {
+          "feature": "minecraft:huge_red_mushroom",
+          "chance": 0.025
+        },
+        {
+          "feature": "terralith:dark/red_mushroom",
+          "chance": 0.025
+        },
+        {
+          "feature": {
+            "feature": "terralith:dark/dark_oak",
+            "placement": [
+              {
+                "heightmap": "WORLD_SURFACE",
+                "type": "minecraft:heightmap"
+              }
+            ]
+          },
+          "chance": 0.34
+        },
+        {
+          "feature": "terralith:dark/birch",
+          "chance": 0.175
+        },
+        {
+          "feature": "terralith:dark/twilight_tree",
+          "chance": 0.34
+        }
+      ],
+      "default": "terralith:dark/oak"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

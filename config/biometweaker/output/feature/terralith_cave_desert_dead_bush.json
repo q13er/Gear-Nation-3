@@ -1,0 +1,65 @@
+
+{
+  "registry_name": "terralith:cave/desert/dead_bush",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/desert/dead_bush",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 50,
+              "weight": 100
+            },
+            {
+              "data": 50,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 7
+          },
+          "max_inclusive": {
+            "absolute": 200
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "direction_of_search": "down",
+        "target_condition": {
+          "type": "minecraft:solid"
+        },
+        "allowed_search_condition": {
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        "max_steps": 32,
+        "type": "minecraft:environment_scan"
+      },
+      {
+        "noise_to_count_ratio": 3,
+        "noise_factor": 80.0,
+        "noise_offset": 0.5,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "chance": 4,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

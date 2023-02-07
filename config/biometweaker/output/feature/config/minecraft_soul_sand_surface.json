@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "minecraft:soul_sand_surface",
+  "worldgen/configured_feature": {
+    "config": {
+      "target": {
+        "Name": "minecraft:soul_soil"
+      },
+      "state": {
+        "Name": "minecraft:soul_sand"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 7
+        }
+      }
+    },
+    "type": "minecraft:netherrack_replace_blobs"
+  }
+}

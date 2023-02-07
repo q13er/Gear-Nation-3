@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:rainforest_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:tropical_shrub1",
+            "placement": []
+          },
+          "chance": 0.35
+        }
+      ],
+      "default": {
+        "feature": "byg:mahogany_trees",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

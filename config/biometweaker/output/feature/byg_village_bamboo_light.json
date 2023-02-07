@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "byg:village_bamboo_light",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:bamboo_no_podzol",
+    "placement": []
+  }
+}

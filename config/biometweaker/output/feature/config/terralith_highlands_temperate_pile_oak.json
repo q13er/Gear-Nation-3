@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "terralith:highlands/temperate/pile_oak",
+  "worldgen/configured_feature": {
+    "config": {
+      "state_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "minecraft:oak_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:block_pile"
+  }
+}

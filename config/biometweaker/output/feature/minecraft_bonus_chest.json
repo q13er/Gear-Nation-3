@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:bonus_chest",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:bonus_chest",
+    "placement": []
+  }
+}

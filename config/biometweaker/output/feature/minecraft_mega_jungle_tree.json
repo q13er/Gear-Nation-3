@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:mega_jungle_tree",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:mega_jungle_tree",
+    "placement": []
+  }
+}

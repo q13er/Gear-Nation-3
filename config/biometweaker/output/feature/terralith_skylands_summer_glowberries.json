@@ -1,0 +1,129 @@
+
+{
+  "registry_name": "terralith:skylands/summer/glowberries",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "vegetation_chance": 0.03,
+        "xz_radius": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0,
+            "max_inclusive": 2
+          }
+        },
+        "extra_edge_column_chance": 0.5,
+        "extra_bottom_block_chance": 0.0,
+        "vertical_range": 4,
+        "vegetation_feature": "terralith:skylands/summer/vine",
+        "surface": "ceiling",
+        "depth": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 3
+          }
+        },
+        "replaceable": "#minecraft:lush_ground_replaceable",
+        "ground_state": {
+          "seed": 0,
+          "noise": {
+            "firstOctave": -5,
+            "amplitudes": [
+              1.3,
+              0.5,
+              1.6,
+              1.725
+            ]
+          },
+          "scale": 1.0,
+          "states": [
+            {
+              "Name": "minecraft:stone"
+            },
+            {
+              "Name": "minecraft:stone"
+            },
+            {
+              "Name": "minecraft:stone"
+            },
+            {
+              "Name": "minecraft:stone"
+            },
+            {
+              "Name": "minecraft:stone"
+            },
+            {
+              "Name": "minecraft:stone"
+            },
+            {
+              "Name": "minecraft:moss_block"
+            },
+            {
+              "Name": "minecraft:moss_block"
+            },
+            {
+              "Name": "minecraft:moss_block"
+            }
+          ],
+          "type": "minecraft:noise_provider"
+        }
+      },
+      "type": "minecraft:vegetation_patch"
+    },
+    "placement": [
+      {
+        "count": 92,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -8,
+            "max_inclusive": 8
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 130
+          },
+          "max_inclusive": {
+            "absolute": 160
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "direction_of_search": "up",
+        "target_condition": {
+          "predicates": [
+            {
+              "offset": [
+                0,
+                1,
+                0
+              ],
+              "blocks": "minecraft:stone",
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "max_steps": 32,
+        "type": "minecraft:environment_scan"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

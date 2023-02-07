@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:cliffs/white/patch_base",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cliffs/white/patch_base",
+    "placement": []
+  }
+}

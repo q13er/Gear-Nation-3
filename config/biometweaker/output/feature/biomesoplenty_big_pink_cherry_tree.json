@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "biomesoplenty:big_pink_cherry_tree",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:big_pink_cherry_tree",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "biomesoplenty:pink_cherry_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

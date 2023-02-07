@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:flower/blue/trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:flower/blue/birch_tree",
+          "chance": 0.2
+        },
+        {
+          "feature": "terralith:flower/blue/blue_tree",
+          "chance": 0.2
+        }
+      ],
+      "default": "terralith:flower/blue/main_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

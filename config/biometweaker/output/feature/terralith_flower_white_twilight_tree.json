@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "terralith:flower/white/twilight_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:flower/white/twilight_tree",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

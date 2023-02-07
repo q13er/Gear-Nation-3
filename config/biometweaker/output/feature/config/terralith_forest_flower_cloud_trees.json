@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:forest/flower/cloud_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:forest/flower/cloud_tree",
+          "chance": 0.6
+        }
+      ],
+      "default": "terralith:nothing"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,52 @@
+
+{
+  "registry_name": "terralith:yellowstone/acid_orange",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:red_sand"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 3
+        }
+      },
+      "half_height": 1,
+      "targets": [
+        {
+          "Name": "minecraft:gravel"
+        },
+        {
+          "Name": "minecraft:sand"
+        },
+        {
+          "Name": "minecraft:coarse_dirt"
+        },
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        },
+        {
+          "Name": "minecraft:calcite"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        },
+        {
+          "Name": "minecraft:smooth_basalt"
+        },
+        {
+          "Name": "minecraft:gravel"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

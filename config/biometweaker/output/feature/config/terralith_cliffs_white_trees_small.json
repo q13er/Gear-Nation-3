@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "terralith:cliffs/white/trees_small",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "terralith:cliffs/white/birch_alt"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

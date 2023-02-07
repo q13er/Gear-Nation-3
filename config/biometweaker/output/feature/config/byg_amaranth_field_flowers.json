@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "byg:amaranth_field_flowers",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:amaranth",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "byg:magenta_amaranth",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "byg:orange_amaranth",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "byg:purple_amaranth",
+            "placement": []
+          },
+          "chance": 0.2
+        }
+      ],
+      "default": {
+        "feature": "byg:cyan_amaranth",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

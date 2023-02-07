@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "terralith:cliffs/white/andesite_crack",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:diorite",
+            "probability": 0.7,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "minecraft:andesite"
+          }
+        }
+      ],
+      "size": 35,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

@@ -1,0 +1,55 @@
+
+{
+  "registry_name": "biomesoplenty:magic_tree",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_height": 8,
+      "max_height": 12,
+      "decorators": [],
+      "trunk_fruit_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "alt_foliage_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "biomesoplenty:magic_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "biomesoplenty:magic_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "vine_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "hanging_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "biomesoplenty:poplar_tree"
+  }
+}

@@ -1,0 +1,314 @@
+
+{
+  "registry_name": "terralith:cave/fungal/lichen_spread",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "can_place_on_wall": true,
+        "chance_of_spreading": 0.3,
+        "can_be_placed_on": [
+          "minecraft:stone",
+          "minecraft:red_mushroom_block",
+          "minecraft:brown_mushroom_block",
+          "minecraft:mushroom_stem",
+          "minecraft:andesite",
+          "minecraft:diorite",
+          "minecraft:granite",
+          "minecraft:deepslate",
+          "minecraft:rooted_dirt",
+          "minecraft:coarse_dirt",
+          "minecraft:gravel"
+        ],
+        "search_range": 6,
+        "can_place_on_floor": true,
+        "can_place_on_ceiling": true
+      },
+      "type": "minecraft:glow_lichen"
+    },
+    "placement": [
+      {
+        "count": 40,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -64
+          },
+          "max_inclusive": {
+            "absolute": 128
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -4,
+            "max_inclusive": 4
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                1,
+                0,
+                0
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                0,
+                1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -1,
+                0,
+                0
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                0,
+                -1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                1,
+                0,
+                1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                1,
+                0,
+                -1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -1,
+                0,
+                1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -1,
+                0,
+                -1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                1,
+                0
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                1,
+                1,
+                0
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                1,
+                1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -1,
+                1,
+                0
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                1,
+                -1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                1,
+                1,
+                1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                1,
+                1,
+                -1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -1,
+                1,
+                1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -1,
+                1,
+                -1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                1,
+                -1,
+                0
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                -1,
+                1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -1,
+                -1,
+                0
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                -1,
+                -1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                1,
+                -1,
+                1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                1,
+                -1,
+                -1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -1,
+                -1,
+                1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -1,
+                -1,
+                -1
+              ],
+              "blocks": "minecraft:glow_lichen",
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:any_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

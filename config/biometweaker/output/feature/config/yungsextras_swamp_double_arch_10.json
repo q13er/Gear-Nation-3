@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "yungsextras:swamp_double_arch_10",
+  "worldgen/configured_feature": {
+    "config": {
+      "location": "yungsextras:swamp/arch/swamp_double_arch_10"
+    },
+    "type": "yungsextras:swamp_double_arch"
+  }
+}

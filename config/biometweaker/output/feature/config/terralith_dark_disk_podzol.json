@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "terralith:dark/disk_podzol",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Properties": {
+          "snowy": "false"
+        },
+        "Name": "minecraft:podzol"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 4
+        }
+      },
+      "half_height": 4,
+      "targets": [
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

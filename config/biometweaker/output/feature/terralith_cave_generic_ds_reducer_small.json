@@ -1,0 +1,50 @@
+
+{
+  "registry_name": "terralith:cave/generic/ds_reducer_small",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/generic/ds_reducer_small",
+    "placement": [
+      {
+        "count": 40,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 40,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 0
+          },
+          "max_inclusive": {
+            "absolute": 200
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "predicate": {
+          "blocks": [
+            "minecraft:deepslate_coal_ore",
+            "minecraft:deepslate_copper_ore",
+            "minecraft:deepslate_diamond_ore",
+            "minecraft:deepslate_gold_ore",
+            "minecraft:deepslate_iron_ore",
+            "minecraft:deepslate_lapis_ore",
+            "minecraft:deepslate_redstone_ore"
+          ],
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "byg:soul_soil_pillars",
+  "worldgen/configured_feature": {
+    "config": {
+      "block_provider": {
+        "state": {
+          "Name": "byg:warped_soul_soil"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:pillar"
+  }
+}

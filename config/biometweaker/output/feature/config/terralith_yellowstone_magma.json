@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "terralith:yellowstone/magma",
+  "worldgen/configured_feature": {
+    "config": {
+      "floor_search_range": 2,
+      "placement_radius_around_floor": 3,
+      "placement_probability_per_valid_position": 0.3
+    },
+    "type": "minecraft:underwater_magma"
+  }
+}

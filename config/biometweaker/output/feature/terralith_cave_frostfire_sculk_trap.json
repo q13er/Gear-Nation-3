@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "terralith:cave/frostfire/sculk_trap",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/frostfire/sculk_trap",
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+
+{
+  "registry_name": "byg:lament_weeping_tree1",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_height": 22,
+      "max_height": 31,
+      "disk_radius": 0,
+      "whitelist": [
+        {
+          "Properties": {
+            "level": "0"
+          },
+          "Name": "minecraft:lava"
+        }
+      ],
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "byg:lament_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "leaves_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "byg:lament_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "disk_provider": {
+        "state": {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:podzol"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:lament_weeping_tree1"
+  }
+}

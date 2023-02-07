@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:flower/blue/blue_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:flower/blue/blue_tree",
+    "placement": []
+  }
+}

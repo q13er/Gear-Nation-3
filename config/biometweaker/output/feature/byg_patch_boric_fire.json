@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "byg:patch_boric_fire",
+  "worldgen/placed_feature": {
+    "feature": "byg:boric_fire_patch",
+    "placement": [
+      {
+        "count": 8,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

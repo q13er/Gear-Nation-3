@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:subzero_ashes",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:subzero_ash",
+            "placement": []
+          },
+          "chance": 0.6
+        }
+      ],
+      "default": {
+        "feature": "byg:subzero_ash_block",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

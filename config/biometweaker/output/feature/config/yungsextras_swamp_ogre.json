@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "yungsextras:swamp_ogre",
+  "worldgen/configured_feature": {
+    "config": {
+      "location": "yungsextras:swamp/misc/swamp_ogre_0"
+    },
+    "type": "yungsextras:swamp_ogre"
+  }
+}

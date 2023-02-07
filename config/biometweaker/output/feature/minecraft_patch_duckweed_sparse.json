@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "minecraft:patch_duckweed_sparse",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:duckweed",
+    "placement": [
+      {
+        "count": 16,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

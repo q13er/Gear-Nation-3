@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "terralith:yosemite/waterfall_super_laggy",
+  "worldgen/configured_feature": {
+    "config": {
+      "rock_count": 5,
+      "hole_count": 2,
+      "valid_blocks": [
+        "minecraft:water",
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:calcite",
+        "minecraft:diorite",
+        "minecraft:stone",
+        "minecraft:air"
+      ],
+      "state": {
+        "Properties": {
+          "falling": "false"
+        },
+        "Name": "minecraft:water"
+      },
+      "requires_block_below": false
+    },
+    "type": "minecraft:spring_feature"
+  }
+}

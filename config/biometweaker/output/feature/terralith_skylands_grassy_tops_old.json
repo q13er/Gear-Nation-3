@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "terralith:skylands/grassy_tops_old",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/grassy_tops_old",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 255,
+              "weight": 100
+            },
+            {
+              "data": 255,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0,
+            "max_inclusive": 0
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

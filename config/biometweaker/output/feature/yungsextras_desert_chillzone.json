@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "yungsextras:desert_chillzone",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {},
+      "type": "yungsextras:desert_chillzone"
+    },
+    "placement": [
+      {
+        "chance": 1000,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "type": "yungsextras:rng_initializer"
+      }
+    ]
+  }
+}

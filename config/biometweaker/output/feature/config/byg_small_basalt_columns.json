@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "byg:small_basalt_columns",
+  "worldgen/configured_feature": {
+    "config": {
+      "reach": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 1
+        }
+      },
+      "height": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 1
+        }
+      }
+    },
+    "type": "minecraft:basalt_columns"
+  }
+}

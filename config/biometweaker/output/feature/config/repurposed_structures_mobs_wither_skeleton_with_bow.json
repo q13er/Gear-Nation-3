@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:mobs/wither_skeleton_with_bow",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "repurposed_structures:wither_skeleton_with_bow"
+  }
+}

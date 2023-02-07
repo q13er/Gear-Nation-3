@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:jungle/vanilla/bending_jungle_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:jungle/vanilla/bending_jungle_tree",
+    "placement": []
+  }
+}

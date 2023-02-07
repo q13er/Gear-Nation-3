@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "repurposed_structures:supports/taiga_mineshaft_support",
+  "worldgen/configured_feature": {
+    "config": {
+      "target_floor_block": "minecraft:spruce_planks",
+      "is_water_based": false,
+      "arch_only": false,
+      "arch_blocks": [
+        "minecraft:stripped_spruce_log"
+      ],
+      "pillar_state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:spruce_log"
+      },
+      "fence_state": {
+        "Properties": {
+          "west": "false",
+          "waterlogged": "false",
+          "south": "false",
+          "north": "false",
+          "east": "false"
+        },
+        "Name": "minecraft:spruce_fence"
+      }
+    },
+    "type": "repurposed_structures:mineshaft_supports"
+  }
+}

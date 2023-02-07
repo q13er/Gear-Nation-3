@@ -1,0 +1,132 @@
+
+{
+  "registry_name": "terralith:desert/gravel/coral_fans",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 1,
+      "xz_spread": 4,
+      "y_spread": 1,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "entries": [
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false"
+                    },
+                    "Name": "minecraft:dead_brain_coral_fan"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false"
+                    },
+                    "Name": "minecraft:dead_fire_coral_fan"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false"
+                    },
+                    "Name": "minecraft:dead_horn_coral_fan"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false"
+                    },
+                    "Name": "minecraft:dead_fire_coral_fan"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false"
+                    },
+                    "Name": "minecraft:dead_tube_coral_fan"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false"
+                    },
+                    "Name": "minecraft:dead_brain_coral"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false"
+                    },
+                    "Name": "minecraft:dead_fire_coral"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false"
+                    },
+                    "Name": "minecraft:dead_horn_coral"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false"
+                    },
+                    "Name": "minecraft:dead_fire_coral"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "waterlogged": "false"
+                    },
+                    "Name": "minecraft:dead_tube_coral"
+                  },
+                  "weight": 1
+                }
+              ],
+              "type": "minecraft:weighted_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "heightmap": "WORLD_SURFACE_WG",
+            "type": "minecraft:heightmap"
+          },
+          {
+            "predicate": {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": "minecraft:gravel",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

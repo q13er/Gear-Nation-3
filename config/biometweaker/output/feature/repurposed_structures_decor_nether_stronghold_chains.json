@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:decor/nether_stronghold_chains",
+  "worldgen/placed_feature": {
+    "feature": "repurposed_structures:decor/nether_stronghold_chains",
+    "placement": []
+  }
+}

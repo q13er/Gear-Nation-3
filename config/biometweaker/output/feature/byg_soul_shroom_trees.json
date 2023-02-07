@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "byg:soul_shroom_trees",
+  "worldgen/placed_feature": {
+    "feature": "byg:soul_shroom_trees",
+    "placement": [
+      {
+        "count": 8,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

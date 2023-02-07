@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:yellowstone/birch_alt",
+  "worldgen/placed_feature": {
+    "feature": "terralith:yellowstone/birch_alt",
+    "placement": []
+  }
+}

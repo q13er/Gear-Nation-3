@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "byg:desert_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:mini_cacti",
+            "placement": []
+          },
+          "chance": 0.3
+        },
+        {
+          "feature": {
+            "feature": "byg:prickly_pear_cacti",
+            "placement": []
+          },
+          "chance": 0.3
+        },
+        {
+          "feature": {
+            "feature": "byg:aloe_vera",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "byg:firecracker_bush",
+            "placement": []
+          },
+          "chance": 0.1
+        }
+      ],
+      "default": {
+        "feature": "byg:golden_spined_cacti",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

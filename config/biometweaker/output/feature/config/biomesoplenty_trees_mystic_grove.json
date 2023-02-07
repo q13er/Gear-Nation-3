@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "biomesoplenty:trees_mystic_grove",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:big_flowering_tree",
+          "chance": 0.15
+        },
+        {
+          "feature": "biomesoplenty:jacaranda_tree",
+          "chance": 0.25
+        },
+        {
+          "feature": "biomesoplenty:big_magic_tree",
+          "chance": 0.3
+        },
+        {
+          "feature": "biomesoplenty:giant_tree",
+          "chance": 0.02
+        }
+      ],
+      "default": "biomesoplenty:magic_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "byg:cherry_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:pink_cherry_tree1",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:pink_cherry_tree2",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:white_cherry_tree1",
+            "placement": []
+          },
+          "chance": 0.25
+        }
+      ],
+      "default": {
+        "feature": "byg:white_cherry_tree2",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

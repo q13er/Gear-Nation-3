@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "minecraft:ru_gravel",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:ru_disk_gravel",
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

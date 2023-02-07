@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:highlands/forest/disk_coarse",
+  "worldgen/placed_feature": {
+    "feature": "terralith:highlands/forest/disk_coarse",
+    "placement": [
+      {
+        "count": 6,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

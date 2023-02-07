@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "terralith:yellowstone/spruce_trees_big_alt",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "terralith:yellowstone/spruce_big_alt"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

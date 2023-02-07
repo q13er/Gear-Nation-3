@@ -1,0 +1,52 @@
+
+{
+  "registry_name": "minecraft:ru_disk_gravel",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:gravel"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 5
+        }
+      },
+      "half_height": 2,
+      "targets": [
+        {
+          "Name": "regions_unexplored:forest_mud"
+        },
+        {
+          "Name": "regions_unexplored:forest_dirt"
+        },
+        {
+          "Name": "regions_unexplored:plains_dirt"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "regions_unexplored:forest_grass_block"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "regions_unexplored:plains_grass_block"
+        },
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

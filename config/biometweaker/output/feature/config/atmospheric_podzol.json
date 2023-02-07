@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "atmospheric:podzol",
+  "worldgen/configured_feature": {
+    "config": {
+      "probability": 0.2
+    },
+    "type": "atmospheric:podzol"
+  }
+}

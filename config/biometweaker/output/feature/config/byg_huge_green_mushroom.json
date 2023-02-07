@@ -1,0 +1,73 @@
+
+{
+  "registry_name": "byg:huge_green_mushroom",
+  "worldgen/configured_feature": {
+    "config": {
+      "mushroom3_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:green_mushroom_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "pollen_provider": {
+        "state": {
+          "Name": "byg:pollen_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "min_height": 6,
+      "max_height": 13,
+      "stem_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:white_mushroom_stem"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "mushroom_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:green_mushroom_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "mushroom2_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:green_mushroom_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:green_mushroom_huge"
+  }
+}

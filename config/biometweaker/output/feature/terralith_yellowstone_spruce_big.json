@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:yellowstone/spruce_big",
+  "worldgen/placed_feature": {
+    "feature": "terralith:yellowstone/spruce_big",
+    "placement": []
+  }
+}

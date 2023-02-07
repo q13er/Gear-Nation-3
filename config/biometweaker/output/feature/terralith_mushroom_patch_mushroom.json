@@ -1,0 +1,164 @@
+
+{
+  "registry_name": "terralith:mushroom/patch_mushroom",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "tries": 10,
+        "xz_spread": 4,
+        "y_spread": 3,
+        "feature": {
+          "feature": {
+            "config": {
+              "layers": [
+                {
+                  "height": 1,
+                  "provider": {
+                    "seed": 0,
+                    "noise": {
+                      "firstOctave": -3,
+                      "amplitudes": [
+                        0.25,
+                        1.25
+                      ]
+                    },
+                    "scale": 1.0,
+                    "states": [
+                      {
+                        "Name": "minecraft:red_mushroom"
+                      },
+                      {
+                        "Name": "minecraft:brown_mushroom"
+                      },
+                      {
+                        "Name": "minecraft:brown_mushroom"
+                      },
+                      {
+                        "Name": "minecraft:brown_mushroom"
+                      },
+                      {
+                        "Name": "minecraft:red_mushroom"
+                      },
+                      {
+                        "Name": "minecraft:red_mushroom"
+                      },
+                      {
+                        "Name": "minecraft:red_mushroom"
+                      },
+                      {
+                        "Name": "minecraft:brown_mushroom"
+                      }
+                    ],
+                    "variety": [
+                      1,
+                      8
+                    ],
+                    "slow_noise": {
+                      "firstOctave": -5,
+                      "amplitudes": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    "slow_scale": 1.0,
+                    "type": "minecraft:dual_noise_provider"
+                  }
+                }
+              ],
+              "direction": "up",
+              "allowed_placement": {
+                "type": "minecraft:true"
+              },
+              "prioritize_tip": false
+            },
+            "type": "minecraft:block_column"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "predicates": [
+                  {
+                    "predicate": {
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "blocks": [
+                        "minecraft:stone",
+                        "minecraft:deepslate",
+                        "minecraft:granite",
+                        "minecraft:andesite",
+                        "minecraft:diorite"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:not"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:cave_air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "predicates": [
+                      {
+                        "state": {
+                          "Name": "minecraft:brown_mushroom"
+                        },
+                        "type": "minecraft:would_survive"
+                      },
+                      {
+                        "offset": [
+                          0,
+                          -1,
+                          0
+                        ],
+                        "blocks": [
+                          "minecraft:rooted_dirt",
+                          "minecraft:gravel",
+                          "minecraft:coarse_dirt",
+                          "minecraft:mycelium",
+                          "minecraft:podzol"
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      }
+                    ],
+                    "type": "minecraft:any_of"
+                  }
+                ],
+                "type": "minecraft:all_of"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
+        }
+      },
+      "type": "minecraft:random_patch"
+    },
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 12,
+            "max_inclusive": 14
+          }
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

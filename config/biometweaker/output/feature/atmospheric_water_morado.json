@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "atmospheric:water_morado",
+  "worldgen/placed_feature": {
+    "feature": "atmospheric:water_morado",
+    "placement": []
+  }
+}

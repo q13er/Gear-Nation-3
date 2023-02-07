@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:savanna/shattered/trees_tall",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:savanna/shattered/acacia",
+          "chance": 0.8
+        }
+      ],
+      "default": "terralith:savanna/shattered/oak_mutated"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

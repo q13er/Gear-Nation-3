@@ -1,0 +1,30 @@
+
+{
+  "registry_name": "repurposed_structures:supports/nether_mineshaft_support",
+  "worldgen/configured_feature": {
+    "config": {
+      "target_floor_block": "minecraft:nether_bricks",
+      "is_water_based": false,
+      "arch_only": false,
+      "arch_blocks": [
+        "minecraft:shroomlight",
+        "minecraft:nether_bricks"
+      ],
+      "pillar_state": {
+        "Name": "minecraft:cracked_nether_bricks"
+      },
+      "fence_state": {
+        "Properties": {
+          "west": "none",
+          "waterlogged": "false",
+          "up": "true",
+          "south": "none",
+          "north": "none",
+          "east": "none"
+        },
+        "Name": "minecraft:nether_brick_wall"
+      }
+    },
+    "type": "repurposed_structures:mineshaft_supports"
+  }
+}

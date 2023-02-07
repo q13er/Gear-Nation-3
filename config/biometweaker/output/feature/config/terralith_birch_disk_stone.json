@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "terralith:birch/disk_stone",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:stone"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 5
+        }
+      },
+      "half_height": 2,
+      "targets": [
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

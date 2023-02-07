@@ -1,0 +1,35 @@
+
+{
+  "registry_name": "terralith:yellowstone/acid_orange",
+  "worldgen/placed_feature": {
+    "feature": "terralith:yellowstone/acid_orange",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 82,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 61
+          },
+          "max_inclusive": {
+            "absolute": 63
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

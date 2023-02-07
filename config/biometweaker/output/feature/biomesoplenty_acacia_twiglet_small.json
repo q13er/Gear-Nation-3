@@ -1,0 +1,35 @@
+
+{
+  "registry_name": "biomesoplenty:acacia_twiglet_small",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:acacia_twiglet_small",
+    "placement": [
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": "minecraft:sand",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": "biomesoplenty:orange_sand",
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:any_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "repurposed_structures:mobs/skeleton_sword_deadliest",
+  "worldgen/configured_feature": {
+    "config": {
+      "leggings": "minecraft:chainmail_leggings",
+      "speed_modifier": 0.33,
+      "health": 24,
+      "held_item": "minecraft:stone_sword",
+      "helmet": "minecraft:chainmail_helmet",
+      "chestplate": "minecraft:chainmail_chestplate"
+    },
+    "type": "repurposed_structures:skeleton"
+  }
+}

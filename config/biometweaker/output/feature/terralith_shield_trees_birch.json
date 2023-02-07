@@ -1,0 +1,198 @@
+
+{
+  "registry_name": "terralith:shield/trees_birch",
+  "worldgen/placed_feature": {
+    "feature": "terralith:shield/birch",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 2,
+              "weight": 90
+            },
+            {
+              "data": 3,
+              "weight": 10
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 188.0,
+        "noise_offset": 0.5,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "noise_to_count_ratio": -1,
+        "noise_factor": 188.0,
+        "noise_offset": -1.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "predicates": [
+                {
+                  "state": {
+                    "Name": "minecraft:fern"
+                  },
+                  "type": "minecraft:would_survive"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:snow_block",
+                    "minecraft:powder_snow"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:any_of"
+            },
+            {
+              "predicate": {
+                "predicates": [
+                  {
+                    "blocks": [
+                      "minecraft:spruce_log",
+                      "minecraft:dark_oak_log",
+                      "minecraft:birch_log"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      1,
+                      0,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:spruce_log",
+                      "minecraft:dark_oak_log",
+                      "minecraft:birch_log"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -1,
+                      0,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:spruce_log",
+                      "minecraft:dark_oak_log",
+                      "minecraft:birch_log"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      0,
+                      1
+                    ],
+                    "blocks": [
+                      "minecraft:spruce_log",
+                      "minecraft:dark_oak_log",
+                      "minecraft:birch_log"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      0,
+                      -1
+                    ],
+                    "blocks": [
+                      "minecraft:spruce_log",
+                      "minecraft:dark_oak_log",
+                      "minecraft:birch_log"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      1,
+                      0,
+                      1
+                    ],
+                    "blocks": [
+                      "minecraft:spruce_log",
+                      "minecraft:dark_oak_log",
+                      "minecraft:birch_log"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      1,
+                      0,
+                      -1
+                    ],
+                    "blocks": [
+                      "minecraft:spruce_log",
+                      "minecraft:dark_oak_log",
+                      "minecraft:birch_log"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -1,
+                      0,
+                      -1
+                    ],
+                    "blocks": [
+                      "minecraft:spruce_log",
+                      "minecraft:dark_oak_log",
+                      "minecraft:birch_log"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -1,
+                      0,
+                      1
+                    ],
+                    "blocks": [
+                      "minecraft:spruce_log",
+                      "minecraft:dark_oak_log",
+                      "minecraft:birch_log"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  }
+                ],
+                "type": "minecraft:any_of"
+              },
+              "type": "minecraft:not"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

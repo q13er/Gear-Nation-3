@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:enchanted/big_tree_doak",
+  "worldgen/placed_feature": {
+    "feature": "terralith:enchanted/big_tree_doak",
+    "placement": []
+  }
+}

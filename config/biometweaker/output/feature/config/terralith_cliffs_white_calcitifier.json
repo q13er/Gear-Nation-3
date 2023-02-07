@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "terralith:cliffs/white/calcitifier",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:calcite"
+          }
+        }
+      ],
+      "size": 55,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:cave/ice/replacer2",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:no_op"
+  }
+}

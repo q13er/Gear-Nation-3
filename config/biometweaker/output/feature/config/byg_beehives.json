@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "byg:beehives",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "byg:beehive"
+  }
+}

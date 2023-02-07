@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:shrubland/toast_tree",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": {
+        "feature": {
+          "config": {},
+          "type": "minecraft:kelp"
+        },
+        "placement": []
+      }
+    },
+    "type": "minecraft:simple_random_selector"
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "byg:quartz_spike",
+  "worldgen/configured_feature": {
+    "config": {
+      "block_provider": {
+        "state": {
+          "Name": "byg:quartzite_sand"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:quartz_spikes"
+  }
+}

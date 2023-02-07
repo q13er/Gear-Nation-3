@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "yungsextras:desert_well_lg",
+  "worldgen/configured_feature": {
+    "config": {
+      "location": "yungsextras:desert/wells/well_lg",
+      "radius": 3
+    },
+    "type": "yungsextras:desert_well"
+  }
+}

@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:cave/frostfire/tiles",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:deepslate_tiles"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate_tiles",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "minecraft:cracked_deepslate_tiles"
+          }
+        }
+      ],
+      "size": 64,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

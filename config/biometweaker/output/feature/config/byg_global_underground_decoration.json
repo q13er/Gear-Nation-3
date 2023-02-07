@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "byg:global/underground_decoration",
+  "worldgen/configured_feature": {
+    "config": {
+      "features_to_place": []
+    },
+    "type": "byg:global"
+  }
+}

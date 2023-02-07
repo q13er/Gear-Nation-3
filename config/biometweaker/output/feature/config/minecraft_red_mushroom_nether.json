@@ -1,0 +1,14 @@
+
+{
+  "registry_name": "minecraft:red_mushroom_nether",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": {
+        "feature": "minecraft:patch_red_mushroom",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:shrubland/small_trees",
+  "worldgen/placed_feature": {
+    "feature": "terralith:shrubland/small_tree",
+    "placement": [
+      {
+        "chance": 2,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Name": "minecraft:fern"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

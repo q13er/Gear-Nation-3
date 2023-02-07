@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:soul_shroom_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:soul_shroom_tree3",
+            "placement": []
+          },
+          "chance": 0.35
+        },
+        {
+          "feature": {
+            "feature": "byg:soul_shroom_tree2",
+            "placement": []
+          },
+          "chance": 0.35
+        }
+      ],
+      "default": {
+        "feature": "byg:soul_shroom_tree1",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

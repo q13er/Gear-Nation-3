@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "terralith:cave/ice/replacer",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/ice/replacer",
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

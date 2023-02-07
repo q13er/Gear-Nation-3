@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "minecraft:trees_swamp",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:swamp_oak",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 2,
+              "weight": 90
+            },
+            {
+              "data": 3,
+              "weight": 10
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "max_water_depth": 2,
+        "type": "minecraft:surface_water_depth_filter"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

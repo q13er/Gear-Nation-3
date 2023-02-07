@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:imparius_plants",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:imparius_bush",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "byg:fungal_imparius_patch",
+            "placement": []
+          },
+          "chance": 0.4
+        }
+      ],
+      "default": {
+        "feature": "byg:imparius_mushroom",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

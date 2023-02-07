@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:lily_of_the_valley",
+  "worldgen/placed_feature": {
+    "feature": "repurposed_structures:lily_of_the_valley",
+    "placement": []
+  }
+}

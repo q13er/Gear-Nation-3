@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:dark/brown_mushroom",
+  "worldgen/placed_feature": {
+    "feature": "terralith:dark/brown_mushroom",
+    "placement": []
+  }
+}

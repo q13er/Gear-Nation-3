@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:cave/desert/lava",
+  "worldgen/configured_feature": {
+    "config": {
+      "contents": {
+        "Properties": {
+          "level": "0"
+        },
+        "Name": "minecraft:lava"
+      },
+      "rim": {
+        "Name": "minecraft:andesite"
+      },
+      "size": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 6
+        }
+      },
+      "rim_size": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 2
+        }
+      }
+    },
+    "type": "minecraft:delta_feature"
+  }
+}

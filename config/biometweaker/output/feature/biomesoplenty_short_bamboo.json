@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:short_bamboo",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:short_bamboo",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

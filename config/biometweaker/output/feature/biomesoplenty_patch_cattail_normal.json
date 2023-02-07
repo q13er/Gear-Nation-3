@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:patch_cattail_normal",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:patch_cattail",
+    "placement": [
+      {
+        "chance": 3,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

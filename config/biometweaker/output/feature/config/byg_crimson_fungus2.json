@@ -1,0 +1,44 @@
+
+{
+  "registry_name": "byg:crimson_fungus2",
+  "worldgen/configured_feature": {
+    "config": {
+      "mushroom3_provider": {
+        "state": {
+          "Name": "minecraft:nether_wart_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "pollen_provider": {
+        "state": {
+          "Name": "byg:pollen_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "min_height": 6,
+      "max_height": 13,
+      "stem_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:crimson_stem"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "mushroom_provider": {
+        "state": {
+          "Name": "minecraft:nether_wart_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "mushroom2_provider": {
+        "state": {
+          "Name": "minecraft:nether_wart_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:crimson_fungus_tree2"
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "biomesoplenty:trees_bog",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:spruce_twiglet_tree",
+          "chance": 0.4
+        },
+        {
+          "feature": "biomesoplenty:maple_twiglet_tree",
+          "chance": 0.6
+        }
+      ],
+      "default": "biomesoplenty:twiglet_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

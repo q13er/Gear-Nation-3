@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "byg:warped_coral_plant",
+  "worldgen/configured_feature": {
+    "config": {
+      "block_provider": {
+        "state": {
+          "Name": "byg:warped_coral_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "whitelist": [
+        {
+          "Name": "byg:warped_soul_soil"
+        },
+        {
+          "Name": "byg:warped_soul_sand"
+        }
+      ]
+    },
+    "type": "byg:warped_coral_plant"
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:flower/blue/orchids",
+  "worldgen/placed_feature": {
+    "feature": "terralith:flower/blue/orchids",
+    "placement": [
+      {
+        "count": 16,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

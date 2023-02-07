@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "yungsextras:swamp_double_arch_21",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "location": "yungsextras:swamp/arch/swamp_double_arch_21"
+      },
+      "type": "yungsextras:swamp_double_arch"
+    },
+    "placement": [
+      {
+        "chance": 1500,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "type": "yungsextras:rng_initializer"
+      }
+    ]
+  }
+}

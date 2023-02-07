@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "terralith:yellowstone/acid_basalt",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:smooth_basalt"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 6
+        }
+      },
+      "half_height": 3,
+      "targets": [
+        {
+          "Name": "minecraft:gravel"
+        },
+        {
+          "Name": "minecraft:coarse_dirt"
+        },
+        {
+          "Name": "minecraft:sand"
+        },
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        },
+        {
+          "Name": "minecraft:calcite"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

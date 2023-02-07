@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "byg:global/lakes",
+  "worldgen/placed_feature": {
+    "feature": "byg:global/lakes",
+    "placement": []
+  }
+}

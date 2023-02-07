@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "yungsextras:swamp_church",
+  "worldgen/configured_feature": {
+    "config": {
+      "location": "yungsextras:swamp/misc/swamp_church"
+    },
+    "type": "yungsextras:swamp_church"
+  }
+}

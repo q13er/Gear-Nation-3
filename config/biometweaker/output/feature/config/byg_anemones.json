@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:anemones",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:pink_anemone",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:white_anemone",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

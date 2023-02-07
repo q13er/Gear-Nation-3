@@ -1,0 +1,44 @@
+
+{
+  "registry_name": "byg:embur_mushroom1",
+  "worldgen/configured_feature": {
+    "config": {
+      "mushroom3_provider": {
+        "state": {
+          "Name": "byg:embur_gel_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "pollen_provider": {
+        "state": {
+          "Name": "byg:pollen_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "min_height": 6,
+      "max_height": 13,
+      "stem_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "byg:embur_pedu"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "mushroom_provider": {
+        "state": {
+          "Name": "byg:embur_gel_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "mushroom2_provider": {
+        "state": {
+          "Name": "byg:embur_gel_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:embur_mushroom1"
+  }
+}

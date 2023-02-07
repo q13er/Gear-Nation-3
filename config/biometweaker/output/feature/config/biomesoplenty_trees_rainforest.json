@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomesoplenty:trees_rainforest",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:jungle_tree",
+          "chance": 0.1
+        }
+      ],
+      "default": "biomesoplenty:mahogany_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

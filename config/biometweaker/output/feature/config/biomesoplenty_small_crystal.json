@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:small_crystal",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:small_crystal"
+  }
+}

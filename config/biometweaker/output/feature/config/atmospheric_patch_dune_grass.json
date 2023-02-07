@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "atmospheric:patch_dune_grass",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:coarse_dirt"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 7
+        }
+      },
+      "half_height": 2,
+      "targets": [
+        {
+          "Name": "atmospheric:red_arid_sand"
+        },
+        {
+          "Name": "atmospheric:arid_sand"
+        }
+      ]
+    },
+    "type": "atmospheric:coarse_dirt_patch"
+  }
+}

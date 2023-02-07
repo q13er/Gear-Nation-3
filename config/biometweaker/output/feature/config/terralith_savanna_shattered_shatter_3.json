@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "terralith:savanna/shattered/shatter_3",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": {
+        "feature": {
+          "config": {
+            "target": {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:grass_block"
+            },
+            "state": {
+              "Name": "minecraft:tuff"
+            },
+            "radius": 0
+          },
+          "type": "minecraft:netherrack_replace_blobs"
+        },
+        "placement": []
+      }
+    },
+    "type": "minecraft:simple_random_selector"
+  }
+}

@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "repurposed_structures:supports/jungle_mineshaft",
+  "worldgen/configured_feature": {
+    "config": {
+      "target_floor_block": "minecraft:jungle_planks",
+      "is_water_based": false,
+      "arch_only": true,
+      "arch_blocks": [
+        "minecraft:jungle_log"
+      ],
+      "pillar_state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:jungle_log"
+      },
+      "fence_state": {
+        "Properties": {
+          "west": "false",
+          "waterlogged": "false",
+          "south": "false",
+          "north": "false",
+          "east": "false"
+        },
+        "Name": "minecraft:jungle_fence"
+      }
+    },
+    "type": "repurposed_structures:mineshaft_supports"
+  }
+}

@@ -1,0 +1,148 @@
+
+{
+  "registry_name": "terralith:skylands/summer/tall_flowers",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "tries": 16,
+        "xz_spread": 5,
+        "y_spread": 2,
+        "feature": {
+          "feature": {
+            "config": {
+              "to_place": {
+                "seed": 0,
+                "noise": {
+                  "firstOctave": -3,
+                  "amplitudes": [
+                    1.0,
+                    1.0
+                  ]
+                },
+                "scale": 1.0,
+                "states": [
+                  {
+                    "Properties": {
+                      "half": "lower"
+                    },
+                    "Name": "minecraft:sunflower"
+                  },
+                  {
+                    "Properties": {
+                      "half": "lower"
+                    },
+                    "Name": "minecraft:sunflower"
+                  },
+                  {
+                    "Properties": {
+                      "half": "lower"
+                    },
+                    "Name": "minecraft:sunflower"
+                  },
+                  {
+                    "Properties": {
+                      "half": "lower"
+                    },
+                    "Name": "minecraft:sunflower"
+                  },
+                  {
+                    "Name": "minecraft:dandelion"
+                  },
+                  {
+                    "Name": "minecraft:oxeye_daisy"
+                  },
+                  {
+                    "Name": "minecraft:dandelion"
+                  },
+                  {
+                    "Properties": {
+                      "half": "lower"
+                    },
+                    "Name": "minecraft:sunflower"
+                  },
+                  {
+                    "Properties": {
+                      "half": "lower"
+                    },
+                    "Name": "minecraft:sunflower"
+                  },
+                  {
+                    "Properties": {
+                      "half": "lower"
+                    },
+                    "Name": "minecraft:sunflower"
+                  },
+                  {
+                    "Properties": {
+                      "half": "lower"
+                    },
+                    "Name": "minecraft:sunflower"
+                  }
+                ],
+                "variety": [
+                  1,
+                  5
+                ],
+                "slow_noise": {
+                  "firstOctave": -5,
+                  "amplitudes": [
+                    1.0,
+                    1.0,
+                    1.25,
+                    1.5
+                  ]
+                },
+                "slow_scale": 1.0,
+                "type": "minecraft:dual_noise_provider"
+              }
+            },
+            "type": "minecraft:simple_block"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "predicates": [
+                  {
+                    "state": {
+                      "Properties": {
+                        "half": "lower"
+                      },
+                      "Name": "minecraft:sunflower"
+                    },
+                    "type": "minecraft:would_survive"
+                  },
+                  {
+                    "type": "minecraft:replaceable"
+                  }
+                ],
+                "type": "minecraft:all_of"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
+        }
+      },
+      "type": "minecraft:random_patch"
+    },
+    "placement": [
+      {
+        "count": 16,
+        "type": "minecraft:count"
+      },
+      {
+        "chance": 2,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

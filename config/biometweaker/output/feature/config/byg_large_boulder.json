@@ -1,0 +1,82 @@
+
+{
+  "registry_name": "byg:large_boulder",
+  "worldgen/configured_feature": {
+    "config": {
+      "verifies_height": false,
+      "pointed": false,
+      "belowSurfaceDepth": 2147483647,
+      "edge_features": [],
+      "2d_noise_chance": 0.25,
+      "radius_matcher": "NONE",
+      "squared_distance_check": true,
+      "use_scaled_noise_height": true,
+      "radius_divisor_per_stack": 1.0,
+      "noise_frequency": 0.04,
+      "fluid_start_y": -2147483648,
+      "fluidState": {
+        "Name": "minecraft:empty"
+      },
+      "block_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:stone"
+            },
+            "weight": 4
+          },
+          {
+            "data": {
+              "Name": "minecraft:andesite"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "top_block_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:stone"
+            },
+            "weight": 4
+          },
+          {
+            "data": {
+              "Name": "minecraft:andesite"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "stackHeight": 1,
+      "radius_settings": {
+        "x_radius": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 16,
+            "max_inclusive": 24
+          }
+        },
+        "y_radius": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 10,
+            "max_inclusive": 16
+          }
+        },
+        "upper_half_additional": 0,
+        "z_radius": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 16,
+            "max_inclusive": 24
+          }
+        }
+      }
+    },
+    "type": "byg:boulder"
+  }
+}

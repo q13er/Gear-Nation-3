@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:short_bamboo",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:short_bamboo"
+  }
+}

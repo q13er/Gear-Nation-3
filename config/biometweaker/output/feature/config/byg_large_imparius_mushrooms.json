@@ -1,0 +1,50 @@
+
+{
+  "registry_name": "byg:large_imparius_mushrooms",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:imparius_mushroom1",
+            "placement": []
+          },
+          "chance": 0.166
+        },
+        {
+          "feature": {
+            "feature": "byg:imparius_mushroom2",
+            "placement": []
+          },
+          "chance": 0.166
+        },
+        {
+          "feature": {
+            "feature": "byg:imparius_mushroom3",
+            "placement": []
+          },
+          "chance": 0.166
+        },
+        {
+          "feature": {
+            "feature": "byg:imparius_mushroom4",
+            "placement": []
+          },
+          "chance": 0.166
+        },
+        {
+          "feature": {
+            "feature": "byg:imparius_mushroom5",
+            "placement": []
+          },
+          "chance": 0.166
+        }
+      ],
+      "default": {
+        "feature": "byg:imparius_mushroom6",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

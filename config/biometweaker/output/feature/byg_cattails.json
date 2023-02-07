@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "byg:cattails",
+  "worldgen/placed_feature": {
+    "feature": "byg:cattail",
+    "placement": [
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "max_water_depth": 2,
+        "type": "minecraft:surface_water_depth_filter"
+      }
+    ]
+  }
+}

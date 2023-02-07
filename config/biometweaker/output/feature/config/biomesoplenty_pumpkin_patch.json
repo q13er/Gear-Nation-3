@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:pumpkin_patch",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:pumpkin_patch"
+  }
+}

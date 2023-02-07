@@ -1,0 +1,50 @@
+
+{
+  "registry_name": "byg:desert_vegetation_atacama",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:mini_cacti",
+            "placement": []
+          },
+          "chance": 0.15
+        },
+        {
+          "feature": {
+            "feature": "byg:prickly_pear_cacti",
+            "placement": []
+          },
+          "chance": 0.15
+        },
+        {
+          "feature": {
+            "feature": "byg:aloe_vera",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "byg:flowering_barrel_cacti",
+            "placement": []
+          },
+          "chance": 0.15
+        },
+        {
+          "feature": {
+            "feature": "byg:barrel_cacti",
+            "placement": []
+          },
+          "chance": 0.15
+        }
+      ],
+      "default": {
+        "feature": "byg:golden_spined_cacti",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

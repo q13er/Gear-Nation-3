@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "byg:tulips",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:magenta_tulip",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "byg:yellow_tulip",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "byg:purple_tulip",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "byg:cyan_tulip",
+            "placement": []
+          },
+          "chance": 0.2
+        }
+      ],
+      "default": {
+        "feature": "byg:green_tulip",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:skylands/winter/mega_spruce",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/winter/mega_spruce",
+    "placement": []
+  }
+}

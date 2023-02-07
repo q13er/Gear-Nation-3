@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "terralith:savanna/shattered/small/acacia_small",
+  "worldgen/placed_feature": {
+    "feature": "terralith:savanna/shattered/small/acacia_small",
+    "placement": [
+      {
+        "count": 0,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

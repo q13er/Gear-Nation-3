@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:jungle/vanilla/trees_jungle",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:mega_jungle_tree",
+          "chance": 0.31
+        },
+        {
+          "feature": "minecraft:fancy_oak",
+          "chance": 0.03
+        },
+        {
+          "feature": "terralith:jungle/vanilla/fancy_oak_bend",
+          "chance": 0.07
+        },
+        {
+          "feature": "minecraft:jungle_bush",
+          "chance": 0.2
+        },
+        {
+          "feature": "terralith:jungle/vanilla/fence_tree",
+          "chance": 0.3
+        }
+      ],
+      "default": "terralith:jungle/vanilla/bending_jungle_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

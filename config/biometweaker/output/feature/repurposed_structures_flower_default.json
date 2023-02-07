@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:flower_default",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:flower_default",
+    "placement": []
+  }
+}

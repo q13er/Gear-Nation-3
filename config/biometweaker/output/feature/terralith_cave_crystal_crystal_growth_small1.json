@@ -1,0 +1,1016 @@
+
+{
+  "registry_name": "terralith:cave/crystal/crystal_growth_small1",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "tries": 500,
+        "xz_spread": 4,
+        "y_spread": 4,
+        "feature": {
+          "feature": {
+            "config": {
+              "features": [
+                {
+                  "feature": {
+                    "feature": {
+                      "config": {
+                        "tries": 60,
+                        "xz_spread": 3,
+                        "y_spread": 3,
+                        "feature": {
+                          "feature": {
+                            "config": {
+                              "features": [
+                                {
+                                  "feature": {
+                                    "config": {
+                                      "to_place": {
+                                        "entries": [
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "up"
+                                              },
+                                              "Name": "minecraft:amethyst_cluster"
+                                            },
+                                            "weight": 1
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "up"
+                                              },
+                                              "Name": "minecraft:large_amethyst_bud"
+                                            },
+                                            "weight": 2
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "up"
+                                              },
+                                              "Name": "minecraft:medium_amethyst_bud"
+                                            },
+                                            "weight": 4
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "up"
+                                              },
+                                              "Name": "minecraft:small_amethyst_bud"
+                                            },
+                                            "weight": 6
+                                          }
+                                        ],
+                                        "type": "minecraft:weighted_state_provider"
+                                      }
+                                    },
+                                    "type": "minecraft:simple_block"
+                                  },
+                                  "placement": [
+                                    {
+                                      "predicate": {
+                                        "predicates": [
+                                          {
+                                            "offset": [
+                                              0,
+                                              -1,
+                                              0
+                                            ],
+                                            "blocks": "minecraft:amethyst_block",
+                                            "type": "minecraft:matching_blocks"
+                                          },
+                                          {
+                                            "blocks": [
+                                              "minecraft:air",
+                                              "minecraft:cave_air"
+                                            ],
+                                            "type": "minecraft:matching_blocks"
+                                          }
+                                        ],
+                                        "type": "minecraft:all_of"
+                                      },
+                                      "type": "minecraft:block_predicate_filter"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": {
+                                    "config": {
+                                      "to_place": {
+                                        "entries": [
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "down"
+                                              },
+                                              "Name": "minecraft:amethyst_cluster"
+                                            },
+                                            "weight": 1
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "down"
+                                              },
+                                              "Name": "minecraft:large_amethyst_bud"
+                                            },
+                                            "weight": 2
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "down"
+                                              },
+                                              "Name": "minecraft:medium_amethyst_bud"
+                                            },
+                                            "weight": 4
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "down"
+                                              },
+                                              "Name": "minecraft:small_amethyst_bud"
+                                            },
+                                            "weight": 6
+                                          }
+                                        ],
+                                        "type": "minecraft:weighted_state_provider"
+                                      }
+                                    },
+                                    "type": "minecraft:simple_block"
+                                  },
+                                  "placement": [
+                                    {
+                                      "predicate": {
+                                        "predicates": [
+                                          {
+                                            "offset": [
+                                              0,
+                                              1,
+                                              0
+                                            ],
+                                            "blocks": "minecraft:amethyst_block",
+                                            "type": "minecraft:matching_blocks"
+                                          },
+                                          {
+                                            "blocks": [
+                                              "minecraft:air",
+                                              "minecraft:cave_air"
+                                            ],
+                                            "type": "minecraft:matching_blocks"
+                                          }
+                                        ],
+                                        "type": "minecraft:all_of"
+                                      },
+                                      "type": "minecraft:block_predicate_filter"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": {
+                                    "config": {
+                                      "to_place": {
+                                        "entries": [
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "south"
+                                              },
+                                              "Name": "minecraft:amethyst_cluster"
+                                            },
+                                            "weight": 1
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "south"
+                                              },
+                                              "Name": "minecraft:large_amethyst_bud"
+                                            },
+                                            "weight": 2
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "south"
+                                              },
+                                              "Name": "minecraft:medium_amethyst_bud"
+                                            },
+                                            "weight": 4
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "south"
+                                              },
+                                              "Name": "minecraft:small_amethyst_bud"
+                                            },
+                                            "weight": 6
+                                          }
+                                        ],
+                                        "type": "minecraft:weighted_state_provider"
+                                      }
+                                    },
+                                    "type": "minecraft:simple_block"
+                                  },
+                                  "placement": [
+                                    {
+                                      "predicate": {
+                                        "predicates": [
+                                          {
+                                            "offset": [
+                                              0,
+                                              0,
+                                              -1
+                                            ],
+                                            "blocks": "minecraft:amethyst_block",
+                                            "type": "minecraft:matching_blocks"
+                                          },
+                                          {
+                                            "blocks": [
+                                              "minecraft:air",
+                                              "minecraft:cave_air"
+                                            ],
+                                            "type": "minecraft:matching_blocks"
+                                          }
+                                        ],
+                                        "type": "minecraft:all_of"
+                                      },
+                                      "type": "minecraft:block_predicate_filter"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": {
+                                    "config": {
+                                      "to_place": {
+                                        "entries": [
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "north"
+                                              },
+                                              "Name": "minecraft:amethyst_cluster"
+                                            },
+                                            "weight": 1
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "north"
+                                              },
+                                              "Name": "minecraft:large_amethyst_bud"
+                                            },
+                                            "weight": 2
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "north"
+                                              },
+                                              "Name": "minecraft:medium_amethyst_bud"
+                                            },
+                                            "weight": 4
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "north"
+                                              },
+                                              "Name": "minecraft:small_amethyst_bud"
+                                            },
+                                            "weight": 6
+                                          }
+                                        ],
+                                        "type": "minecraft:weighted_state_provider"
+                                      }
+                                    },
+                                    "type": "minecraft:simple_block"
+                                  },
+                                  "placement": [
+                                    {
+                                      "predicate": {
+                                        "predicates": [
+                                          {
+                                            "offset": [
+                                              0,
+                                              0,
+                                              1
+                                            ],
+                                            "blocks": "minecraft:amethyst_block",
+                                            "type": "minecraft:matching_blocks"
+                                          },
+                                          {
+                                            "blocks": [
+                                              "minecraft:air",
+                                              "minecraft:cave_air"
+                                            ],
+                                            "type": "minecraft:matching_blocks"
+                                          }
+                                        ],
+                                        "type": "minecraft:all_of"
+                                      },
+                                      "type": "minecraft:block_predicate_filter"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": {
+                                    "config": {
+                                      "to_place": {
+                                        "entries": [
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "west"
+                                              },
+                                              "Name": "minecraft:amethyst_cluster"
+                                            },
+                                            "weight": 1
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "west"
+                                              },
+                                              "Name": "minecraft:large_amethyst_bud"
+                                            },
+                                            "weight": 2
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "west"
+                                              },
+                                              "Name": "minecraft:medium_amethyst_bud"
+                                            },
+                                            "weight": 4
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "west"
+                                              },
+                                              "Name": "minecraft:small_amethyst_bud"
+                                            },
+                                            "weight": 6
+                                          }
+                                        ],
+                                        "type": "minecraft:weighted_state_provider"
+                                      }
+                                    },
+                                    "type": "minecraft:simple_block"
+                                  },
+                                  "placement": [
+                                    {
+                                      "predicate": {
+                                        "predicates": [
+                                          {
+                                            "offset": [
+                                              1,
+                                              0,
+                                              0
+                                            ],
+                                            "blocks": "minecraft:amethyst_block",
+                                            "type": "minecraft:matching_blocks"
+                                          },
+                                          {
+                                            "blocks": [
+                                              "minecraft:air",
+                                              "minecraft:cave_air"
+                                            ],
+                                            "type": "minecraft:matching_blocks"
+                                          }
+                                        ],
+                                        "type": "minecraft:all_of"
+                                      },
+                                      "type": "minecraft:block_predicate_filter"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "feature": {
+                                    "config": {
+                                      "to_place": {
+                                        "entries": [
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "east"
+                                              },
+                                              "Name": "minecraft:amethyst_cluster"
+                                            },
+                                            "weight": 1
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "east"
+                                              },
+                                              "Name": "minecraft:large_amethyst_bud"
+                                            },
+                                            "weight": 2
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "east"
+                                              },
+                                              "Name": "minecraft:medium_amethyst_bud"
+                                            },
+                                            "weight": 4
+                                          },
+                                          {
+                                            "data": {
+                                              "Properties": {
+                                                "waterlogged": "false",
+                                                "facing": "east"
+                                              },
+                                              "Name": "minecraft:small_amethyst_bud"
+                                            },
+                                            "weight": 6
+                                          }
+                                        ],
+                                        "type": "minecraft:weighted_state_provider"
+                                      }
+                                    },
+                                    "type": "minecraft:simple_block"
+                                  },
+                                  "placement": [
+                                    {
+                                      "predicate": {
+                                        "predicates": [
+                                          {
+                                            "offset": [
+                                              -1,
+                                              0,
+                                              0
+                                            ],
+                                            "blocks": "minecraft:amethyst_block",
+                                            "type": "minecraft:matching_blocks"
+                                          },
+                                          {
+                                            "blocks": [
+                                              "minecraft:air",
+                                              "minecraft:cave_air"
+                                            ],
+                                            "type": "minecraft:matching_blocks"
+                                          }
+                                        ],
+                                        "type": "minecraft:all_of"
+                                      },
+                                      "type": "minecraft:block_predicate_filter"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "type": "minecraft:simple_random_selector"
+                          },
+                          "placement": []
+                        }
+                      },
+                      "type": "minecraft:random_patch"
+                    },
+                    "placement": [
+                      {
+                        "predicate": {
+                          "blocks": [
+                            "minecraft:amethyst_block",
+                            "minecraft:cave_air"
+                          ],
+                          "type": "minecraft:matching_blocks"
+                        },
+                        "type": "minecraft:block_predicate_filter"
+                      }
+                    ]
+                  },
+                  "chance": 0.0015
+                },
+                {
+                  "feature": {
+                    "feature": {
+                      "config": {
+                        "to_place": {
+                          "seed": 999,
+                          "noise": {
+                            "firstOctave": -3,
+                            "amplitudes": [
+                              1.0,
+                              0.75,
+                              0.85
+                            ]
+                          },
+                          "scale": 1.0,
+                          "states": [
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:cave_air"
+                            },
+                            {
+                              "Name": "minecraft:cave_air"
+                            },
+                            {
+                              "Name": "minecraft:cave_air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            },
+                            {
+                              "Name": "minecraft:air"
+                            }
+                          ],
+                          "type": "minecraft:noise_provider"
+                        }
+                      },
+                      "type": "minecraft:simple_block"
+                    },
+                    "placement": [
+                      {
+                        "predicate": {
+                          "predicates": [
+                            {
+                              "blocks": "minecraft:air",
+                              "type": "minecraft:matching_blocks"
+                            },
+                            {
+                              "predicates": [
+                                {
+                                  "offset": [
+                                    1,
+                                    0,
+                                    0
+                                  ],
+                                  "blocks": [
+                                    "minecraft:cave_air",
+                                    "minecraft:amethyst_block",
+                                    "minecraft:calcite"
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "offset": [
+                                    0,
+                                    0,
+                                    1
+                                  ],
+                                  "blocks": [
+                                    "minecraft:cave_air",
+                                    "minecraft:amethyst_block",
+                                    "minecraft:calcite"
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "offset": [
+                                    -1,
+                                    0,
+                                    0
+                                  ],
+                                  "blocks": [
+                                    "minecraft:cave_air",
+                                    "minecraft:amethyst_block",
+                                    "minecraft:calcite"
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "offset": [
+                                    0,
+                                    0,
+                                    -1
+                                  ],
+                                  "blocks": [
+                                    "minecraft:cave_air",
+                                    "minecraft:amethyst_block",
+                                    "minecraft:calcite"
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "offset": [
+                                    0,
+                                    1,
+                                    0
+                                  ],
+                                  "blocks": [
+                                    "minecraft:cave_air",
+                                    "minecraft:amethyst_block",
+                                    "minecraft:calcite"
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                },
+                                {
+                                  "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                  ],
+                                  "blocks": [
+                                    "minecraft:cave_air",
+                                    "minecraft:amethyst_block",
+                                    "minecraft:calcite"
+                                  ],
+                                  "type": "minecraft:matching_blocks"
+                                }
+                              ],
+                              "type": "minecraft:any_of"
+                            }
+                          ],
+                          "type": "minecraft:all_of"
+                        },
+                        "type": "minecraft:block_predicate_filter"
+                      }
+                    ]
+                  },
+                  "chance": 0.495
+                }
+              ],
+              "default": {
+                "feature": {
+                  "config": {
+                    "to_place": {
+                      "seed": 9,
+                      "noise": {
+                        "firstOctave": -3,
+                        "amplitudes": [
+                          1.0,
+                          0.75,
+                          0.85
+                        ]
+                      },
+                      "scale": 1.0,
+                      "states": [
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:amethyst_block"
+                        },
+                        {
+                          "Name": "minecraft:amethyst_block"
+                        },
+                        {
+                          "Name": "minecraft:amethyst_block"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        },
+                        {
+                          "Name": "minecraft:cave_air"
+                        }
+                      ],
+                      "type": "minecraft:noise_provider"
+                    }
+                  },
+                  "type": "minecraft:simple_block"
+                },
+                "placement": [
+                  {
+                    "predicate": {
+                      "predicates": [
+                        {
+                          "blocks": "minecraft:cave_air",
+                          "type": "minecraft:matching_blocks"
+                        },
+                        {
+                          "predicates": [
+                            {
+                              "offset": [
+                                1,
+                                0,
+                                0
+                              ],
+                              "blocks": [
+                                "minecraft:amethyst_block",
+                                "minecraft:tuff",
+                                "minecraft:calcite"
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            {
+                              "offset": [
+                                0,
+                                0,
+                                1
+                              ],
+                              "blocks": [
+                                "minecraft:amethyst_block",
+                                "minecraft:tuff",
+                                "minecraft:calcite"
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            {
+                              "offset": [
+                                -1,
+                                0,
+                                0
+                              ],
+                              "blocks": [
+                                "minecraft:amethyst_block",
+                                "minecraft:tuff",
+                                "minecraft:calcite"
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            {
+                              "offset": [
+                                0,
+                                0,
+                                -1
+                              ],
+                              "blocks": [
+                                "minecraft:amethyst_block",
+                                "minecraft:tuff",
+                                "minecraft:calcite"
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            {
+                              "offset": [
+                                0,
+                                1,
+                                0
+                              ],
+                              "blocks": [
+                                "minecraft:amethyst_block",
+                                "minecraft:tuff",
+                                "minecraft:calcite"
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            },
+                            {
+                              "offset": [
+                                0,
+                                -1,
+                                0
+                              ],
+                              "blocks": [
+                                "minecraft:amethyst_block",
+                                "minecraft:tuff",
+                                "minecraft:calcite"
+                              ],
+                              "type": "minecraft:matching_blocks"
+                            }
+                          ],
+                          "type": "minecraft:any_of"
+                        }
+                      ],
+                      "type": "minecraft:all_of"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            },
+            "type": "minecraft:random_selector"
+          },
+          "placement": []
+        }
+      },
+      "type": "minecraft:random_patch"
+    },
+    "placement": [
+      {
+        "count": 32,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 255,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -7,
+            "max_inclusive": 7
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -55
+          },
+          "max_inclusive": {
+            "absolute": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "predicates": [
+                {
+                  "offset": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:calcite"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:calcite"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    -1,
+                    0,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:calcite"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    0,
+                    -1
+                  ],
+                  "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:calcite"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:calcite"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:amethyst_block",
+                    "minecraft:calcite"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:any_of"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

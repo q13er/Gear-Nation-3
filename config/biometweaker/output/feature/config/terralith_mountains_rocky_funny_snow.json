@@ -1,0 +1,59 @@
+
+{
+  "registry_name": "terralith:mountains/rocky/funny_snow",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "seed": 0,
+        "noise": {
+          "firstOctave": -3,
+          "amplitudes": [
+            1.0,
+            1.0
+          ]
+        },
+        "scale": 1.0,
+        "states": [
+          {
+            "Properties": {
+              "layers": "1"
+            },
+            "Name": "minecraft:snow"
+          },
+          {
+            "Properties": {
+              "layers": "1"
+            },
+            "Name": "minecraft:snow"
+          },
+          {
+            "Properties": {
+              "layers": "1"
+            },
+            "Name": "minecraft:snow"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          }
+        ],
+        "type": "minecraft:noise_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

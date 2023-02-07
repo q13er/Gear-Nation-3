@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:nothing",
+  "worldgen/placed_feature": {
+    "feature": "terralith:nothing",
+    "placement": []
+  }
+}

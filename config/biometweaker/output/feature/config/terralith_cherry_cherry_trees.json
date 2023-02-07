@@ -1,0 +1,24 @@
+
+{
+  "registry_name": "terralith:cherry/cherry_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:cherry/tree_huge",
+          "chance": 0.1
+        },
+        {
+          "feature": "terralith:cherry/tree_medium",
+          "chance": 0.7
+        },
+        {
+          "feature": "terralith:cherry/bush",
+          "chance": 0.2
+        }
+      ],
+      "default": "terralith:cherry/tree_huge"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

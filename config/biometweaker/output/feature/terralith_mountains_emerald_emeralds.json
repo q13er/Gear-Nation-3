@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "terralith:mountains/emerald/emeralds",
+  "worldgen/placed_feature": {
+    "feature": "terralith:mountains/emerald/emeralds",
+    "placement": [
+      {
+        "count": 12,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 110
+          },
+          "max_inclusive": {
+            "absolute": 290
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

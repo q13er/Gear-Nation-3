@@ -1,0 +1,79 @@
+
+{
+  "registry_name": "terralith:coastal/bending_acacia",
+  "worldgen/configured_feature": {
+    "config": {
+      "decorators": [
+        {
+          "probability": 0.0,
+          "type": "minecraft:cocoa"
+        },
+        {
+          "type": "minecraft:trunk_vine"
+        },
+        {
+          "type": "minecraft:leave_vine"
+        },
+        {
+          "type": "minecraft:leave_vine"
+        }
+      ],
+      "ignore_vines": true,
+      "force_dirt": true,
+      "dirt_provider": {
+        "state": {
+          "Name": "minecraft:dirt"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": {
+        "limit": 1,
+        "lower_size": 1,
+        "upper_size": 1,
+        "min_clipped_height": 0,
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:acacia_wood"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_placer": {
+        "height_rand_b": 0,
+        "min_height_for_leaves": 7,
+        "bend_length": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 6
+          }
+        },
+        "base_height": 8,
+        "height_rand_a": 3,
+        "type": "minecraft:bending_trunk_placer"
+      },
+      "foliage_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "minecraft:acacia_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_placer": {
+        "radius": 4,
+        "offset": 0,
+        "foliage_height": 3,
+        "leaf_placement_attempts": 125,
+        "type": "minecraft:random_spread_foliage_placer"
+      }
+    },
+    "type": "minecraft:tree"
+  }
+}

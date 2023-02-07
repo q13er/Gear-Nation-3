@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:mountains/rocky_laggy/deepslate_extra",
+  "worldgen/placed_feature": {
+    "feature": "terralith:mountains/rocky_laggy/deepslate_extra",
+    "placement": []
+  }
+}

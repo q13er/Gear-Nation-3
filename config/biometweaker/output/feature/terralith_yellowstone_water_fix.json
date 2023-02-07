@@ -1,0 +1,80 @@
+
+{
+  "registry_name": "terralith:yellowstone/water_fix",
+  "worldgen/placed_feature": {
+    "feature": "terralith:yellowstone/water_fix",
+    "placement": [
+      {
+        "count": 40,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 40,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "predicates": [
+                {
+                  "offset": [
+                    -1,
+                    0,
+                    0
+                  ],
+                  "fluids": "minecraft:water",
+                  "type": "minecraft:matching_fluids"
+                },
+                {
+                  "offset": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "fluids": "minecraft:water",
+                  "type": "minecraft:matching_fluids"
+                },
+                {
+                  "offset": [
+                    0,
+                    0,
+                    -1
+                  ],
+                  "fluids": "minecraft:water",
+                  "type": "minecraft:matching_fluids"
+                },
+                {
+                  "offset": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "fluids": "minecraft:water",
+                  "type": "minecraft:matching_fluids"
+                }
+              ],
+              "type": "minecraft:any_of"
+            },
+            {
+              "predicate": {
+                "blocks": "minecraft:cave_air",
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:not"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

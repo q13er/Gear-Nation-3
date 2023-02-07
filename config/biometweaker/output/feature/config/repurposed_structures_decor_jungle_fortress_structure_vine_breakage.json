@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "repurposed_structures:decor/jungle_fortress_structure_vine_breakage",
+  "worldgen/configured_feature": {
+    "config": {
+      "attempts": 15,
+      "length": 4
+    },
+    "type": "repurposed_structures:structure_vine_breakage"
+  }
+}

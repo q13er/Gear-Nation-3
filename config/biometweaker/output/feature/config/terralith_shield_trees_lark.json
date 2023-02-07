@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "terralith:shield/trees_lark",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "terralith:shield/dark_oak"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

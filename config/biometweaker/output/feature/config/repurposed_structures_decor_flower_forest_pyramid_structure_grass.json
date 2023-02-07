@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "repurposed_structures:decor/flower_forest_pyramid_structure_grass",
+  "worldgen/configured_feature": {
+    "config": {
+      "attempts": 24,
+      "range": 3
+    },
+    "type": "repurposed_structures:structure_grass"
+  }
+}

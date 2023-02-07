@@ -1,0 +1,73 @@
+
+{
+  "registry_name": "byg:soul_shroom_tree3",
+  "worldgen/configured_feature": {
+    "config": {
+      "mushroom3_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:soul_shroom_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "pollen_provider": {
+        "state": {
+          "Name": "byg:pollen_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "min_height": 6,
+      "max_height": 13,
+      "stem_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:soul_shroom_stem"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "mushroom_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:soul_shroom_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "mushroom2_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:soul_shroom_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:soul_shroom_tree3"
+  }
+}

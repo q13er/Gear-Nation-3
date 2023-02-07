@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "byg:mini_mushrooms",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:mini_green_mushroom",
+            "placement": []
+          },
+          "chance": 0.16
+        },
+        {
+          "feature": {
+            "feature": "byg:mini_red_mushroom",
+            "placement": []
+          },
+          "chance": 0.16
+        },
+        {
+          "feature": {
+            "feature": "byg:mini_brown_mushroom",
+            "placement": []
+          },
+          "chance": 0.16
+        },
+        {
+          "feature": {
+            "feature": "byg:mini_weeping_milkcap",
+            "placement": []
+          },
+          "chance": 0.16
+        }
+      ],
+      "default": {
+        "feature": "byg:mini_wood_blewit",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

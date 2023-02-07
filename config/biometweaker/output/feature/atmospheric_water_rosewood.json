@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "atmospheric:water_rosewood",
+  "worldgen/placed_feature": {
+    "feature": "atmospheric:water_rosewood",
+    "placement": []
+  }
+}

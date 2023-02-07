@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:dripleaf",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:dripleaf",
+    "placement": []
+  }
+}

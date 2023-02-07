@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "repurposed_structures:mobs/skeleton_sword",
+  "worldgen/configured_feature": {
+    "config": {
+      "speed_modifier": 0.25,
+      "health": 14,
+      "held_item": "minecraft:stone_sword"
+    },
+    "type": "repurposed_structures:skeleton"
+  }
+}

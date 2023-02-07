@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "yungsextras:desert_chillzone",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "yungsextras:desert_chillzone"
+  }
+}

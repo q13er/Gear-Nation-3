@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "terralith:swamp/orchid/small/swamp_special_small",
+  "worldgen/placed_feature": {
+    "feature": "terralith:swamp/orchid/small/swamp_special_small",
+    "placement": [
+      {
+        "count": 8,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

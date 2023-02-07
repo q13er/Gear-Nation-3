@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:medium_glowshroom_cave",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:medium_glowshroom"
+  }
+}

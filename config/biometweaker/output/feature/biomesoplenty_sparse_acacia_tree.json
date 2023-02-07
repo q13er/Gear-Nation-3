@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "biomesoplenty:sparse_acacia_tree",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:sparse_acacia_tree",
+    "placement": [
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": "biomesoplenty:orange_sand",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

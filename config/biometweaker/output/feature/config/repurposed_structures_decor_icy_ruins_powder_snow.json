@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "repurposed_structures:decor/icy_ruins_powder_snow",
+  "worldgen/configured_feature": {
+    "config": {
+      "range": 11
+    },
+    "type": "repurposed_structures:structure_powder_snow"
+  }
+}

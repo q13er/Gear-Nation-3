@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:swamp/vanilla/small/trees_small",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:swamp/vanilla/small/swamp_special_small",
+          "chance": 0.2
+        }
+      ],
+      "default": "terralith:swamp/vanilla/small/swamp_small"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:cave/frostfire/columns",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:cave/frostfire/pillar",
+          "chance": 0.965
+        }
+      ],
+      "default": "terralith:cave/frostfire/pillar_huge"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

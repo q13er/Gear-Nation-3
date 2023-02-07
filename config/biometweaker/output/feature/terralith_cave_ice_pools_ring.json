@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "terralith:cave/ice/pools_ring",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/ice/pools_ring",
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

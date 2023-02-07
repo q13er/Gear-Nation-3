@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "byg:withering_oak_trees",
+  "worldgen/placed_feature": {
+    "feature": "byg:withering_oak_trees",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

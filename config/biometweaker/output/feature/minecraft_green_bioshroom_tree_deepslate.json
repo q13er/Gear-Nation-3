@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "minecraft:green_bioshroom_tree_deepslate",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:green_bioshroom_deepslate",
+    "placement": [
+      {
+        "count": 100,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "above_bottom": 120
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

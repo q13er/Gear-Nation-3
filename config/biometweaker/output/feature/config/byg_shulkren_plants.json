@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:shulkren_plants",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:shulkren_fungus",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:shulkren_moss",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

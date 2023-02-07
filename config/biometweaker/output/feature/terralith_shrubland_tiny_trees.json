@@ -1,0 +1,38 @@
+
+{
+  "registry_name": "terralith:shrubland/tiny_trees",
+  "worldgen/placed_feature": {
+    "feature": "terralith:shrubland/tiny_trees",
+    "placement": [
+      {
+        "count": 0,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 165.0,
+        "noise_offset": 0.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Name": "minecraft:fern"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

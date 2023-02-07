@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:jungle/rocky/spike",
+  "worldgen/placed_feature": {
+    "feature": "terralith:jungle/rocky/spike",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 4,
+              "weight": 100
+            },
+            {
+              "data": 4,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

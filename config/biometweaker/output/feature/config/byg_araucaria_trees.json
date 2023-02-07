@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:araucaria_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:araucaria_tree1",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:araucaria_tree2",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

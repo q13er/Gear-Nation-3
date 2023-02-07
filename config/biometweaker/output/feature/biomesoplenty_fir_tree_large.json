@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "biomesoplenty:fir_tree_large",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:fir_tree_large",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "biomesoplenty:fir_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

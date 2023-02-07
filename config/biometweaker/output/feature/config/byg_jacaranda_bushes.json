@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "byg:jacaranda_bushes",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:flowering_indigo_jacaranda_bush",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:flowering_jacaranda_bush",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:indigo_jacaranda_bush",
+            "placement": []
+          },
+          "chance": 0.25
+        }
+      ],
+      "default": {
+        "feature": "byg:jacaranda_bush",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "biomesoplenty:trees_lush_desert",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:acacia_bush_tree",
+          "chance": 0.4
+        },
+        {
+          "feature": "biomesoplenty:sparse_acacia_tree",
+          "chance": 0.2
+        }
+      ],
+      "default": "biomesoplenty:acacia_twiglet"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

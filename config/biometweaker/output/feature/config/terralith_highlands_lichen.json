@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "terralith:highlands/lichen",
+  "worldgen/configured_feature": {
+    "config": {
+      "can_place_on_wall": true,
+      "chance_of_spreading": 0.99,
+      "can_be_placed_on": "minecraft:stone",
+      "search_range": 9,
+      "can_place_on_floor": true,
+      "can_place_on_ceiling": true
+    },
+    "type": "minecraft:glow_lichen"
+  }
+}

@@ -1,0 +1,53 @@
+
+{
+  "registry_name": "terralith:highlands/ruin",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "fossil_processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:nop"
+            }
+          ]
+        },
+        "overlay_processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:nop"
+            }
+          ]
+        },
+        "max_empty_corners_allowed": 7,
+        "fossil_structures": [
+          "terralith:highlands/ruin1"
+        ],
+        "overlay_structures": [
+          "terralith:highlands/ruin1"
+        ]
+      },
+      "type": "minecraft:fossil"
+    },
+    "placement": [
+      {
+        "chance": 50,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -8,
+            "max_inclusive": -8
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

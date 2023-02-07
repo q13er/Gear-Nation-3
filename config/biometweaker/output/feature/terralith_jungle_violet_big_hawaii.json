@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "terralith:jungle/violet/big_hawaii",
+  "worldgen/placed_feature": {
+    "feature": "terralith:jungle/violet/big_hawaii",
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 6
+          }
+        },
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

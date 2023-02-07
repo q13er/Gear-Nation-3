@@ -1,0 +1,90 @@
+
+{
+  "registry_name": "terralith:skylands/winter/patch_grass",
+  "worldgen/configured_feature": {
+    "config": {
+      "layers": [
+        {
+          "height": 1,
+          "provider": {
+            "state": {
+              "Name": "minecraft:grass"
+            },
+            "type": "minecraft:simple_state_provider"
+          }
+        },
+        {
+          "height": 1,
+          "provider": {
+            "state": {
+              "Properties": {
+                "snowy": "false"
+              },
+              "Name": "minecraft:grass_block"
+            },
+            "type": "minecraft:simple_state_provider"
+          }
+        }
+      ],
+      "direction": "down",
+      "allowed_placement": {
+        "predicates": [
+          {
+            "predicates": [
+              {
+                "predicates": [
+                  {
+                    "blocks": [
+                      "minecraft:snow",
+                      "minecraft:air"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": "minecraft:grass_block",
+                    "type": "minecraft:matching_blocks"
+                  }
+                ],
+                "type": "minecraft:all_of"
+              },
+              {
+                "predicates": [
+                  {
+                    "blocks": [
+                      "minecraft:grass_block",
+                      "minecraft:stone"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:snow",
+                      "minecraft:grass"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  }
+                ],
+                "type": "minecraft:all_of"
+              }
+            ],
+            "type": "minecraft:any_of"
+          }
+        ],
+        "type": "minecraft:all_of"
+      },
+      "prioritize_tip": false
+    },
+    "type": "minecraft:block_column"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:bone_spine",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:bone_spine"
+  }
+}

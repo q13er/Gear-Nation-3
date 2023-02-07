@@ -1,0 +1,35 @@
+
+{
+  "registry_name": "terralith:canyon/generic/cliff_lag",
+  "worldgen/placed_feature": {
+    "feature": "terralith:canyon/generic/cliff",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 128,
+              "weight": 100
+            },
+            {
+              "data": 128,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

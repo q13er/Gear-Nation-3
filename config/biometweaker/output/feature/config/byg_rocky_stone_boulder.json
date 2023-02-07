@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "byg:rocky_stone_boulder",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "byg:rocky_stone"
+      }
+    },
+    "type": "minecraft:forest_rock"
+  }
+}

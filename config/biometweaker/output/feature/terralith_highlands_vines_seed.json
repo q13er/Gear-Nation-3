@@ -1,0 +1,79 @@
+
+{
+  "registry_name": "terralith:highlands/vines_seed",
+  "worldgen/placed_feature": {
+    "feature": "terralith:highlands/vines_seed",
+    "placement": [
+      {
+        "count": 34,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 63
+          },
+          "max_inclusive": {
+            "absolute": 255
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "offset": [
+                1,
+                0,
+                0
+              ],
+              "blocks": "minecraft:stone",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                0,
+                1
+              ],
+              "blocks": "minecraft:stone",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -1,
+                0,
+                0
+              ],
+              "blocks": "minecraft:stone",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                0,
+                -1
+              ],
+              "blocks": "minecraft:stone",
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:any_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

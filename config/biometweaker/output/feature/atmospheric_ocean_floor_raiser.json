@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "atmospheric:ocean_floor_raiser",
+  "worldgen/placed_feature": {
+    "feature": "atmospheric:ocean_floor_raiser",
+    "placement": [
+      {
+        "type": "atmospheric:in_square_center"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

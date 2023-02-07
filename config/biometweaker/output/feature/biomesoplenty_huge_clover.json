@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:huge_clover",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:huge_clover",
+    "placement": [
+      {
+        "count": 6,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

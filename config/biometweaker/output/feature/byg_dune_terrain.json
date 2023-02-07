@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "byg:dune_terrain",
+  "worldgen/placed_feature": {
+    "feature": "byg:dune_terrain",
+    "placement": []
+  }
+}

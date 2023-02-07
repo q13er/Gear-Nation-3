@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "atmospheric:trees_sparse_rainforest",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "atmospheric:morado_bees_0002",
+          "chance": 0.05
+        }
+      ],
+      "default": "atmospheric:rosewood_bees_0002"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

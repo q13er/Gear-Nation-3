@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:nothing",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:no_op"
+  }
+}

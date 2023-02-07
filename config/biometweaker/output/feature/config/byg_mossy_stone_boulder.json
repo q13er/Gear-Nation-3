@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "byg:mossy_stone_boulder",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "byg:mossy_stone"
+      }
+    },
+    "type": "minecraft:forest_rock"
+  }
+}

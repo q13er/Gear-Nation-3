@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "atmospheric:ocean_floor_raiser",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "atmospheric:ocean_floor_raiser"
+  }
+}

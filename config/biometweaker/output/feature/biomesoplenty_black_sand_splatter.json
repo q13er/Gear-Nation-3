@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:black_sand_splatter",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:black_sand_splatter",
+    "placement": [
+      {
+        "count": 15,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "terralith:cliffs/white/moss_patch",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "terralith:cliffs/white/patch_base"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

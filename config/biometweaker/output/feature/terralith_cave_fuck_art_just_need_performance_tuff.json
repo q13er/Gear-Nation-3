@@ -1,0 +1,59 @@
+
+{
+  "registry_name": "terralith:cave/fuck_art_just_need_performance/tuff",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "target": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:deepslate"
+        },
+        "state": {
+          "Name": "minecraft:tuff"
+        },
+        "radius": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 5,
+            "max_inclusive": 12
+          }
+        }
+      },
+      "type": "minecraft:netherrack_replace_blobs"
+    },
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 256,
+              "weight": 100
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 32
+          },
+          "max_inclusive": {
+            "absolute": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

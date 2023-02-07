@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:cherry/tree_roof",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cherry/tree_roof",
+    "placement": []
+  }
+}

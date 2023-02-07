@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "terralith:alpha/clay_patch_beach",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:sand",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:clay"
+          }
+        }
+      ],
+      "size": 50,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

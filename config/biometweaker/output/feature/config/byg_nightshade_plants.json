@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:nightshade_plants",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:nightshade_berry_bush",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "byg:nightshade_roots",
+            "placement": []
+          },
+          "chance": 0.4
+        }
+      ],
+      "default": {
+        "feature": "byg:nightshade_sprouts",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

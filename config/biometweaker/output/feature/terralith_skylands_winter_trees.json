@@ -1,0 +1,87 @@
+
+{
+  "registry_name": "terralith:skylands/winter/trees",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/winter/trees",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 4,
+              "weight": 90
+            },
+            {
+              "data": 5,
+              "weight": 10
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "absolute": 290
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "direction_of_search": "down",
+        "target_condition": {
+          "predicates": [
+            {
+              "predicates": [
+                {
+                  "predicates": [
+                    {
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "blocks": [
+                        "minecraft:stone",
+                        "minecraft:grass_block",
+                        "minecraft:diorite",
+                        "minecraft:calcite"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:all_of"
+                }
+              ],
+              "type": "minecraft:any_of"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "allowed_search_condition": {
+          "predicate": {
+            "predicates": [
+              {
+                "tag": "minecraft:leaves",
+                "type": "minecraft:matching_block_tag"
+              },
+              {
+                "tag": "minecraft:logs",
+                "type": "minecraft:matching_block_tag"
+              }
+            ],
+            "type": "minecraft:any_of"
+          },
+          "type": "minecraft:not"
+        },
+        "max_steps": 32,
+        "type": "minecraft:environment_scan"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

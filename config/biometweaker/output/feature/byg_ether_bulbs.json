@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "byg:ether_bulbs",
+  "worldgen/placed_feature": {
+    "feature": "byg:ether_bulb",
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 15,
+            "max_inclusive": 25
+          }
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "below_top": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

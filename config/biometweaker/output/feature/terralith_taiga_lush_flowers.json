@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "terralith:taiga/lush/flowers",
+  "worldgen/placed_feature": {
+    "feature": "terralith:taiga/lush/flowers",
+    "placement": [
+      {
+        "count": 20,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "chance": 20,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

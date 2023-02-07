@@ -1,0 +1,56 @@
+
+{
+  "registry_name": "terralith:highlands/pile_pumpkin",
+  "worldgen/configured_feature": {
+    "config": {
+      "state_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:pumpkin"
+            },
+            "weight": 20
+          },
+          {
+            "data": {
+              "Properties": {
+                "facing": "north"
+              },
+              "Name": "minecraft:carved_pumpkin"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Properties": {
+                "facing": "south"
+              },
+              "Name": "minecraft:carved_pumpkin"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Properties": {
+                "facing": "west"
+              },
+              "Name": "minecraft:carved_pumpkin"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Properties": {
+                "facing": "east"
+              },
+              "Name": "minecraft:carved_pumpkin"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    },
+    "type": "minecraft:block_pile"
+  }
+}

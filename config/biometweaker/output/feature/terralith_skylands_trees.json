@@ -1,0 +1,103 @@
+
+{
+  "registry_name": "terralith:skylands/trees",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/trees",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 55,
+              "weight": 90
+            },
+            {
+              "data": 56,
+              "weight": 10
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:grass_block",
+                "minecraft:dirt"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "predicate": {
+                "predicates": [
+                  {
+                    "offset": [
+                      3,
+                      -1,
+                      0
+                    ],
+                    "blocks": "minecraft:stone",
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -3,
+                      -1,
+                      0
+                    ],
+                    "blocks": "minecraft:stone",
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      -1,
+                      -3
+                    ],
+                    "blocks": "minecraft:stone",
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      -1,
+                      3
+                    ],
+                    "blocks": "minecraft:stone",
+                    "type": "minecraft:matching_blocks"
+                  }
+                ],
+                "type": "minecraft:any_of"
+              },
+              "type": "minecraft:not"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

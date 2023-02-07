@@ -1,0 +1,35 @@
+
+{
+  "registry_name": "atmospheric:hot_springs_rock",
+  "worldgen/placed_feature": {
+    "feature": "atmospheric:hot_springs_rock",
+    "placement": [
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": "minecraft:grass_block",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

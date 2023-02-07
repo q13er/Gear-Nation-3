@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "repurposed_structures:minecarts/warped_mineshaft_minecart",
+  "worldgen/configured_feature": {
+    "config": {
+      "minecart_nbt_file": "repurposed_structures:mineshafts/warped/minecart",
+      "is_water_based": false
+    },
+    "type": "repurposed_structures:mineshaft_minecarts"
+  }
+}

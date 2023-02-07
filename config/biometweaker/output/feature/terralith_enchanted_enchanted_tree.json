@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:enchanted/enchanted_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:enchanted/enchanted_tree",
+    "placement": []
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "strawgolem:strawnggolem",
+  "category": "CREATURE",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 48,
+  "update_interval": 3,
+  "defaul_loot_table": "strawgolem:entities/strawnggolem",
+  "size": {
+    "height": 3.5,
+    "width": 1.25,
+    "fixed": false
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:patch_cactus_decorated",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_cactus",
+    "placement": []
+  }
+}

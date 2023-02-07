@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "byg:allium_field_flowers",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:tall_allium_bush",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:tall_pink_allium_bush",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:allium_bush",
+            "placement": []
+          },
+          "chance": 0.25
+        }
+      ],
+      "default": {
+        "feature": "byg:pink_allium_bush",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

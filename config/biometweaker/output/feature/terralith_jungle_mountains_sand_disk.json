@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:jungle/mountains/sand_disk",
+  "worldgen/placed_feature": {
+    "feature": "terralith:jungle/mountains/sand_disk",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 200,
+              "weight": 100
+            },
+            {
+              "data": 200,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

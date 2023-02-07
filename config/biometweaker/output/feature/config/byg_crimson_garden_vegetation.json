@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:crimson_garden_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:embur_roots",
+            "placement": []
+          },
+          "chance": 0.45
+        },
+        {
+          "feature": {
+            "feature": "byg:tall_crimson_roots",
+            "placement": []
+          },
+          "chance": 0.8
+        }
+      ],
+      "default": {
+        "feature": "byg:crimson_berry_bush",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

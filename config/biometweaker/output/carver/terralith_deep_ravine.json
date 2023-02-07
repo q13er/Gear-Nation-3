@@ -1,0 +1,57 @@
+
+{
+  "registry_name": "terralith:deep_ravine",
+  "worldgen/configured_carver": {
+    "config": {
+      "yScale": 13.0,
+      "lava_level": {
+        "above_bottom": 8
+      },
+      "probability": 3.0E-5,
+      "y": {
+        "min_inclusive": {
+          "absolute": -30
+        },
+        "max_inclusive": {
+          "absolute": 70
+        },
+        "type": "minecraft:uniform"
+      },
+      "vertical_rotation": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -0.185,
+          "max_exclusive": 0.185
+        }
+      },
+      "shape": {
+        "horizontal_radius_factor": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0.75,
+            "max_exclusive": 1.0
+          }
+        },
+        "vertical_radius_default_factor": 1.0,
+        "vertical_radius_center_factor": 0.0,
+        "distance_factor": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0.75,
+            "max_exclusive": 1.25
+          }
+        },
+        "thickness": {
+          "type": "minecraft:trapezoid",
+          "value": {
+            "min": 5.0,
+            "max": 12.0,
+            "plateau": 2.0
+          }
+        },
+        "width_smoothness": 3
+      }
+    },
+    "type": "minecraft:canyon"
+  }
+}

@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:dead_sea_spikes",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:dead_sea_spike",
+            "placement": []
+          },
+          "chance": 0.75
+        }
+      ],
+      "default": {
+        "feature": "byg:dead_sea_spike",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

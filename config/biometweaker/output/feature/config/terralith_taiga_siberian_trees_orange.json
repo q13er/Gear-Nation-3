@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "terralith:taiga/siberian/trees_orange",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "terralith:taiga/siberian/tall_tree_orange"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

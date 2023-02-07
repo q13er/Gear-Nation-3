@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:coastal/jungle_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:coastal/jungle_tree",
+    "placement": []
+  }
+}

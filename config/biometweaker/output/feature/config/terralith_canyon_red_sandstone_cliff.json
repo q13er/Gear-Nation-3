@@ -1,0 +1,193 @@
+
+{
+  "registry_name": "terralith:canyon/red_sandstone/cliff",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "seed": 3,
+              "noise": {
+                "firstOctave": -6,
+                "amplitudes": [
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.5,
+                  3.25
+                ]
+              },
+              "scale": 1.0,
+              "states": [
+                {
+                  "Name": "minecraft:red_sandstone"
+                },
+                {
+                  "Name": "minecraft:smooth_red_sandstone"
+                }
+              ],
+              "type": "minecraft:noise_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "count": 255,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": -2,
+                "max_inclusive": 2
+              }
+            },
+            "y_spread": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": -16,
+                "max_inclusive": 0
+              }
+            },
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": "minecraft:red_sand",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "predicates": [
+                    {
+                      "offset": [
+                        1,
+                        2,
+                        0
+                      ],
+                      "blocks": [
+                        "minecraft:red_sand",
+                        "minecraft:stone",
+                        "minecraft:red_sandstone",
+                        "minecraft:smooth_red_sandstone"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        0,
+                        2,
+                        1
+                      ],
+                      "blocks": [
+                        "minecraft:red_sand",
+                        "minecraft:stone",
+                        "minecraft:red_sandstone",
+                        "minecraft:smooth_red_sandstone"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        -1,
+                        2,
+                        0
+                      ],
+                      "blocks": [
+                        "minecraft:red_sand",
+                        "minecraft:stone",
+                        "minecraft:red_sandstone",
+                        "minecraft:smooth_red_sandstone"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        0,
+                        2,
+                        -1
+                      ],
+                      "blocks": [
+                        "minecraft:red_sand",
+                        "minecraft:stone",
+                        "minecraft:red_sandstone",
+                        "minecraft:smooth_red_sandstone"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        1,
+                        2,
+                        1
+                      ],
+                      "blocks": [
+                        "minecraft:red_sand",
+                        "minecraft:stone",
+                        "minecraft:red_sandstone",
+                        "minecraft:smooth_red_sandstone"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        -1,
+                        2,
+                        1
+                      ],
+                      "blocks": [
+                        "minecraft:red_sand",
+                        "minecraft:stone",
+                        "minecraft:red_sandstone",
+                        "minecraft:smooth_red_sandstone"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        1,
+                        2,
+                        -1
+                      ],
+                      "blocks": [
+                        "minecraft:red_sand",
+                        "minecraft:stone",
+                        "minecraft:red_sandstone",
+                        "minecraft:smooth_red_sandstone"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        -1,
+                        2,
+                        -1
+                      ],
+                      "blocks": [
+                        "minecraft:red_sand",
+                        "minecraft:stone",
+                        "minecraft:red_sandstone",
+                        "minecraft:smooth_red_sandstone"
+                      ],
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:any_of"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

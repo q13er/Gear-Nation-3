@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "byg:global/fluid_springs",
+  "worldgen/placed_feature": {
+    "feature": "byg:global/fluid_springs",
+    "placement": []
+  }
+}

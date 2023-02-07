@@ -1,0 +1,142 @@
+
+{
+  "registry_name": "terralith:cave/stone/granite_pillar_small",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "to_place": {
+          "state": {
+            "Name": "minecraft:granite"
+          },
+          "type": "minecraft:simple_state_provider"
+        }
+      },
+      "type": "minecraft:simple_block"
+    },
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 74,
+            "max_inclusive": 200
+          }
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:clamped_normal",
+          "value": {
+            "mean": 0.0,
+            "deviation": 0.65,
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "direction_of_search": "down",
+        "target_condition": {
+          "predicate": {
+            "type": "minecraft:replaceable"
+          },
+          "type": "minecraft:not"
+        },
+        "max_steps": 32,
+        "type": "minecraft:environment_scan"
+      },
+      {
+        "direction_of_search": "up",
+        "target_condition": {
+          "type": "minecraft:replaceable"
+        },
+        "max_steps": 32,
+        "type": "minecraft:environment_scan"
+      },
+      {
+        "predicate": {
+          "predicate": {
+            "predicates": [
+              {
+                "offset": [
+                  -1,
+                  -4,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:water"
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              {
+                "offset": [
+                  1,
+                  -4,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:water"
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              {
+                "offset": [
+                  0,
+                  -4,
+                  1
+                ],
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:water"
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              {
+                "offset": [
+                  0,
+                  -4,
+                  -1
+                ],
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:water"
+                ],
+                "type": "minecraft:matching_blocks"
+              }
+            ],
+            "type": "minecraft:any_of"
+          },
+          "type": "minecraft:not"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

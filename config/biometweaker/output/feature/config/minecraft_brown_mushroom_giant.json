@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:brown_mushroom_giant",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:brown_mushroom_taiga"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

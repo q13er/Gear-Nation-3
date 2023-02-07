@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:moss_splatter",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:moss_splatter"
+  }
+}

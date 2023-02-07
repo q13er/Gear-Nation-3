@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "repurposed_structures:decor/dark_forest_mineshaft_vines_long",
+  "worldgen/configured_feature": {
+    "config": {
+      "attempts": 23,
+      "length": 8,
+      "xz_range": 1,
+      "height_range": 5
+    },
+    "type": "repurposed_structures:structure_vines"
+  }
+}

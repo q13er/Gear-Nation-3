@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "repurposed_structures:decor/jungle_mineshaft_leaves_and_vines",
+  "worldgen/configured_feature": {
+    "config": {
+      "attempts": 30,
+      "length": 3
+    },
+    "type": "repurposed_structures:structure_vines_and_leaves"
+  }
+}

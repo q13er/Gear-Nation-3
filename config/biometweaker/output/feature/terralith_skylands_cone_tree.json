@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "terralith:skylands/cone_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/cone_tree",
+    "placement": [
+      {
+        "count": 28,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

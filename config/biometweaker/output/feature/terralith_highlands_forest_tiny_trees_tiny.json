@@ -1,0 +1,81 @@
+
+{
+  "registry_name": "terralith:highlands/forest/tiny/trees_tiny",
+  "worldgen/placed_feature": {
+    "feature": "terralith:highlands/forest/tiny/trees_tiny",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 4,
+              "weight": 90
+            },
+            {
+              "data": 5,
+              "weight": 10
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 215.0,
+        "noise_offset": -0.5,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "noise_to_count_ratio": -1,
+        "noise_factor": 215.0,
+        "noise_offset": -1.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "predicates": [
+                {
+                  "state": {
+                    "Name": "minecraft:fern"
+                  },
+                  "type": "minecraft:would_survive"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:snow_block",
+                    "minecraft:powder_snow"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:any_of"
+            },
+            {
+              "type": "minecraft:replaceable"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+
+{
+  "registry_name": "terralith:swamp/orchid/flowers",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "tries": 25,
+        "xz_spread": 6,
+        "y_spread": 3,
+        "feature": {
+          "feature": {
+            "config": {
+              "to_place": {
+                "seed": 0,
+                "noise": {
+                  "firstOctave": -3,
+                  "amplitudes": [
+                    1.5,
+                    1.0
+                  ]
+                },
+                "scale": 1.0,
+                "states": [
+                  {
+                    "Name": "minecraft:dandelion"
+                  },
+                  {
+                    "Name": "minecraft:dandelion"
+                  },
+                  {
+                    "Name": "minecraft:blue_orchid"
+                  },
+                  {
+                    "Name": "minecraft:blue_orchid"
+                  },
+                  {
+                    "Name": "minecraft:blue_orchid"
+                  },
+                  {
+                    "Name": "minecraft:blue_orchid"
+                  },
+                  {
+                    "Name": "minecraft:blue_orchid"
+                  },
+                  {
+                    "Name": "minecraft:blue_orchid"
+                  },
+                  {
+                    "Name": "minecraft:cornflower"
+                  },
+                  {
+                    "Name": "minecraft:cornflower"
+                  }
+                ],
+                "variety": [
+                  1,
+                  10
+                ],
+                "slow_noise": {
+                  "firstOctave": -6,
+                  "amplitudes": [
+                    1.5,
+                    0.85,
+                    1.75
+                  ]
+                },
+                "slow_scale": 1.0,
+                "type": "minecraft:dual_noise_provider"
+              }
+            },
+            "type": "minecraft:simple_block"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "predicates": [
+                  {
+                    "blocks": "minecraft:air",
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": "minecraft:grass_block",
+                    "type": "minecraft:matching_blocks"
+                  }
+                ],
+                "type": "minecraft:all_of"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
+        }
+      },
+      "type": "minecraft:random_patch"
+    },
+    "placement": [
+      {
+        "count": 3,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

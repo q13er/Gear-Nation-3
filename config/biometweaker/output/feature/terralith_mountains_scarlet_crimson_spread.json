@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "terralith:mountains/scarlet/crimson_spread",
+  "worldgen/placed_feature": {
+    "feature": "terralith:mountains/scarlet/crimson_spread",
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

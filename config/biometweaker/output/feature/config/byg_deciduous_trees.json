@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "byg:deciduous_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:deciduous_tree1",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:deciduous_tree2",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:deciduous_tree3",
+            "placement": []
+          },
+          "chance": 0.25
+        }
+      ],
+      "default": {
+        "feature": "byg:deciduous_tree4",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

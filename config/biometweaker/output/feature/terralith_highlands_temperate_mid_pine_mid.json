@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:highlands/temperate/mid/pine_mid",
+  "worldgen/placed_feature": {
+    "feature": "terralith:highlands/temperate/mid/pine_mid",
+    "placement": []
+  }
+}

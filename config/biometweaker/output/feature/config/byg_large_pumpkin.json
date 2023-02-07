@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:large_pumpkin",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:pumpkin1",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:pumpkin2",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

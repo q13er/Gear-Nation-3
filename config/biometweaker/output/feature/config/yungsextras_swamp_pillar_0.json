@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "yungsextras:swamp_pillar_0",
+  "worldgen/configured_feature": {
+    "config": {
+      "location": "yungsextras:swamp/pillar/swamp_pillar_0"
+    },
+    "type": "yungsextras:swamp_pillar"
+  }
+}

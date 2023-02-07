@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:decor/post_process_connecting_blocks",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "repurposed_structures:post_process_connecting_blocks"
+  }
+}

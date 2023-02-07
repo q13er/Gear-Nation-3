@@ -1,0 +1,39 @@
+
+{
+  "registry_name": "terralith:flower/blue/orchid",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 66,
+      "xz_spread": 14,
+      "y_spread": 2,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Name": "minecraft:lily_of_the_valley"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": "minecraft:grass_block",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

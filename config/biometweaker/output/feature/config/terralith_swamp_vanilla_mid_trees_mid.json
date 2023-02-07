@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:swamp/vanilla/mid/trees_mid",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:swamp/vanilla/mid/swamp_special_mid",
+          "chance": 0.2
+        }
+      ],
+      "default": "terralith:swamp/vanilla/mid/swamp_mid"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

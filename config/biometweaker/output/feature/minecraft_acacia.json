@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:acacia",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:acacia",
+    "placement": []
+  }
+}

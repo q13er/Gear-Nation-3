@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:patch_brown_mushroom",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_brown_mushroom",
+    "placement": []
+  }
+}

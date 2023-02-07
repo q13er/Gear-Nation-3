@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomesoplenty:trees_bayou",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:cypress_tree_medium",
+          "chance": 0.3
+        }
+      ],
+      "default": "biomesoplenty:cypress_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

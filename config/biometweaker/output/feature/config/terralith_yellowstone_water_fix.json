@@ -1,0 +1,52 @@
+
+{
+  "registry_name": "terralith:yellowstone/water_fix",
+  "worldgen/configured_feature": {
+    "config": {
+      "decorators": [],
+      "ignore_vines": true,
+      "force_dirt": false,
+      "dirt_provider": {
+        "state": {
+          "Properties": {
+            "level": "0"
+          },
+          "Name": "minecraft:water"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": {
+        "limit": 0,
+        "lower_size": 0,
+        "upper_size": 0,
+        "min_clipped_height": 0,
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "trunk_provider": {
+        "state": {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_placer": {
+        "base_height": 1,
+        "height_rand_a": 0,
+        "height_rand_b": 0,
+        "type": "minecraft:straight_trunk_placer"
+      },
+      "foliage_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_placer": {
+        "radius": 0,
+        "offset": 16,
+        "height": 0,
+        "type": "minecraft:pine_foliage_placer"
+      }
+    },
+    "type": "minecraft:tree"
+  }
+}

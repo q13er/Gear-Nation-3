@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:prairie_shrubs",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:prairie_shrub1",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:prairie_shrub2",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:yosemite/oaks",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:yosemite/oak_mega",
+          "chance": 0.3
+        },
+        {
+          "feature": "terralith:yellowstone/spruce_big_alt",
+          "chance": 0.075
+        },
+        {
+          "feature": "terralith:yellowstone/spruce_big",
+          "chance": 0.075
+        },
+        {
+          "feature": "terralith:yellowstone/birch_alt",
+          "chance": 0.075
+        },
+        {
+          "feature": "terralith:yellowstone/birch",
+          "chance": 0.075
+        }
+      ],
+      "default": "terralith:yosemite/oak"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

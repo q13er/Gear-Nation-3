@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:skylands/mid_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/mid_tree",
+    "placement": []
+  }
+}

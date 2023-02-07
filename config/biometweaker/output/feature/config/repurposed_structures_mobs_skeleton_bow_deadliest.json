@@ -1,0 +1,14 @@
+
+{
+  "registry_name": "repurposed_structures:mobs/skeleton_bow_deadliest",
+  "worldgen/configured_feature": {
+    "config": {
+      "leggings": "minecraft:chainmail_leggings",
+      "speed_modifier": 0.21,
+      "health": 24,
+      "helmet": "minecraft:chainmail_helmet",
+      "chestplate": "minecraft:chainmail_chestplate"
+    },
+    "type": "repurposed_structures:skeleton"
+  }
+}

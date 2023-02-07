@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:ore_emeraldite",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "byg:scoria_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "byg:emeraldite_ore"
+          }
+        }
+      ],
+      "size": 6,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

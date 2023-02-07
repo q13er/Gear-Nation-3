@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "biomesoplenty:dead_twiglet_tree_small",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:dead_twiglet_tree_small",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "biomesoplenty:dead_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

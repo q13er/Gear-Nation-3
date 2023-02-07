@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:mycelium_splatter",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:mycelium_splatter"
+  }
+}

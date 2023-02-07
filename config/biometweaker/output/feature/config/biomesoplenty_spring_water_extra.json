@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "biomesoplenty:spring_water_extra",
+  "worldgen/configured_feature": {
+    "config": {
+      "rock_count": 4,
+      "hole_count": 1,
+      "valid_blocks": [
+        "minecraft:dirt",
+        "minecraft:terracotta",
+        "minecraft:stone",
+        "minecraft:granite",
+        "minecraft:diorite",
+        "minecraft:andesite",
+        "biomesoplenty:orange_sandstone"
+      ],
+      "state": {
+        "Properties": {
+          "falling": "true"
+        },
+        "Name": "minecraft:water"
+      },
+      "requires_block_below": true
+    },
+    "type": "minecraft:spring_feature"
+  }
+}

@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "biomesoplenty:trees_cherry_blossom_grove",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:white_cherry_tree_bees",
+          "chance": 0.1
+        },
+        {
+          "feature": "biomesoplenty:pink_cherry_tree_bees",
+          "chance": 0.2
+        },
+        {
+          "feature": "biomesoplenty:big_white_cherry_tree",
+          "chance": 0.3
+        },
+        {
+          "feature": "biomesoplenty:flowering_oak_tree_bees",
+          "chance": 0.15
+        },
+        {
+          "feature": "biomesoplenty:flowering_oak_bush",
+          "chance": 0.3
+        }
+      ],
+      "default": "biomesoplenty:big_pink_cherry_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

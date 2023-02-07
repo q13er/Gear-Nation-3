@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:patch_fern_2",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:patch_fern",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:temperate_grove_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:birch_yellow_boreal_tree1",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:birch_boreal_tree1",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

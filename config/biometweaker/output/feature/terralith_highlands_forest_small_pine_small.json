@@ -1,0 +1,17 @@
+
+{
+  "registry_name": "terralith:highlands/forest/small/pine_small",
+  "worldgen/placed_feature": {
+    "feature": "terralith:highlands/forest/small/pine_small",
+    "placement": [
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:dacite_ridge_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:spruce_tree_medium2",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:spruce_tree_medium1",
+            "placement": []
+          },
+          "chance": 0.25
+        }
+      ],
+      "default": {
+        "feature": "byg:spruce_tree_large1",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

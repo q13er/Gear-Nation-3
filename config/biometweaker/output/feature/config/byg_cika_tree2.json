@@ -1,0 +1,48 @@
+
+{
+  "registry_name": "byg:cika_tree2",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_height": 14,
+      "max_height": 22,
+      "disk_radius": 0,
+      "whitelist": [
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ],
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "byg:cika_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "leaves_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "byg:cika_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "disk_provider": {
+        "state": {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:podzol"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:cika_tree2"
+  }
+}

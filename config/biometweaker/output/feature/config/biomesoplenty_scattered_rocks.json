@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:scattered_rocks",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:scattered_rocks"
+  }
+}

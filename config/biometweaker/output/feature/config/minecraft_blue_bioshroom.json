@@ -1,0 +1,30 @@
+
+{
+  "registry_name": "minecraft:blue_bioshroom",
+  "worldgen/configured_feature": {
+    "config": {
+      "hat_state": {
+        "Name": "regions_unexplored:blue_bioshroom_block"
+      },
+      "decor_state": {
+        "Name": "minecraft:shroomlight"
+      },
+      "planted": false,
+      "valid_base_block": {
+        "Name": "regions_unexplored:viridescent_nylium"
+      },
+      "stem_state": {
+        "Properties": {
+          "west": "true",
+          "up": "true",
+          "south": "true",
+          "north": "true",
+          "east": "true",
+          "down": "true"
+        },
+        "Name": "minecraft:mushroom_stem"
+      }
+    },
+    "type": "minecraft:huge_fungus"
+  }
+}

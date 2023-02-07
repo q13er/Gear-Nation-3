@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "terralith:cliffs/basalt/seed",
+  "worldgen/configured_feature": {
+    "config": {
+      "target": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:basalt"
+      },
+      "state": {
+        "Name": "minecraft:smooth_basalt"
+      },
+      "radius": 0
+    },
+    "type": "minecraft:netherrack_replace_blobs"
+  }
+}

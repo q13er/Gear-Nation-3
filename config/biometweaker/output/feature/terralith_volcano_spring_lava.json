@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "terralith:volcano/spring_lava",
+  "worldgen/placed_feature": {
+    "feature": "terralith:volcano/spring_lava",
+    "placement": [
+      {
+        "count": 42,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 110
+          },
+          "max_inclusive": {
+            "absolute": 290
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

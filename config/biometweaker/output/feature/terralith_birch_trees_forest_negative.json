@@ -1,0 +1,44 @@
+
+{
+  "registry_name": "terralith:birch/trees_forest_negative",
+  "worldgen/placed_feature": {
+    "feature": "terralith:birch/trees_forest_negative",
+    "placement": [
+      {
+        "count": 6,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "noise_to_count_ratio": -9,
+        "noise_factor": 157.0,
+        "noise_offset": 0.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": [
+            "minecraft:grass_block",
+            "minecraft:dirt"
+          ],
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

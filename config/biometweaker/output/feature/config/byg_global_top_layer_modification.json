@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "byg:global/top_layer_modification",
+  "worldgen/configured_feature": {
+    "config": {
+      "features_to_place": []
+    },
+    "type": "byg:global"
+  }
+}

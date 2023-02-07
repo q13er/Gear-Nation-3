@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "terralith:canyon/sandstone/scattered_palms",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "terralith:canyon/sandstone/palm_tall",
+            "placement": [
+              {
+                "count": 20,
+                "type": "minecraft:count"
+              }
+            ]
+          },
+          "chance": 0.03
+        },
+        {
+          "feature": {
+            "feature": "terralith:canyon/sandstone/palm_medium",
+            "placement": [
+              {
+                "count": 20,
+                "type": "minecraft:count"
+              }
+            ]
+          },
+          "chance": 0.3
+        }
+      ],
+      "default": "terralith:canyon/sandstone/palm_1"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

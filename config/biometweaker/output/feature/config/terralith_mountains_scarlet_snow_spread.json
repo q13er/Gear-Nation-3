@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "terralith:mountains/scarlet/snow_spread",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "probability": 0.5,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "minecraft:snow_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "probability": 0.5,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "minecraft:snow_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:blackstone",
+            "probability": 0.5,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "minecraft:snow_block"
+          }
+        }
+      ],
+      "size": 9,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

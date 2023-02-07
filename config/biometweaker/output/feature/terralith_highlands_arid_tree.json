@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "terralith:highlands/arid/tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:highlands/arid/tree",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "minecraft:oak_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "repurposed_structures:pile_cobblestone",
+  "worldgen/configured_feature": {
+    "config": {
+      "state_provider": {
+        "state": {
+          "Name": "minecraft:cobblestone"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:block_pile"
+  }
+}

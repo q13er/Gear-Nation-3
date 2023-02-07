@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "byg:weeping_roots",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_length": 1,
+      "max_length": 9,
+      "whitelist": [
+        {
+          "Name": "minecraft:glowstone"
+        },
+        {
+          "Name": "minecraft:netherrack"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        }
+      ],
+      "base_block_provider": {
+        "state": {
+          "Name": "minecraft:glowstone"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "block_provider": {
+        "state": {
+          "Name": "byg:weeping_roots_plant"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "end_block_provider": {
+        "state": {
+          "Properties": {
+            "age": "23"
+          },
+          "Name": "byg:weeping_roots"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:hanging_feature"
+  }
+}

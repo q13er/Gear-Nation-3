@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "terralith:cave/mantle/lava_drip",
+  "worldgen/configured_feature": {
+    "config": {
+      "rock_count": 4,
+      "hole_count": 1,
+      "valid_blocks": [
+        "minecraft:blackstone",
+        "minecraft:magma_block"
+      ],
+      "state": {
+        "Properties": {
+          "falling": "true"
+        },
+        "Name": "minecraft:lava"
+      },
+      "requires_block_below": false
+    },
+    "type": "minecraft:spring_feature"
+  }
+}

@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:flower_plain_decorated",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:flower_plain"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

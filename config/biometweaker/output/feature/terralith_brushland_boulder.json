@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:brushland/boulder",
+  "worldgen/placed_feature": {
+    "feature": "terralith:brushland/boulder",
+    "placement": []
+  }
+}

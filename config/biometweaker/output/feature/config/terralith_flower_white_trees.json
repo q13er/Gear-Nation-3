@@ -1,0 +1,24 @@
+
+{
+  "registry_name": "terralith:flower/white/trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:flower/white/birch_bending",
+          "chance": 0.135
+        },
+        {
+          "feature": "terralith:flower/white/twilight_tree",
+          "chance": 0.14
+        },
+        {
+          "feature": "terralith:flower/white/cloud_tree_bending",
+          "chance": 0.16
+        }
+      ],
+      "default": "terralith:flower/white/cloud_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

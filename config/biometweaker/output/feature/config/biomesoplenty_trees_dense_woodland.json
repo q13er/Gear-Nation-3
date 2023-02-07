@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomesoplenty:trees_dense_woodland",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:big_oak_tree",
+          "chance": 0.5
+        }
+      ],
+      "default": "minecraft:oak_checked"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

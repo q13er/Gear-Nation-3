@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "biomesoplenty:porous_flesh",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "biomesoplenty:flesh",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "biomesoplenty:porous_flesh"
+          }
+        }
+      ],
+      "size": 16,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

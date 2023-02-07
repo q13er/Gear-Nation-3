@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "minecraft:taiga_vegetation_removed",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:taiga_vegetation_removed",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 10,
+              "weight": 90
+            },
+            {
+              "data": 11,
+              "weight": 10
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

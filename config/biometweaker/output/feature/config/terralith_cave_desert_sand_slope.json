@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "terralith:cave/desert/sand_slope",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "terralith:cave/desert/sand_patch"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

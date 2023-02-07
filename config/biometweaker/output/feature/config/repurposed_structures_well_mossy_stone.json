@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "repurposed_structures:well_mossy_stone",
+  "worldgen/configured_feature": {
+    "config": {
+      "height_offset": -2,
+      "nbt_entries": [
+        {
+          "weight": 1,
+          "resourcelocation": "repurposed_structures:wells/mossy"
+        }
+      ],
+      "processors": "repurposed_structures:wells/mossy",
+      "configured_feature_name": "repurposed_structures:well_mossy_stone",
+      "allow_liquid": true
+    },
+    "type": "repurposed_structures:nbt_feature"
+  }
+}

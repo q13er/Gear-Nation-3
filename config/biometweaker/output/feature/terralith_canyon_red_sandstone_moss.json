@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "terralith:canyon/red_sandstone/moss",
+  "worldgen/placed_feature": {
+    "feature": "terralith:canyon/red_sandstone/moss",
+    "placement": [
+      {
+        "count": 255,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

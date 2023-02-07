@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "biomesoplenty:trees_rainforest_floodplain",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:sparse_oak_tree",
+          "chance": 0.3
+        },
+        {
+          "feature": "biomesoplenty:big_oak_tree",
+          "chance": 0.1
+        }
+      ],
+      "default": "biomesoplenty:oak_bush"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

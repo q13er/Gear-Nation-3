@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:leather_flowers",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:peach_leather_flower",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:violet_leather_flower",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

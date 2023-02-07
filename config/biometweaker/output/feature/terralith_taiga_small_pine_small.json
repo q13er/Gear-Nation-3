@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:taiga/small/pine_small",
+  "worldgen/placed_feature": {
+    "feature": "terralith:taiga/small/pine_small",
+    "placement": []
+  }
+}

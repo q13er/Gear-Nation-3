@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:bulbis_anomalies",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:bulbis_anomaly",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:purple_bulbis_anomaly",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

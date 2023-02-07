@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "biomesoplenty:inferno_lava_spring",
+  "worldgen/configured_feature": {
+    "config": {
+      "rock_count": 4,
+      "hole_count": 1,
+      "valid_blocks": "minecraft:netherrack",
+      "state": {
+        "Properties": {
+          "falling": "true"
+        },
+        "Name": "minecraft:lava"
+      },
+      "requires_block_below": false
+    },
+    "type": "minecraft:spring_feature"
+  }
+}

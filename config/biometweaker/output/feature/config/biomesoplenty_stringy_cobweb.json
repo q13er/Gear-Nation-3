@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:stringy_cobweb",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:stringy_cobweb"
+  }
+}

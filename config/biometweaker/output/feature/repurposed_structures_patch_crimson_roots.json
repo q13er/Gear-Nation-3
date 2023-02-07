@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "repurposed_structures:patch_crimson_roots",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_crimson_roots",
+    "placement": [
+      {
+        "count": 5,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

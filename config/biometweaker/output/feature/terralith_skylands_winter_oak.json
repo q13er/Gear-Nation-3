@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "terralith:skylands/winter/oak",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/winter/oak",
+    "placement": [
+      {
+        "count": 1,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+
+{
+  "registry_name": "terralith:snowy/max_spruce_big",
+  "worldgen/placed_feature": {
+    "feature": "terralith:snowy/max_spruce_big",
+    "placement": [
+      {
+        "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      }
+    ]
+  }
+}

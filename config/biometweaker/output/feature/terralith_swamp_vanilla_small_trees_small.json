@@ -1,0 +1,64 @@
+
+{
+  "registry_name": "terralith:swamp/vanilla/small/trees_small",
+  "worldgen/placed_feature": {
+    "feature": "terralith:swamp/vanilla/small/trees_small",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 4,
+              "weight": 90
+            },
+            {
+              "data": 5,
+              "weight": 10
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 215.0,
+        "noise_offset": 0.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "noise_to_count_ratio": -1,
+        "noise_factor": 215.0,
+        "noise_offset": -0.65,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "type": "minecraft:replaceable"
+            },
+            {
+              "state": {
+                "Name": "minecraft:fern"
+              },
+              "type": "minecraft:would_survive"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

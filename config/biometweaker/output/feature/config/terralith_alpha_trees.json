@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:alpha/trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:oak",
+          "chance": 0.85
+        }
+      ],
+      "default": "minecraft:fancy_oak"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

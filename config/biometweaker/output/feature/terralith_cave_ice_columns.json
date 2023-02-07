@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:cave/ice/columns",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/ice/columns",
+    "placement": []
+  }
+}

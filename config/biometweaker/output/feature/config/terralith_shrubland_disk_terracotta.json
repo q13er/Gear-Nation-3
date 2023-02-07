@@ -1,0 +1,37 @@
+
+{
+  "registry_name": "terralith:shrubland/disk_terracotta",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:brown_terracotta"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 4
+        }
+      },
+      "half_height": 4,
+      "targets": [
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:podzol"
+        },
+        {
+          "Name": "minecraft:coarse_dirt"
+        },
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Name": "minecraft:brown_terracotta"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

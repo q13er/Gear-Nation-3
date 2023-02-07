@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:sythian_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:sythian_sprout",
+            "placement": []
+          },
+          "chance": 0.333
+        },
+        {
+          "feature": {
+            "feature": "byg:sythian_roots",
+            "placement": []
+          },
+          "chance": 0.333
+        }
+      ],
+      "default": {
+        "feature": "byg:sythian_fungus",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

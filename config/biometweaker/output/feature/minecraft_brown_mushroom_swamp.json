@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:brown_mushroom_swamp",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:brown_mushroom_taiga",
+    "placement": [
+      {
+        "count": 8,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

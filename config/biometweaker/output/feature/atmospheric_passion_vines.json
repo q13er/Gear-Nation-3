@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "atmospheric:passion_vines",
+  "worldgen/placed_feature": {
+    "feature": "atmospheric:passion_vines",
+    "placement": [
+      {
+        "count": 1,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 64
+          },
+          "max_inclusive": {
+            "absolute": 192
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

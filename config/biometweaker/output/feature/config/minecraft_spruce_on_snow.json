@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:spruce_on_snow",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:spruce"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

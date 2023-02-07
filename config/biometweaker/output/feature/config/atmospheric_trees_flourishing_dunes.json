@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "atmospheric:trees_flourishing_dunes",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "atmospheric:baby_yucca_with_flowers",
+          "chance": 0.25
+        }
+      ],
+      "default": "atmospheric:baby_yucca"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

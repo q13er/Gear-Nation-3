@@ -1,0 +1,37 @@
+
+{
+  "registry_name": "byg:magma_patch_fire",
+  "worldgen/placed_feature": {
+    "feature": "byg:magma_patch_fire",
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 30,
+            "max_inclusive": 45
+          }
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 4
+          },
+          "max_inclusive": {
+            "below_top": 4
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

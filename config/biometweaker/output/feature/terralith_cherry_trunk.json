@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "terralith:cherry/trunk",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cherry/trunk",
+    "placement": [
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

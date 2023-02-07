@@ -1,0 +1,65 @@
+
+{
+  "registry_name": "terralith:enchanted/enchanted_tree",
+  "worldgen/configured_feature": {
+    "config": {
+      "decorators": [
+        {
+          "type": "minecraft:leave_vine"
+        },
+        {
+          "type": "minecraft:trunk_vine"
+        },
+        {
+          "type": "minecraft:leave_vine"
+        }
+      ],
+      "ignore_vines": false,
+      "force_dirt": true,
+      "dirt_provider": {
+        "state": {
+          "Name": "minecraft:dirt"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": {
+        "limit": 1,
+        "lower_size": 1,
+        "upper_size": 2,
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:warped_stem"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_placer": {
+        "base_height": 32,
+        "height_rand_a": 24,
+        "height_rand_b": 24,
+        "type": "minecraft:fancy_trunk_placer"
+      },
+      "foliage_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "true",
+            "distance": "7"
+          },
+          "Name": "minecraft:dark_oak_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_placer": {
+        "radius": 1,
+        "offset": 0,
+        "height": 12,
+        "type": "minecraft:fancy_foliage_placer"
+      }
+    },
+    "type": "minecraft:tree"
+  }
+}

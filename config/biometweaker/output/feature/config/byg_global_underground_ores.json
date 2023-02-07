@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "byg:global/underground_ores",
+  "worldgen/configured_feature": {
+    "config": {
+      "features_to_place": [
+        "byg:global/placed_feature/ore_soapstone_upper",
+        "byg:global/placed_feature/ore_soapstone_lower"
+      ]
+    },
+    "type": "byg:global"
+  }
+}

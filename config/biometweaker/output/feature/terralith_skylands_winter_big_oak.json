@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "terralith:skylands/winter/big_oak",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/winter/big_oak",
+    "placement": [
+      {
+        "count": 1,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

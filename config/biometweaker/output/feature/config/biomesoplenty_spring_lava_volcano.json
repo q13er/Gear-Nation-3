@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "biomesoplenty:spring_lava_volcano",
+  "worldgen/configured_feature": {
+    "config": {
+      "rock_count": 4,
+      "hole_count": 1,
+      "valid_blocks": [
+        "minecraft:basalt",
+        "minecraft:magma_block",
+        "biomesoplenty:black_sand",
+        "biomesoplenty:black_sandstone",
+        "minecraft:stone",
+        "minecraft:granite",
+        "minecraft:diorite",
+        "minecraft:andesite"
+      ],
+      "state": {
+        "Properties": {
+          "falling": "true"
+        },
+        "Name": "minecraft:lava"
+      },
+      "requires_block_below": true
+    },
+    "type": "minecraft:spring_feature"
+  }
+}

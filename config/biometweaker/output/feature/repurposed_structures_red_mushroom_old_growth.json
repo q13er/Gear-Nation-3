@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:red_mushroom_old_growth",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_red_mushroom",
+    "placement": []
+  }
+}

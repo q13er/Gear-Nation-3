@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:highlands/forest/small/trees_small",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:taiga/small/pine_small",
+          "chance": 0.55
+        },
+        {
+          "feature": "terralith:taiga/small/spruce_small_m",
+          "chance": 0.1
+        }
+      ],
+      "default": "terralith:taiga/small/spruce_small"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

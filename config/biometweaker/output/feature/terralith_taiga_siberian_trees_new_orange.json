@@ -1,0 +1,144 @@
+
+{
+  "registry_name": "terralith:taiga/siberian/trees_new_orange",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "decorators": [],
+        "ignore_vines": true,
+        "force_dirt": false,
+        "dirt_provider": {
+          "state": {
+            "Name": "minecraft:dirt"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "minimum_size": {
+          "limit": 2,
+          "lower_size": 0,
+          "upper_size": 2,
+          "min_clipped_height": 0,
+          "type": "minecraft:two_layers_feature_size"
+        },
+        "trunk_provider": {
+          "state": {
+            "Properties": {
+              "axis": "y"
+            },
+            "Name": "minecraft:dark_oak_log"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "trunk_placer": {
+          "base_height": 10,
+          "height_rand_a": 4,
+          "height_rand_b": 12,
+          "type": "minecraft:straight_trunk_placer"
+        },
+        "foliage_provider": {
+          "state": {
+            "Properties": {
+              "persistent": "false",
+              "distance": "7"
+            },
+            "Name": "minecraft:dark_oak_leaves"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "foliage_placer": {
+          "radius": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": 0,
+              "max_inclusive": 1
+            }
+          },
+          "offset": 1,
+          "crown_height": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": 3,
+              "max_inclusive": 8
+            }
+          },
+          "type": "minecraft:mega_pine_foliage_placer"
+        }
+      },
+      "type": "minecraft:tree"
+    },
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 4,
+            "max_inclusive": 5
+          }
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 89.0,
+        "noise_offset": 0.25,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "direction_of_search": "down",
+        "target_condition": {
+          "predicates": [
+            {
+              "type": "minecraft:replaceable"
+            },
+            {
+              "predicates": [
+                {
+                  "state": {
+                    "Name": "minecraft:fern"
+                  },
+                  "type": "minecraft:would_survive"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:snow_block",
+                    "minecraft:powder_snow"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:any_of"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "max_steps": 1,
+        "type": "minecraft:environment_scan"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 5
+          }
+        },
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

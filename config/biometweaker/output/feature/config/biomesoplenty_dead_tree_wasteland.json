@@ -1,0 +1,56 @@
+
+{
+  "registry_name": "biomesoplenty:dead_tree_wasteland",
+  "worldgen/configured_feature": {
+    "config": {
+      "decorators": [],
+      "leaf_chance_even": 0.0,
+      "leaf_chance_odd": 0.0,
+      "alt_foliage_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "min_height": 6,
+      "max_height": 10,
+      "vine_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "hanging_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_fruit_provider": {
+        "state": {
+          "Properties": {
+            "facing": "north"
+          },
+          "Name": "biomesoplenty:dead_branch"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "biomesoplenty:dead_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "biomesoplenty:twiglet_tree"
+  }
+}

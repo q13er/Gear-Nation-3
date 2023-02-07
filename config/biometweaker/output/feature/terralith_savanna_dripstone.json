@@ -1,0 +1,47 @@
+
+{
+  "registry_name": "terralith:savanna/dripstone",
+  "worldgen/placed_feature": {
+    "feature": "terralith:savanna/dripstone",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 60,
+              "weight": 100
+            },
+            {
+              "data": 60,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": "minecraft:dripstone_block",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

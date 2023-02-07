@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "byg:wide_frost_magma_lake",
+  "worldgen/configured_feature": {
+    "config": {
+      "block_provider": {
+        "state": {
+          "Name": "byg:frost_magma"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:wide_lake"
+  }
+}

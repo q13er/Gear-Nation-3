@@ -1,0 +1,295 @@
+
+{
+  "registry_name": "terralith:cave/thermal/dripleaf",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "config": {
+              "layers": [
+                {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "value": {
+                      "min_inclusive": 1,
+                      "max_inclusive": 1
+                    }
+                  },
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "half": "lower",
+                        "facing": "north"
+                      },
+                      "Name": "minecraft:small_dripleaf"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                {
+                  "height": {
+                    "type": "minecraft:clamped_normal",
+                    "value": {
+                      "mean": 0.0,
+                      "deviation": 1.5,
+                      "min_inclusive": 0,
+                      "max_inclusive": 6
+                    }
+                  },
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "half": "lower",
+                        "facing": "north"
+                      },
+                      "Name": "minecraft:small_dripleaf"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                {
+                  "height": 1,
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "half": "upper",
+                        "facing": "north"
+                      },
+                      "Name": "minecraft:small_dripleaf"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                }
+              ],
+              "direction": "up",
+              "allowed_placement": {
+                "type": "minecraft:replaceable"
+              },
+              "prioritize_tip": false
+            },
+            "type": "minecraft:block_column"
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "config": {
+              "layers": [
+                {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "value": {
+                      "min_inclusive": 1,
+                      "max_inclusive": 1
+                    }
+                  },
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "half": "lower",
+                        "facing": "south"
+                      },
+                      "Name": "minecraft:small_dripleaf"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                {
+                  "height": {
+                    "type": "minecraft:clamped_normal",
+                    "value": {
+                      "mean": 0.0,
+                      "deviation": 1.5,
+                      "min_inclusive": 0,
+                      "max_inclusive": 6
+                    }
+                  },
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "half": "lower",
+                        "facing": "south"
+                      },
+                      "Name": "minecraft:small_dripleaf"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                {
+                  "height": 1,
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "half": "upper",
+                        "facing": "south"
+                      },
+                      "Name": "minecraft:small_dripleaf"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                }
+              ],
+              "direction": "up",
+              "allowed_placement": {
+                "type": "minecraft:replaceable"
+              },
+              "prioritize_tip": false
+            },
+            "type": "minecraft:block_column"
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "config": {
+              "layers": [
+                {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "value": {
+                      "min_inclusive": 1,
+                      "max_inclusive": 1
+                    }
+                  },
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "half": "lower",
+                        "facing": "east"
+                      },
+                      "Name": "minecraft:small_dripleaf"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                {
+                  "height": {
+                    "type": "minecraft:clamped_normal",
+                    "value": {
+                      "mean": 0.0,
+                      "deviation": 1.5,
+                      "min_inclusive": 0,
+                      "max_inclusive": 6
+                    }
+                  },
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "half": "lower",
+                        "facing": "east"
+                      },
+                      "Name": "minecraft:small_dripleaf"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                {
+                  "height": 1,
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "half": "upper",
+                        "facing": "east"
+                      },
+                      "Name": "minecraft:small_dripleaf"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                }
+              ],
+              "direction": "up",
+              "allowed_placement": {
+                "type": "minecraft:replaceable"
+              },
+              "prioritize_tip": false
+            },
+            "type": "minecraft:block_column"
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "config": {
+              "layers": [
+                {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "value": {
+                      "min_inclusive": 1,
+                      "max_inclusive": 1
+                    }
+                  },
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "half": "lower",
+                        "facing": "west"
+                      },
+                      "Name": "minecraft:small_dripleaf"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                {
+                  "height": {
+                    "type": "minecraft:clamped_normal",
+                    "value": {
+                      "mean": 0.0,
+                      "deviation": 1.5,
+                      "min_inclusive": 0,
+                      "max_inclusive": 6
+                    }
+                  },
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "half": "lower",
+                        "facing": "west"
+                      },
+                      "Name": "minecraft:small_dripleaf"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                {
+                  "height": 1,
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "waterlogged": "false",
+                        "half": "upper",
+                        "facing": "west"
+                      },
+                      "Name": "minecraft:small_dripleaf"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                }
+              ],
+              "direction": "up",
+              "allowed_placement": {
+                "type": "minecraft:replaceable"
+              },
+              "prioritize_tip": false
+            },
+            "type": "minecraft:block_column"
+          },
+          "placement": []
+        }
+      ]
+    },
+    "type": "minecraft:simple_random_selector"
+  }
+}

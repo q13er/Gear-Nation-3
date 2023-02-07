@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "minecraft:red_mushroom_giant",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:red_mushroom_taiga",
+    "placement": [
+      {
+        "count": 3,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

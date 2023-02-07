@@ -1,0 +1,52 @@
+
+{
+  "registry_name": "terralith:flower/blue/orchids",
+  "worldgen/configured_feature": {
+    "config": {
+      "state_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:allium"
+            },
+            "weight": 3
+          },
+          {
+            "data": {
+              "Name": "minecraft:lily_of_the_valley"
+            },
+            "weight": 4
+          },
+          {
+            "data": {
+              "Name": "minecraft:blue_orchid"
+            },
+            "weight": 50
+          },
+          {
+            "data": {
+              "Name": "minecraft:fern"
+            },
+            "weight": 10
+          },
+          {
+            "data": {
+              "Name": "minecraft:grass"
+            },
+            "weight": 30
+          },
+          {
+            "data": {
+              "Name": "minecraft:cornflower"
+            },
+            "weight": 20
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "spread_width": 8,
+      "spread_height": 4
+    },
+    "type": "minecraft:nether_forest_vegetation"
+  }
+}

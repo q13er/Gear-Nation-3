@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:cave/ice/pools_ring",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:no_op"
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:forest/flower/small/trees_small",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:forest/flower/small/birch_small",
+          "chance": 0.25
+        },
+        {
+          "feature": "terralith:forest/flower/small/oak_small_m",
+          "chance": 0.2
+        }
+      ],
+      "default": "terralith:forest/flower/small/oak_small"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

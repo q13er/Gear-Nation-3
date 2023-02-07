@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "minecraft:noise_pumpkins",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:pumpkins",
+    "placement": [
+      {
+        "count": 18,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

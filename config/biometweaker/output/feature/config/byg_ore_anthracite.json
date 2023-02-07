@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:ore_anthracite",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "byg:brimstone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "byg:anthracite_ore"
+          }
+        }
+      ],
+      "size": 10,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

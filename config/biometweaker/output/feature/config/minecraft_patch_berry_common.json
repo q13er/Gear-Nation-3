@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:patch_berry_common",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:patch_berry_bush"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

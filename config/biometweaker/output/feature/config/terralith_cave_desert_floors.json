@@ -1,0 +1,176 @@
+
+{
+  "registry_name": "terralith:cave/desert/floors",
+  "worldgen/configured_feature": {
+    "config": {
+      "vegetation_chance": 1.0,
+      "xz_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 4
+        }
+      },
+      "extra_edge_column_chance": 0.5,
+      "extra_bottom_block_chance": 0.1,
+      "vertical_range": 4,
+      "vegetation_feature": {
+        "feature": {
+          "config": {
+            "features": [],
+            "default": {
+              "feature": "terralith:nothing",
+              "placement": []
+            }
+          },
+          "type": "minecraft:random_selector"
+        },
+        "placement": []
+      },
+      "surface": "floor",
+      "depth": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 4
+        }
+      },
+      "replaceable": "#terralith:sandstones",
+      "ground_state": {
+        "seed": 2,
+        "noise": {
+          "firstOctave": -7,
+          "amplitudes": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "scale": 1.0,
+        "states": [
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_red_sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_red_sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:clay"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          },
+          {
+            "Name": "minecraft:smooth_sandstone"
+          }
+        ],
+        "variety": [
+          13,
+          25
+        ],
+        "slow_noise": {
+          "firstOctave": -3,
+          "amplitudes": [
+            1.0E-4,
+            2.5E-4,
+            5.0E-4,
+            0.001
+          ]
+        },
+        "slow_scale": 1.0,
+        "type": "minecraft:dual_noise_provider"
+      }
+    },
+    "type": "minecraft:vegetation_patch"
+  }
+}

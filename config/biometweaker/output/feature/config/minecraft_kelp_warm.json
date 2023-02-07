@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:kelp_warm",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:kelp"
+  }
+}

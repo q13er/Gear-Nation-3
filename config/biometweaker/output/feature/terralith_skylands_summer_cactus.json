@@ -1,0 +1,106 @@
+
+{
+  "registry_name": "terralith:skylands/summer/cactus",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "tries": 16,
+        "xz_spread": 5,
+        "y_spread": 2,
+        "feature": {
+          "feature": {
+            "config": {
+              "layers": [
+                {
+                  "height": {
+                    "type": "minecraft:biased_to_bottom",
+                    "value": {
+                      "min_inclusive": 1,
+                      "max_inclusive": 5
+                    }
+                  },
+                  "provider": {
+                    "seed": 0,
+                    "noise": {
+                      "firstOctave": -3,
+                      "amplitudes": [
+                        1.0,
+                        1.0
+                      ]
+                    },
+                    "scale": 1.0,
+                    "states": [
+                      {
+                        "Properties": {
+                          "age": "13"
+                        },
+                        "Name": "minecraft:cactus"
+                      },
+                      {
+                        "Properties": {
+                          "age": "11"
+                        },
+                        "Name": "minecraft:cactus"
+                      }
+                    ],
+                    "type": "minecraft:noise_provider"
+                  }
+                }
+              ],
+              "direction": "up",
+              "allowed_placement": {
+                "blocks": "minecraft:air",
+                "type": "minecraft:matching_blocks"
+              },
+              "prioritize_tip": true
+            },
+            "type": "minecraft:block_column"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "predicates": [
+                  {
+                    "state": {
+                      "Properties": {
+                        "age": "0"
+                      },
+                      "Name": "minecraft:cactus"
+                    },
+                    "type": "minecraft:would_survive"
+                  },
+                  {
+                    "type": "minecraft:replaceable"
+                  }
+                ],
+                "type": "minecraft:all_of"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
+        }
+      },
+      "type": "minecraft:random_patch"
+    },
+    "placement": [
+      {
+        "count": 16,
+        "type": "minecraft:count"
+      },
+      {
+        "chance": 2,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

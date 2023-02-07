@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:taiga/birch/oak",
+  "worldgen/placed_feature": {
+    "feature": "terralith:taiga/birch/oak",
+    "placement": []
+  }
+}

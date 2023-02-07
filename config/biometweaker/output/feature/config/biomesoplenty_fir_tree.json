@@ -1,0 +1,63 @@
+
+{
+  "registry_name": "biomesoplenty:fir_tree",
+  "worldgen/configured_feature": {
+    "config": {
+      "max_height": 28,
+      "decorators": [],
+      "trunk_width": 1,
+      "alt_foliage_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "min_height": 5,
+      "vine_provider": {
+        "state": {
+          "Properties": {
+            "west": "false",
+            "up": "false",
+            "south": "false",
+            "north": "false",
+            "east": "false"
+          },
+          "Name": "minecraft:vine"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "hanging_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_fruit_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "biomesoplenty:fir_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "biomesoplenty:fir_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "biomesoplenty:taiga_tree"
+  }
+}

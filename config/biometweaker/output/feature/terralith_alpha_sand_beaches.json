@@ -1,0 +1,41 @@
+
+{
+  "registry_name": "terralith:alpha/sand_beaches",
+  "worldgen/placed_feature": {
+    "feature": "terralith:alpha/sand_beaches",
+    "placement": [
+      {
+        "count": 30,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 50,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 275.0,
+        "noise_offset": 0.2,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 50
+          },
+          "max_inclusive": {
+            "absolute": 61
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

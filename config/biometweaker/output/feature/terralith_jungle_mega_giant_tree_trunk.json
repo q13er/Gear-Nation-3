@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:jungle/mega/giant_tree/trunk",
+  "worldgen/placed_feature": {
+    "feature": "terralith:jungle/mega/giant_tree/trunk",
+    "placement": []
+  }
+}

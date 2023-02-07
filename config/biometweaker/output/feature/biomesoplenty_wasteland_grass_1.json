@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:wasteland_grass_1",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:wasteland_grass",
+    "placement": [
+      {
+        "chance": 2,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

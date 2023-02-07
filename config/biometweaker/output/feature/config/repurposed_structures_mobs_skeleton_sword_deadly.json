@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "repurposed_structures:mobs/skeleton_sword_deadly",
+  "worldgen/configured_feature": {
+    "config": {
+      "leggings": "minecraft:leather_leggings",
+      "speed_modifier": 0.29,
+      "health": 18,
+      "held_item": "minecraft:stone_sword",
+      "helmet": "minecraft:leather_helmet",
+      "chestplate": "minecraft:chainmail_chestplate"
+    },
+    "type": "repurposed_structures:skeleton"
+  }
+}

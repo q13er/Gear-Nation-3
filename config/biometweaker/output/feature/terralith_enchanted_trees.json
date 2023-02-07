@@ -1,0 +1,47 @@
+
+{
+  "registry_name": "terralith:enchanted/trees",
+  "worldgen/placed_feature": {
+    "feature": "terralith:enchanted/trees",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 50,
+              "weight": 90
+            },
+            {
+              "data": 51,
+              "weight": 10
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": "minecraft:grass_block",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

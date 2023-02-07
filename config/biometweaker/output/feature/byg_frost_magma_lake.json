@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "byg:frost_magma_lake",
+  "worldgen/placed_feature": {
+    "feature": "byg:wide_frost_magma_lake",
+    "placement": [
+      {
+        "count": 3,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

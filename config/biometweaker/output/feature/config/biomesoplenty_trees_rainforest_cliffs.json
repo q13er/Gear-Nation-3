@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "biomesoplenty:trees_rainforest_cliffs",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:jungle_twiglet_tree",
+          "chance": 0.4
+        },
+        {
+          "feature": "biomesoplenty:mahogany_tree",
+          "chance": 0.05
+        }
+      ],
+      "default": "biomesoplenty:oak_bush"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

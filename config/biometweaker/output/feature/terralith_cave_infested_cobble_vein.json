@@ -1,0 +1,129 @@
+
+{
+  "registry_name": "terralith:cave/infested/cobble_vein",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "block": "minecraft:stone",
+              "probability": 0.35,
+              "predicate_type": "minecraft:random_block_match"
+            },
+            "state": {
+              "Name": "minecraft:mossy_cobblestone"
+            }
+          },
+          {
+            "target": {
+              "block": "minecraft:stone",
+              "predicate_type": "minecraft:block_match"
+            },
+            "state": {
+              "Name": "minecraft:cobblestone"
+            }
+          },
+          {
+            "target": {
+              "block": "minecraft:deepslate",
+              "predicate_type": "minecraft:block_match"
+            },
+            "state": {
+              "Name": "minecraft:cobbled_deepslate"
+            }
+          }
+        ],
+        "size": 64,
+        "discard_chance_on_air_exposure": 0.0
+      },
+      "type": "minecraft:scattered_ore"
+    },
+    "placement": [
+      {
+        "count": 256,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -64
+          },
+          "max_inclusive": {
+            "absolute": 192
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "offset": [
+                0,
+                6,
+                0
+              ],
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -6,
+                0,
+                0
+              ],
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                6,
+                0,
+                0
+              ],
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                0,
+                -6
+              ],
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                0,
+                6
+              ],
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                -6,
+                0
+              ],
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:any_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

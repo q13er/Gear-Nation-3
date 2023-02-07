@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "byg:frost_magma_pillars",
+  "worldgen/configured_feature": {
+    "config": {
+      "block_provider": {
+        "state": {
+          "Name": "byg:frost_magma"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:pillar"
+  }
+}

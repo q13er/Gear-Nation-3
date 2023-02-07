@@ -1,0 +1,179 @@
+
+{
+  "registry_name": "terralith:skylands/island",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_gen_offset": -15,
+      "max_gen_offset": 15,
+      "noise_multiplier": 0.035,
+      "invalid_blocks_threshold": 255,
+      "outer_wall_distance": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 5
+        }
+      },
+      "distribution_points": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 3
+        }
+      },
+      "point_offset": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 5,
+          "max_inclusive": 8
+        }
+      },
+      "use_potential_placements_chance": 0.35,
+      "use_alternate_layer0_chance": 0.085,
+      "placements_require_layer0_alternate": true,
+      "blocks": {
+        "outer_layer_provider": {
+          "entries": [
+            {
+              "data": {
+                "Name": "minecraft:diamond_ore"
+              },
+              "weight": 1
+            },
+            {
+              "data": {
+                "Name": "minecraft:lapis_ore"
+              },
+              "weight": 2
+            },
+            {
+              "data": {
+                "Name": "minecraft:coal_ore"
+              },
+              "weight": 40
+            },
+            {
+              "data": {
+                "Name": "minecraft:stone"
+              },
+              "weight": 16000
+            }
+          ],
+          "type": "minecraft:weighted_state_provider"
+        },
+        "inner_placements": [
+          {
+            "Name": "minecraft:stone"
+          }
+        ],
+        "cannot_replace": "#terralith:island_ban",
+        "invalid_blocks": "#minecraft:features_cannot_replace",
+        "filling_provider": {
+          "entries": [
+            {
+              "data": {
+                "Name": "minecraft:diamond_ore"
+              },
+              "weight": 1
+            },
+            {
+              "data": {
+                "Name": "minecraft:lapis_ore"
+              },
+              "weight": 2
+            },
+            {
+              "data": {
+                "Name": "minecraft:coal_ore"
+              },
+              "weight": 40
+            },
+            {
+              "data": {
+                "Name": "minecraft:stone"
+              },
+              "weight": 16000
+            }
+          ],
+          "type": "minecraft:weighted_state_provider"
+        },
+        "inner_layer_provider": {
+          "entries": [
+            {
+              "data": {
+                "Name": "minecraft:diamond_ore"
+              },
+              "weight": 1
+            },
+            {
+              "data": {
+                "Name": "minecraft:lapis_ore"
+              },
+              "weight": 2
+            },
+            {
+              "data": {
+                "Name": "minecraft:coal_ore"
+              },
+              "weight": 40
+            },
+            {
+              "data": {
+                "Name": "minecraft:stone"
+              },
+              "weight": 16000
+            }
+          ],
+          "type": "minecraft:weighted_state_provider"
+        },
+        "alternate_inner_layer_provider": {
+          "state": {
+            "Name": "minecraft:stone"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "middle_layer_provider": {
+          "entries": [
+            {
+              "data": {
+                "Name": "minecraft:diamond_ore"
+              },
+              "weight": 1
+            },
+            {
+              "data": {
+                "Name": "minecraft:lapis_ore"
+              },
+              "weight": 2
+            },
+            {
+              "data": {
+                "Name": "minecraft:coal_ore"
+              },
+              "weight": 40
+            },
+            {
+              "data": {
+                "Name": "minecraft:stone"
+              },
+              "weight": 16000
+            }
+          ],
+          "type": "minecraft:weighted_state_provider"
+        }
+      },
+      "layers": {
+        "filling": 3.0,
+        "inner_layer": 5.0,
+        "middle_layer": 7.0,
+        "outer_layer": 9.0
+      },
+      "crack": {
+        "generate_crack_chance": 0.0,
+        "base_crack_size": 3.0,
+        "crack_point_offset": 2
+      }
+    },
+    "type": "minecraft:geode"
+  }
+}

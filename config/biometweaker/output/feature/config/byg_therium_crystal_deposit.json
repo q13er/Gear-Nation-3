@@ -1,0 +1,152 @@
+
+{
+  "registry_name": "byg:therium_crystal_deposit",
+  "worldgen/configured_feature": {
+    "config": {
+      "verifies_height": true,
+      "pointed": false,
+      "belowSurfaceDepth": -2147483648,
+      "edge_features": {
+        "feature": {
+          "config": {
+            "tries": 15,
+            "xz_spread": 7,
+            "y_spread": 3,
+            "feature": {
+              "feature": {
+                "config": {
+                  "to_place": {
+                    "state": {
+                      "Properties": {
+                        "age": "0"
+                      },
+                      "Name": "byg:therium_crystal"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                },
+                "type": "minecraft:simple_block"
+              },
+              "placement": [
+                {
+                  "predicate": {
+                    "blocks": "minecraft:air",
+                    "type": "minecraft:matching_blocks"
+                  },
+                  "type": "minecraft:block_predicate_filter"
+                }
+              ]
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "placement": [
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 10,
+                "max_inclusive": 25
+              }
+            },
+            "type": "minecraft:count"
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "heightmap": "OCEAN_FLOOR",
+            "type": "minecraft:heightmap"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": "byg:therium_block",
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:any_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      },
+      "2d_noise_chance": 0.25,
+      "radius_matcher": "XZ",
+      "squared_distance_check": true,
+      "use_scaled_noise_height": true,
+      "radius_divisor_per_stack": 1.0,
+      "noise_frequency": 0.5,
+      "fluid_start_y": -2147483648,
+      "fluidState": {
+        "Name": "minecraft:empty"
+      },
+      "block_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "byg:therium_block"
+            },
+            "weight": 6
+          },
+          {
+            "data": {
+              "Name": "byg:ether_stone"
+            },
+            "weight": 4
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "top_block_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "byg:therium_block"
+            },
+            "weight": 8
+          },
+          {
+            "data": {
+              "Name": "byg:ether_stone"
+            },
+            "weight": 2
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "stackHeight": 1,
+      "radius_settings": {
+        "x_radius": {
+          "type": "minecraft:biased_to_bottom",
+          "value": {
+            "min_inclusive": 8,
+            "max_inclusive": 15
+          }
+        },
+        "y_radius": {
+          "type": "minecraft:biased_to_bottom",
+          "value": {
+            "min_inclusive": 5,
+            "max_inclusive": 10
+          }
+        },
+        "upper_half_additional": 0,
+        "z_radius": {
+          "type": "minecraft:biased_to_bottom",
+          "value": {
+            "min_inclusive": 8,
+            "max_inclusive": 15
+          }
+        }
+      }
+    },
+    "type": "byg:noise_spike"
+  }
+}

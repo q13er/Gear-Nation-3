@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "repurposed_structures:decor/nether_mineshaft_fire",
+  "worldgen/configured_feature": {
+    "config": {
+      "attempts": 3
+    },
+    "type": "repurposed_structures:structure_fire"
+  }
+}

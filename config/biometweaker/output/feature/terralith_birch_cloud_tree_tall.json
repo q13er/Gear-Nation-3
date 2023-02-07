@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "terralith:birch/cloud_tree_tall",
+  "worldgen/placed_feature": {
+    "feature": "terralith:birch/cloud_tree_tall",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "minecraft:birch_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

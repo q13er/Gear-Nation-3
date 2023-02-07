@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "terralith:shrubland/disk_podzol",
+  "worldgen/placed_feature": {
+    "feature": "terralith:shrubland/disk_podzol",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 128,
+              "weight": 0
+            },
+            {
+              "data": 128,
+              "weight": 100
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 175.0,
+        "noise_offset": 1.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "height": {
+          "absolute": 62
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

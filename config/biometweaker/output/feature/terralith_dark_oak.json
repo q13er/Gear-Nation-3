@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:dark/oak",
+  "worldgen/placed_feature": {
+    "feature": "terralith:dark/oak",
+    "placement": []
+  }
+}

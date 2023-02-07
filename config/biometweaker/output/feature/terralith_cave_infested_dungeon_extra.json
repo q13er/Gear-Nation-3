@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "terralith:cave/infested/dungeon_extra",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:monster_room_deep",
+    "placement": [
+      {
+        "count": 12,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 6
+          },
+          "max_inclusive": {
+            "absolute": 128
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

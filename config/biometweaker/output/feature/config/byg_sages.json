@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:sages",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:purple_sage",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:white_sage",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

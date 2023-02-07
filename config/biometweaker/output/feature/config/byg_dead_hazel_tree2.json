@@ -1,0 +1,63 @@
+
+{
+  "registry_name": "byg:dead_hazel_tree2",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_height": 5,
+      "max_height": 8,
+      "disk_radius": 0,
+      "whitelist": [
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ],
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "byg:witch_hazel_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "leaves_provider": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "byg:blooming_witch_hazel_leaves"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Properties": {
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "byg:witch_hazel_leaves"
+            },
+            "weight": 4
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "disk_provider": {
+        "state": {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:podzol"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:dead_hazel_tree2"
+  }
+}

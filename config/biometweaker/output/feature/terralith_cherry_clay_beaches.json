@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "terralith:cherry/clay_beaches",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cherry/clay_beaches",
+    "placement": [
+      {
+        "count": 128,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 175.0,
+        "noise_offset": -0.1,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "height": {
+          "absolute": 61
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

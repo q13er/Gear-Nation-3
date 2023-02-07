@@ -1,0 +1,76 @@
+
+{
+  "registry_name": "atmospheric:yucca_bees_005_with_flowers",
+  "worldgen/configured_feature": {
+    "config": {
+      "petrified": false,
+      "patch": true,
+      "baby": false,
+      "tall_flower_top_provider": {
+        "state": {
+          "Properties": {
+            "half": "upper"
+          },
+          "Name": "atmospheric:tall_yucca_flower"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "tall_flower_bottom_provider": {
+        "state": {
+          "Properties": {
+            "half": "lower"
+          },
+          "Name": "atmospheric:tall_yucca_flower"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "decorators": [
+        {
+          "probability": 0.05,
+          "type": "minecraft:beehive"
+        }
+      ],
+      "branch_provider": {
+        "state": {
+          "Properties": {
+            "snapped": "true"
+          },
+          "Name": "atmospheric:yucca_branch"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "bundle_provider": {
+        "state": {
+          "Name": "atmospheric:yucca_bundle"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "flower_provider": {
+        "state": {
+          "Name": "atmospheric:yucca_flower"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "atmospheric:yucca_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "leaves_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "atmospheric:yucca_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "atmospheric:yucca_tree"
+  }
+}

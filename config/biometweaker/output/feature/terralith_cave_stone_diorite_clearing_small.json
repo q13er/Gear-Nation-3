@@ -1,0 +1,198 @@
+
+{
+  "registry_name": "terralith:cave/stone/diorite_clearing_small",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "to_place": {
+          "state": {
+            "Name": "minecraft:diorite"
+          },
+          "type": "minecraft:simple_state_provider"
+        }
+      },
+      "type": "minecraft:simple_block"
+    },
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 15,
+            "max_inclusive": 30
+          }
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 3
+          }
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0,
+            "max_inclusive": 1
+          }
+        },
+        "type": "minecraft:random_offset"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0,
+            "max_inclusive": 1
+          }
+        },
+        "type": "minecraft:random_offset"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0,
+            "max_inclusive": 1
+          }
+        },
+        "type": "minecraft:random_offset"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0,
+            "max_inclusive": 1
+          }
+        },
+        "type": "minecraft:random_offset"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0,
+            "max_inclusive": 1
+          }
+        },
+        "type": "minecraft:random_offset"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -1,
+            "max_inclusive": 1
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "direction_of_search": "down",
+        "target_condition": {
+          "blocks": [
+            "minecraft:grass_block",
+            "minecraft:dirt",
+            "minecraft:stone",
+            "minecraft:sand",
+            "minecraft:red_sand",
+            "minecraft:coarse_dirt",
+            "minecraft:cobblestone",
+            "minecraft:tuff",
+            "minecraft:cobbled_deepslate"
+          ],
+          "type": "minecraft:matching_blocks"
+        },
+        "max_steps": 18,
+        "type": "minecraft:environment_scan"
+      }
+    ]
+  }
+}

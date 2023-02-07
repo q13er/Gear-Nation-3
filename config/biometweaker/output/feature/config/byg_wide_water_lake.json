@@ -1,0 +1,18 @@
+
+{
+  "registry_name": "byg:wide_water_lake",
+  "worldgen/configured_feature": {
+    "config": {
+      "block_provider": {
+        "state": {
+          "Properties": {
+            "level": "0"
+          },
+          "Name": "minecraft:water"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:wide_lake"
+  }
+}

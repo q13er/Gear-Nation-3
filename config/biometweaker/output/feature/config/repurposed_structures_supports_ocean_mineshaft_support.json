@@ -1,0 +1,30 @@
+
+{
+  "registry_name": "repurposed_structures:supports/ocean_mineshaft_support",
+  "worldgen/configured_feature": {
+    "config": {
+      "target_floor_block": "minecraft:prismarine_bricks",
+      "is_water_based": true,
+      "arch_only": false,
+      "arch_blocks": [
+        "minecraft:dark_prismarine",
+        "minecraft:sea_lantern"
+      ],
+      "pillar_state": {
+        "Name": "minecraft:dark_prismarine"
+      },
+      "fence_state": {
+        "Properties": {
+          "west": "none",
+          "waterlogged": "true",
+          "up": "true",
+          "south": "none",
+          "north": "none",
+          "east": "none"
+        },
+        "Name": "minecraft:prismarine_wall"
+      }
+    },
+    "type": "repurposed_structures:mineshaft_supports"
+  }
+}

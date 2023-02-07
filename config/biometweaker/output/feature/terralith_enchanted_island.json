@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:enchanted/island",
+  "worldgen/placed_feature": {
+    "feature": "terralith:enchanted/island",
+    "placement": []
+  }
+}

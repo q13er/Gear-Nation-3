@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:shrubland/patch_grass_savanna",
+  "worldgen/placed_feature": {
+    "feature": "terralith:shrubland/patch_grass_savanna",
+    "placement": [
+      {
+        "count": 28,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

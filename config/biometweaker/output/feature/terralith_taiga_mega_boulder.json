@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:taiga/mega/boulder",
+  "worldgen/placed_feature": {
+    "feature": "terralith:brushland/boulder",
+    "placement": []
+  }
+}

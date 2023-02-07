@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "repurposed_structures:decor/jungle_fortress_structure_breakage",
+  "worldgen/configured_feature": {
+    "config": {
+      "chance": 0.366
+    },
+    "type": "repurposed_structures:structure_breakage"
+  }
+}

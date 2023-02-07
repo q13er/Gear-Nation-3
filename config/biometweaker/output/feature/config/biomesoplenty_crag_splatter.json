@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:crag_splatter",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:crag_splatter"
+  }
+}

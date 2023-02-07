@@ -1,0 +1,164 @@
+
+{
+  "registry_name": "terralith:swamp/vanilla/tiny/swamp_special_tiny",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": {
+              "config": {
+                "decorators": [
+                  {
+                    "type": "minecraft:leave_vine"
+                  }
+                ],
+                "ignore_vines": false,
+                "force_dirt": false,
+                "dirt_provider": {
+                  "state": {
+                    "Name": "minecraft:dirt"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "minimum_size": {
+                  "limit": 1,
+                  "lower_size": 0,
+                  "upper_size": 1,
+                  "type": "minecraft:two_layers_feature_size"
+                },
+                "trunk_provider": {
+                  "state": {
+                    "Properties": {
+                      "axis": "y"
+                    },
+                    "Name": "minecraft:oak_log"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "trunk_placer": {
+                  "base_height": 20,
+                  "height_rand_a": 0,
+                  "height_rand_b": 0,
+                  "type": "minecraft:straight_trunk_placer"
+                },
+                "foliage_provider": {
+                  "state": {
+                    "Properties": {
+                      "persistent": "false",
+                      "distance": "7"
+                    },
+                    "Name": "minecraft:oak_leaves"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "foliage_placer": {
+                  "radius": 2,
+                  "offset": 0,
+                  "height": 3,
+                  "type": "minecraft:blob_foliage_placer"
+                }
+              },
+              "type": "minecraft:tree"
+            },
+            "placement": [
+              {
+                "heightmap": "OCEAN_FLOOR_WG",
+                "type": "minecraft:heightmap"
+              },
+              {
+                "max_water_depth": 3,
+                "type": "minecraft:surface_water_depth_filter"
+              }
+            ]
+          },
+          "chance": 0.0
+        }
+      ],
+      "default": {
+        "feature": {
+          "config": {
+            "decorators": [
+              {
+                "type": "minecraft:leave_vine"
+              }
+            ],
+            "ignore_vines": true,
+            "force_dirt": false,
+            "dirt_provider": {
+              "state": {
+                "Name": "minecraft:dirt"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "minimum_size": {
+              "limit": 0,
+              "lower_size": 0,
+              "upper_size": 0,
+              "min_clipped_height": 0,
+              "type": "minecraft:two_layers_feature_size"
+            },
+            "trunk_provider": {
+              "state": {
+                "Properties": {
+                  "axis": "y"
+                },
+                "Name": "minecraft:oak_log"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "trunk_placer": {
+              "base_height": 5,
+              "height_rand_a": 2,
+              "height_rand_b": 2,
+              "type": "minecraft:forking_trunk_placer"
+            },
+            "foliage_provider": {
+              "entries": [
+                {
+                  "data": {
+                    "Name": "minecraft:air"
+                  },
+                  "weight": 1
+                },
+                {
+                  "data": {
+                    "Properties": {
+                      "persistent": "true",
+                      "distance": "7"
+                    },
+                    "Name": "minecraft:oak_leaves"
+                  },
+                  "weight": 0
+                }
+              ],
+              "type": "minecraft:weighted_state_provider"
+            },
+            "foliage_placer": {
+              "radius": 1,
+              "offset": 1,
+              "height": 2,
+              "type": "minecraft:pine_foliage_placer"
+            }
+          },
+          "type": "minecraft:tree"
+        },
+        "placement": [
+          {
+            "count": 1,
+            "type": "minecraft:count"
+          },
+          {
+            "heightmap": "OCEAN_FLOOR_WG",
+            "type": "minecraft:heightmap"
+          },
+          {
+            "max_water_depth": 3,
+            "type": "minecraft:surface_water_depth_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

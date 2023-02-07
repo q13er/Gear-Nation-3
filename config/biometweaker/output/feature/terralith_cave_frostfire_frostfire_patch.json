@@ -1,0 +1,55 @@
+
+{
+  "registry_name": "terralith:cave/frostfire/frostfire_patch",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/frostfire/frostfire_patch",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 17,
+              "weight": 100
+            },
+            {
+              "data": 17,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "absolute": 30
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "direction_of_search": "down",
+        "target_condition": {
+          "type": "minecraft:solid"
+        },
+        "allowed_search_condition": {
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        "max_steps": 32,
+        "type": "minecraft:environment_scan"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

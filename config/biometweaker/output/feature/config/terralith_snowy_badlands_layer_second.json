@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:snowy/badlands/layer/second",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "layers": "4"
+              },
+              "Name": "minecraft:snow"
+            },
+            "weight": 5
+          },
+          {
+            "data": {
+              "Properties": {
+                "layers": "5"
+              },
+              "Name": "minecraft:snow"
+            },
+            "weight": 4
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

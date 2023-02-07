@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "byg:warped_desert_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:warped_bush",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:warped_coral",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:warped_cacti",
+            "placement": []
+          },
+          "chance": 0.25
+        }
+      ],
+      "default": {
+        "feature": "byg:warped_coral_fan",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,46 @@
+
+{
+  "registry_name": "terralith:cave/ice/pools_ring2",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:packed_ice"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 5
+        }
+      },
+      "half_height": 2,
+      "targets": [
+        {
+          "Name": "minecraft:snow_block"
+        },
+        {
+          "Name": "minecraft:calcite"
+        },
+        {
+          "Name": "minecraft:stone"
+        },
+        {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:deepslate"
+        },
+        {
+          "Name": "minecraft:granite"
+        },
+        {
+          "Name": "minecraft:andesite"
+        },
+        {
+          "Name": "minecraft:diorite"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

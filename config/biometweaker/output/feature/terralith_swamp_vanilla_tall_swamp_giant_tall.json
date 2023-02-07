@@ -1,0 +1,17 @@
+
+{
+  "registry_name": "terralith:swamp/vanilla/tall/swamp_giant_tall",
+  "worldgen/placed_feature": {
+    "feature": "terralith:swamp/vanilla/tall/swamp_giant_tall",
+    "placement": [
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "max_water_depth": 3,
+        "type": "minecraft:surface_water_depth_filter"
+      }
+    ]
+  }
+}

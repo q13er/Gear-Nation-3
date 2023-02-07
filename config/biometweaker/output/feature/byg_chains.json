@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "byg:chains",
+  "worldgen/placed_feature": {
+    "feature": "byg:chains",
+    "placement": [
+      {
+        "height": {
+          "min_inclusive": {
+            "below_top": 6
+          },
+          "max_inclusive": {
+            "above_bottom": 6
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "byg:black_ice_snow",
+  "worldgen/placed_feature": {
+    "feature": "byg:black_ice_snow",
+    "placement": [
+      {
+        "type": "byg:chunk_covering_placement"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "xz_spread": 0,
+        "y_spread": -1,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "predicate": {
+          "blocks": "minecraft:water",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "predicate": {
+          "offset": [
+            0,
+            1,
+            0
+          ],
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

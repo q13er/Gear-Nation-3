@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:lament_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:scorched_bush",
+            "placement": []
+          },
+          "chance": 0.2
+        },
+        {
+          "feature": {
+            "feature": "byg:scorched_grass",
+            "placement": []
+          },
+          "chance": 0.2
+        }
+      ],
+      "default": {
+        "feature": "byg:lament_sprouts",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

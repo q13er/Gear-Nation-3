@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:yosemite/oak_mega",
+  "worldgen/placed_feature": {
+    "feature": "terralith:yosemite/oak_mega",
+    "placement": []
+  }
+}

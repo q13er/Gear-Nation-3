@@ -1,0 +1,80 @@
+
+{
+  "registry_name": "terralith:mountains/misty/tuff_lake",
+  "worldgen/configured_feature": {
+    "config": {
+      "vegetation_chance": 0.8,
+      "xz_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 8
+        }
+      },
+      "extra_edge_column_chance": 0.5,
+      "extra_bottom_block_chance": 0.1,
+      "vertical_range": 1,
+      "vegetation_feature": {
+        "feature": {
+          "config": {
+            "features": [],
+            "default": {
+              "feature": {
+                "config": {
+                  "targets": [
+                    {
+                      "target": {
+                        "block": "minecraft:dirt",
+                        "probability": 1.0,
+                        "predicate_type": "minecraft:random_block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:cobbled_deepslate"
+                      }
+                    },
+                    {
+                      "target": {
+                        "block": "minecraft:grass_block",
+                        "probability": 1.0,
+                        "predicate_type": "minecraft:random_block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:cobbled_deepslate"
+                      }
+                    },
+                    {
+                      "target": {
+                        "block": "minecraft:tuff",
+                        "probability": 1.0,
+                        "predicate_type": "minecraft:random_block_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:cobbled_deepslate"
+                      }
+                    }
+                  ],
+                  "size": 50,
+                  "discard_chance_on_air_exposure": 0.0
+                },
+                "type": "minecraft:scattered_ore"
+              },
+              "placement": []
+            }
+          },
+          "type": "minecraft:random_selector"
+        },
+        "placement": []
+      },
+      "surface": "floor",
+      "depth": 2,
+      "replaceable": "#terralith:taiga/soil_stone",
+      "ground_state": {
+        "state": {
+          "Name": "minecraft:cobbled_deepslate"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:waterlogged_vegetation_patch"
+  }
+}

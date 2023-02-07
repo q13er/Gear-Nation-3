@@ -1,0 +1,24 @@
+
+{
+  "registry_name": "terralith:enchanted/trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:enchanted/enchanted_oak",
+          "chance": 0.1
+        },
+        {
+          "feature": "terralith:enchanted/bush",
+          "chance": 0.49
+        },
+        {
+          "feature": "terralith:enchanted/big_tree",
+          "chance": 0.25
+        }
+      ],
+      "default": "terralith:enchanted/jungle_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

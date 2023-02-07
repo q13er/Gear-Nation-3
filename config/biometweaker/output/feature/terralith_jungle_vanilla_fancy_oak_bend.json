@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "terralith:jungle/vanilla/fancy_oak_bend",
+  "worldgen/placed_feature": {
+    "feature": "terralith:jungle/vanilla/fancy_oak_bend",
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 4
+          }
+        },
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

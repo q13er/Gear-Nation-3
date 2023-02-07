@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "biomesoplenty:spider_egg",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "state": {
+          "Name": "biomesoplenty:spider_egg"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

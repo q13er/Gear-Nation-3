@@ -1,0 +1,33 @@
+
+{
+  "registry_name": "minecraft:lake_lava",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:lake_lava",
+    "placement": [
+      {
+        "chance": 8,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "below_top": 0
+          },
+          "inner": 8,
+          "type": "minecraft:biased_to_bottom"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "chance": 10,
+        "type": "minecraft:rarity_filter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+
+{
+  "registry_name": "terralith:cave/desert/floors",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/desert/floors",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 200,
+              "weight": 100
+            },
+            {
+              "data": 200,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 0
+          },
+          "max_inclusive": {
+            "absolute": 200
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "min_inclusive": -256,
+        "max_inclusive": -12,
+        "type": "minecraft:surface_relative_threshold_filter"
+      },
+      {
+        "direction_of_search": "down",
+        "target_condition": {
+          "type": "minecraft:solid"
+        },
+        "allowed_search_condition": {
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        "max_steps": 13,
+        "type": "minecraft:environment_scan"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:hanging_therium_lanterns",
+  "worldgen/placed_feature": {
+    "feature": "byg:hanging_therium_lanterns",
+    "placement": [
+      {
+        "count": 7,
+        "type": "minecraft:count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 200
+          },
+          "max_inclusive": {
+            "absolute": 256
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "chance": 4,
+        "type": "minecraft:rarity_filter"
+      }
+    ]
+  }
+}

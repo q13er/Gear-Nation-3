@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "byg:quartz_columns",
+  "worldgen/placed_feature": {
+    "feature": "byg:quartz_columns",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

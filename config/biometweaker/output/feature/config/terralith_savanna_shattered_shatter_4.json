@@ -1,0 +1,41 @@
+
+{
+  "registry_name": "terralith:savanna/shattered/shatter_4",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "config": {
+              "target": {
+                "Name": "minecraft:stone"
+              },
+              "state": {
+                "Name": "minecraft:tuff"
+              },
+              "radius": 0
+            },
+            "type": "minecraft:netherrack_replace_blobs"
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "config": {
+              "target": {
+                "Name": "minecraft:coarse_dirt"
+              },
+              "state": {
+                "Name": "minecraft:tuff"
+              },
+              "radius": 0
+            },
+            "type": "minecraft:netherrack_replace_blobs"
+          },
+          "placement": []
+        }
+      ]
+    },
+    "type": "minecraft:simple_random_selector"
+  }
+}

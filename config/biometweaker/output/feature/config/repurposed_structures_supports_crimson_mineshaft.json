@@ -1,0 +1,33 @@
+
+{
+  "registry_name": "repurposed_structures:supports/crimson_mineshaft",
+  "worldgen/configured_feature": {
+    "config": {
+      "target_floor_block": "minecraft:crimson_nylium",
+      "is_water_based": false,
+      "arch_only": true,
+      "arch_blocks": [
+        "minecraft:shroomlight",
+        "minecraft:crimson_stem",
+        "minecraft:crimson_planks"
+      ],
+      "pillar_state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:crimson_hyphae"
+      },
+      "fence_state": {
+        "Properties": {
+          "west": "false",
+          "waterlogged": "false",
+          "south": "false",
+          "north": "false",
+          "east": "false"
+        },
+        "Name": "minecraft:crimson_fence"
+      }
+    },
+    "type": "repurposed_structures:mineshaft_supports"
+  }
+}

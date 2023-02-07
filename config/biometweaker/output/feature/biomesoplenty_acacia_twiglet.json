@@ -1,0 +1,26 @@
+
+{
+  "registry_name": "biomesoplenty:acacia_twiglet",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:acacia_twiglet",
+    "placement": [
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": "biomesoplenty:orange_sand",
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:any_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

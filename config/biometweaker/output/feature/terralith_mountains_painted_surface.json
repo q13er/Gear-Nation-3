@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:mountains/painted/surface",
+  "worldgen/placed_feature": {
+    "feature": "terralith:mountains/painted/surface",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 40,
+              "weight": 100
+            },
+            {
+              "data": 40,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

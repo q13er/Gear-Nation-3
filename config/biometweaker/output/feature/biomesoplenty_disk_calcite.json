@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:disk_calcite",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:disk_calcite",
+    "placement": [
+      {
+        "count": 14,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+
+{
+  "registry_name": "byg:floating_island4",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_radius": 13,
+      "max_radius": 17,
+      "island_features": [
+        {
+          "feature": {
+            "config": {
+              "tries": 64,
+              "xz_spread": 16,
+              "y_spread": 4,
+              "feature": {
+                "feature": {
+                  "config": {
+                    "to_place": {
+                      "state": {
+                        "Properties": {
+                          "waterlogged": "false",
+                          "facing": "up"
+                        },
+                        "Name": "byg:ametrine_cluster"
+                      },
+                      "type": "minecraft:simple_state_provider"
+                    }
+                  },
+                  "type": "minecraft:simple_block"
+                },
+                "placement": [
+                  {
+                    "heightmap": "MOTION_BLOCKING",
+                    "type": "minecraft:heightmap"
+                  },
+                  {
+                    "predicate": {
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ],
+                      "blocks": "byg:budding_ametrine_ore",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    "type": "minecraft:block_predicate_filter"
+                  }
+                ]
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          "placement": [
+            {
+              "heightmap": "MOTION_BLOCKING",
+              "type": "minecraft:heightmap"
+            }
+          ]
+        },
+        {
+          "feature": {
+            "config": {
+              "tries": 64,
+              "xz_spread": 16,
+              "y_spread": 4,
+              "feature": {
+                "feature": {
+                  "config": {
+                    "to_place": {
+                      "entries": [
+                        {
+                          "data": {
+                            "Name": "byg:vermilion_sculk_growth"
+                          },
+                          "weight": 5
+                        },
+                        {
+                          "data": {
+                            "Name": "byg:vermilion_sculk_tendrils"
+                          },
+                          "weight": 5
+                        }
+                      ],
+                      "type": "minecraft:weighted_state_provider"
+                    }
+                  },
+                  "type": "minecraft:simple_block"
+                },
+                "placement": [
+                  {
+                    "heightmap": "MOTION_BLOCKING",
+                    "type": "minecraft:heightmap"
+                  }
+                ]
+              }
+            },
+            "type": "minecraft:random_patch"
+          },
+          "placement": [
+            {
+              "heightmap": "MOTION_BLOCKING",
+              "type": "minecraft:heightmap"
+            }
+          ]
+        }
+      ],
+      "top_block_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "byg:vermilion_sculk"
+            },
+            "weight": 25
+          },
+          {
+            "data": {
+              "Name": "byg:budding_ametrine_ore"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Name": "byg:ametrine_ore"
+            },
+            "weight": 4
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "block_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "byg:ether_stone"
+            },
+            "weight": 25
+          },
+          {
+            "data": {
+              "Name": "byg:budding_ametrine_ore"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Name": "byg:ametrine_ore"
+            },
+            "weight": 4
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    },
+    "type": "byg:hollow_floating_island"
+  }
+}

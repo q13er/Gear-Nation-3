@@ -1,0 +1,48 @@
+
+{
+  "registry_name": "repurposed_structures:well_nether",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "height_offset": -1,
+        "nbt_entries": [
+          {
+            "weight": 1,
+            "resourcelocation": "repurposed_structures:wells/nether"
+          }
+        ],
+        "processors": "repurposed_structures:wells/nether",
+        "configured_feature_name": "repurposed_structures:well_nether",
+        "allow_liquid": false
+      },
+      "type": "repurposed_structures:nbt_feature"
+    },
+    "placement": [
+      {
+        "chance": 250,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 30
+          },
+          "max_inclusive": {
+            "below_top": 35
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "repurposed_structures:snap_to_lower_non_air_placement"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

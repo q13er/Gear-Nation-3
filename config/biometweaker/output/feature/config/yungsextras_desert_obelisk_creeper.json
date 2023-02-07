@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "yungsextras:desert_obelisk_creeper",
+  "worldgen/configured_feature": {
+    "config": {
+      "location": "yungsextras:desert/obelisk/obelisk_creeper"
+    },
+    "type": "yungsextras:desert_obelisk"
+  }
+}

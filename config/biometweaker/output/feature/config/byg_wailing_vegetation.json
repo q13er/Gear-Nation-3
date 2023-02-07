@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:wailing_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:scorched_bush",
+            "placement": []
+          },
+          "chance": 0.333
+        },
+        {
+          "feature": {
+            "feature": "byg:scorched_grass",
+            "placement": []
+          },
+          "chance": 0.333
+        }
+      ],
+      "default": {
+        "feature": "byg:wailing_grass",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

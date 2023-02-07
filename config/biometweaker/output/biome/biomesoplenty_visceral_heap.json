@@ -1,0 +1,358 @@
+
+{
+  "registry_name": "biomesoplenty:visceral_heap",
+  "biome": {
+    "precipitation": "none",
+    "temperature": 2.0,
+    "downfall": 0.0,
+    "category": "nether",
+    "effects": {
+      "mood_sound": {
+        "sound": "minecraft:ambient.soul_sand_valley.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      },
+      "additions_sound": {
+        "sound": "minecraft:ambient.crimson_forest.additions",
+        "tick_chance": 0.0111
+      },
+      "music": {
+        "sound": "biomesoplenty:music.nether.visceral_heap",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      },
+      "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+      "sky_color": 7254527,
+      "fog_color": 6299416,
+      "water_color": 4159204,
+      "water_fog_color": 329011
+    },
+    "features": {
+      "RAW_GENERATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "byg:global/raw_generation"
+        }
+      ],
+      "LAKES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "byg:global/lakes"
+        }
+      ],
+      "LOCAL_MODIFICATIONS": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "byg:global/local_modifications"
+        }
+      ],
+      "UNDERGROUND_STRUCTURES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "byg:global/underground_structures"
+        }
+      ],
+      "SURFACE_STRUCTURES": [
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "height_offset": -1,
+                  "nbt_entries": [
+                    {
+                      "weight": 1,
+                      "resourcelocation": "repurposed_structures:wells/nether"
+                    }
+                  ],
+                  "processors": "repurposed_structures:wells/nether",
+                  "configured_feature_name": "repurposed_structures:well_nether",
+                  "allow_liquid": false
+                },
+                "type": "repurposed_structures:nbt_feature"
+              }
+            },
+            "placement": [
+              {
+                "chance": 250,
+                "type": "minecraft:rarity_filter"
+              },
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 30
+                  },
+                  "max_inclusive": {
+                    "below_top": 35
+                  },
+                  "type": "minecraft:uniform"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "repurposed_structures:snap_to_lower_non_air_placement"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "byg:global/surface_structures"
+        }
+      ],
+      "STRONGHOLDS": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "byg:global/strongholds"
+        }
+      ],
+      "UNDERGROUND_ORES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "create:striated_ores_nether"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "byg:global/underground_ores"
+        }
+      ],
+      "UNDERGROUND_DECORATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:spring_open"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_magma"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:spring_closed"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_gravel_nether"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_blackstone"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_gold_nether"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_quartz_nether"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_ancient_debris_large"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_debris_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:blood_lake"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:blood_spring"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:nether_bone_spine"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:flesh_tendon"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:hanging_flesh_tendons"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:porous_flesh"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:pus_bubbles"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:hair"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "byg:global/underground_decoration"
+        }
+      ],
+      "FLUID_SPRINGS": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "byg:global/fluid_springs"
+        }
+      ],
+      "VEGETAL_DECORATION": [
+        {
+          "kind": "DIRECT",
+          "value": {
+            "feature": {
+              "kind": "DIRECT",
+              "value": {
+                "config": {
+                  "rs_spawner_resourcelocation": "repurposed_structures:dungeons/nether",
+                  "processors": "repurposed_structures:dungeons/nether",
+                  "post_processors": "minecraft:empty",
+                  "dungeon_nbt_entries": [
+                    {
+                      "weight": 1,
+                      "resourcelocation": "repurposed_structures:dungeons/nether_1"
+                    },
+                    {
+                      "weight": 1,
+                      "resourcelocation": "repurposed_structures:dungeons/nether_2"
+                    },
+                    {
+                      "weight": 1,
+                      "resourcelocation": "repurposed_structures:dungeons/nether_3"
+                    }
+                  ],
+                  "structure_y_offset": 0,
+                  "loot_block": {
+                    "Properties": {
+                      "waterlogged": "false",
+                      "type": "single",
+                      "facing": "north"
+                    },
+                    "Name": "minecraft:chest"
+                  },
+                  "chest_loottable_resourcelocation": "repurposed_structures:chests/dungeons/nether",
+                  "max_air_space": 13,
+                  "max_num_of_chests": 2,
+                  "air_requirement_is_now_water": false,
+                  "configured_feature_name": "repurposed_structures:dungeons_nether",
+                  "replace_air": false,
+                  "min_air_space": 1
+                },
+                "type": "repurposed_structures:nbt_dungeon"
+              }
+            },
+            "placement": [
+              {
+                "count": 12,
+                "type": "repurposed_structures:unlimited_count"
+              },
+              {
+                "type": "minecraft:in_square"
+              },
+              {
+                "height": {
+                  "min_inclusive": {
+                    "absolute": 2
+                  },
+                  "max_inclusive": {
+                    "absolute": 255
+                  },
+                  "type": "minecraft:uniform"
+                },
+                "type": "minecraft:height_range"
+              },
+              {
+                "type": "minecraft:biome"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "byg:global/vegetal_decoration"
+        }
+      ],
+      "TOP_LAYER_MODIFICATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "byg:global/top_layer_modification"
+        }
+      ]
+    },
+    "carver": {
+      "AIR": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:nether_cave"
+        }
+      ]
+    },
+    "spawner_data": {
+      "spawners": {
+        "monster": [
+          {
+            "type": "minecraft:ghast",
+            "weight": 50,
+            "minCount": 4,
+            "maxCount": 4
+          },
+          {
+            "type": "minecraft:zombified_piglin",
+            "weight": 100,
+            "minCount": 4,
+            "maxCount": 4
+          },
+          {
+            "type": "alexsmobs:bone_serpent",
+            "weight": 8,
+            "minCount": 1,
+            "maxCount": 1
+          },
+          {
+            "type": "alexsmobs:crimson_mosquito",
+            "weight": 15,
+            "minCount": 4,
+            "maxCount": 4
+          },
+          {
+            "type": "mowziesmobs:grottol",
+            "weight": 2,
+            "minCount": 1,
+            "maxCount": 1
+          }
+        ],
+        "creature": [
+          {
+            "type": "minecraft:strider",
+            "weight": 60,
+            "minCount": 1,
+            "maxCount": 2
+          },
+          {
+            "type": "alexsmobs:laviathan",
+            "weight": 15,
+            "minCount": 1,
+            "maxCount": 1
+          }
+        ],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+      },
+      "spawn_costs": {}
+    }
+  }
+}

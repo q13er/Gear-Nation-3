@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "regions_unexplored:smouldering_woodland_vent",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:ash_vent_patch",
+    "placement": [
+      {
+        "count": 225,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

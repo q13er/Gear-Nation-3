@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:yosemite/cliff_vegetation",
+  "worldgen/placed_feature": {
+    "feature": "terralith:yosemite/cliff_vegetation",
+    "placement": []
+  }
+}

@@ -1,0 +1,241 @@
+
+{
+  "registry_name": "terralith:cave/desert/sand_slope",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/desert/sand_patch",
+    "placement": [
+      {
+        "count": 30,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 50,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 0
+          },
+          "max_inclusive": {
+            "absolute": 200
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "min_inclusive": -256,
+        "max_inclusive": -12,
+        "type": "minecraft:surface_relative_threshold_filter"
+      },
+      {
+        "direction_of_search": "down",
+        "target_condition": {
+          "type": "minecraft:solid"
+        },
+        "allowed_search_condition": {
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        "max_steps": 30,
+        "type": "minecraft:environment_scan"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "predicates": [
+                {
+                  "offset": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:sand",
+                    "minecraft:sandstone",
+                    "minecraft:red_sand",
+                    "minecraft:red_sandstone",
+                    "minecraft:smooth_sandstone",
+                    "minecraft:smooth_red_sandstone"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    1,
+                    1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:cave_air",
+                    "minecraft:air"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    -1,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:air",
+                    "minecraft:cave_air"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            {
+              "predicates": [
+                {
+                  "offset": [
+                    -1,
+                    0,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:sand",
+                    "minecraft:sandstone",
+                    "minecraft:red_sand",
+                    "minecraft:red_sandstone",
+                    "minecraft:smooth_sandstone",
+                    "minecraft:smooth_red_sandstone"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    -1,
+                    1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:cave_air",
+                    "minecraft:air"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    1,
+                    -1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:air",
+                    "minecraft:cave_air"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            {
+              "predicates": [
+                {
+                  "offset": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "blocks": [
+                    "minecraft:sand",
+                    "minecraft:sandstone",
+                    "minecraft:red_sand",
+                    "minecraft:red_sandstone",
+                    "minecraft:smooth_sandstone",
+                    "minecraft:smooth_red_sandstone"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    1,
+                    1
+                  ],
+                  "blocks": [
+                    "minecraft:cave_air",
+                    "minecraft:air"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    -1
+                  ],
+                  "blocks": [
+                    "minecraft:air",
+                    "minecraft:cave_air"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            {
+              "predicates": [
+                {
+                  "offset": [
+                    0,
+                    0,
+                    -1
+                  ],
+                  "blocks": [
+                    "minecraft:sand",
+                    "minecraft:sandstone",
+                    "minecraft:red_sand",
+                    "minecraft:red_sandstone",
+                    "minecraft:smooth_sandstone",
+                    "minecraft:smooth_red_sandstone"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    1,
+                    -1
+                  ],
+                  "blocks": [
+                    "minecraft:cave_air",
+                    "minecraft:air"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    1
+                  ],
+                  "blocks": [
+                    "minecraft:air",
+                    "minecraft:cave_air"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            }
+          ],
+          "type": "minecraft:any_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

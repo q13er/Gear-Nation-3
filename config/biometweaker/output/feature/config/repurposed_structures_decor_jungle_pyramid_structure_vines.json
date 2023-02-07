@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "repurposed_structures:decor/jungle_pyramid_structure_vines",
+  "worldgen/configured_feature": {
+    "config": {
+      "attempts": 17,
+      "length": 4,
+      "xz_range": 3,
+      "height_range": 5
+    },
+    "type": "repurposed_structures:structure_vines"
+  }
+}

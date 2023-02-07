@@ -1,0 +1,73 @@
+
+{
+  "registry_name": "byg:huge_wood_blewit",
+  "worldgen/configured_feature": {
+    "config": {
+      "mushroom3_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:wood_blewit_mushroom_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "pollen_provider": {
+        "state": {
+          "Name": "byg:pollen_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "min_height": 6,
+      "max_height": 13,
+      "stem_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:brown_mushroom_stem"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "mushroom_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:wood_blewit_mushroom_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "mushroom2_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:wood_blewit_mushroom_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:wood_blewit_huge"
+  }
+}

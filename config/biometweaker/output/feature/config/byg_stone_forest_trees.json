@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:stone_forest_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "minecraft:jungle_bush",
+            "placement": []
+          },
+          "chance": 0.1
+        },
+        {
+          "feature": {
+            "feature": "byg:ebony_trees",
+            "placement": []
+          },
+          "chance": 0.45
+        }
+      ],
+      "default": {
+        "feature": "byg:deciduous_trees",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

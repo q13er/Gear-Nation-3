@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:skylands/floating_islands_small",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/island_small",
+    "placement": [
+      {
+        "count": 0,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "count": 1,
+        "type": "minecraft:count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 201
+          },
+          "max_inclusive": {
+            "absolute": 203
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

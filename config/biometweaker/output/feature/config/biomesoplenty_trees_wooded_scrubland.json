@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "biomesoplenty:trees_wooded_scrubland",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:spruce_twiglet_tree",
+          "chance": 0.3
+        },
+        {
+          "feature": "biomesoplenty:tall_twiglet_tree",
+          "chance": 0.1
+        }
+      ],
+      "default": "biomesoplenty:acacia_twiglet"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

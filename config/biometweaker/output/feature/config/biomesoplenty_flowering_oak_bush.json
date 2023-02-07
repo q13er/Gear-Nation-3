@@ -1,0 +1,64 @@
+
+{
+  "registry_name": "biomesoplenty:flowering_oak_bush",
+  "worldgen/configured_feature": {
+    "config": {
+      "leaves_offset": 1,
+      "max_leaves_radius": 1,
+      "leaves_layer_height": 2,
+      "hanging_chance": 0.0,
+      "max_height": 2,
+      "decorators": [],
+      "leaf_layers": 4,
+      "hanging_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_fruit_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "alt_foliage_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "biomesoplenty:flowering_oak_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "min_height": 2,
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:oak_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "minecraft:oak_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "vine_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "biomesoplenty:bush_tree"
+  }
+}

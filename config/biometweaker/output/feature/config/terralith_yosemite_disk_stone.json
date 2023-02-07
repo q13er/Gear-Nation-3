@@ -1,0 +1,49 @@
+
+{
+  "registry_name": "terralith:yosemite/disk_stone",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:andesite"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 5
+        }
+      },
+      "half_height": 2,
+      "targets": [
+        {
+          "Name": "minecraft:gravel"
+        },
+        {
+          "Name": "minecraft:sand"
+        },
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        },
+        {
+          "Name": "minecraft:calcite"
+        },
+        {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:basalt"
+        },
+        {
+          "Name": "minecraft:gravel"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

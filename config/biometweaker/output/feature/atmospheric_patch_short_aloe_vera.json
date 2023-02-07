@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "atmospheric:patch_short_aloe_vera",
+  "worldgen/placed_feature": {
+    "feature": "atmospheric:patch_short_aloe_vera",
+    "placement": []
+  }
+}

@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "repurposed_structures:supports/savanna_mineshaft",
+  "worldgen/configured_feature": {
+    "config": {
+      "target_floor_block": "minecraft:acacia_planks",
+      "is_water_based": false,
+      "arch_only": true,
+      "arch_blocks": [
+        "minecraft:acacia_log"
+      ],
+      "pillar_state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:acacia_log"
+      },
+      "fence_state": {
+        "Properties": {
+          "west": "false",
+          "waterlogged": "false",
+          "south": "false",
+          "north": "false",
+          "east": "false"
+        },
+        "Name": "minecraft:acacia_fence"
+      }
+    },
+    "type": "repurposed_structures:mineshaft_supports"
+  }
+}

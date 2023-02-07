@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:twisty_lament_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:lament_twisty_tree3",
+            "placement": []
+          },
+          "chance": 0.35
+        },
+        {
+          "feature": {
+            "feature": "byg:lament_twisty_tree2",
+            "placement": []
+          },
+          "chance": 0.35
+        }
+      ],
+      "default": {
+        "feature": "byg:lament_twisty_tree1",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

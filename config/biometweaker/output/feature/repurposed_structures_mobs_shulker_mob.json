@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:mobs/shulker_mob",
+  "worldgen/placed_feature": {
+    "feature": "repurposed_structures:mobs/shulker_mob",
+    "placement": []
+  }
+}

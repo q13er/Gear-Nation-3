@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "byg:magma_pillars",
+  "worldgen/configured_feature": {
+    "config": {
+      "block_provider": {
+        "state": {
+          "Name": "byg:magmatic_stone"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:pillar"
+  }
+}

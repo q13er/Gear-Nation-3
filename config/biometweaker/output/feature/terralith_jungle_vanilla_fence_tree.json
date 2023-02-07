@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:jungle/vanilla/fence_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:jungle/vanilla/fence_tree",
+    "placement": []
+  }
+}

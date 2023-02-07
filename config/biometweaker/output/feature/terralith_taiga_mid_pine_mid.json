@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:taiga/mid/pine_mid",
+  "worldgen/placed_feature": {
+    "feature": "terralith:taiga/mid/pine_mid",
+    "placement": []
+  }
+}

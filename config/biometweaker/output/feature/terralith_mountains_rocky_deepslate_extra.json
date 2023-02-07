@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "terralith:mountains/rocky/deepslate_extra",
+  "worldgen/placed_feature": {
+    "feature": "terralith:mountains/rocky/deepslate_extra",
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+
+{
+  "registry_name": "terralith:mushroom/cloud_shroom_brown",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "decorators": [],
+        "ignore_vines": true,
+        "force_dirt": false,
+        "dirt_provider": {
+          "state": {
+            "Name": "minecraft:coarse_dirt"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "minimum_size": {
+          "limit": 1,
+          "lower_size": 1,
+          "upper_size": 1,
+          "type": "minecraft:two_layers_feature_size"
+        },
+        "trunk_provider": {
+          "state": {
+            "Properties": {
+              "west": "true",
+              "up": "false",
+              "south": "true",
+              "north": "true",
+              "east": "true",
+              "down": "false"
+            },
+            "Name": "minecraft:mushroom_stem"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "trunk_placer": {
+          "base_height": 4,
+          "height_rand_a": 2,
+          "height_rand_b": 2,
+          "type": "minecraft:forking_trunk_placer"
+        },
+        "foliage_provider": {
+          "state": {
+            "Properties": {
+              "west": "true",
+              "up": "true",
+              "south": "true",
+              "north": "true",
+              "east": "true",
+              "down": "true"
+            },
+            "Name": "minecraft:brown_mushroom_block"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "foliage_placer": {
+          "radius": 2,
+          "offset": 1,
+          "height": 1,
+          "type": "minecraft:blob_foliage_placer"
+        }
+      },
+      "type": "minecraft:tree"
+    },
+    "placement": []
+  }
+}

@@ -1,0 +1,37 @@
+
+{
+  "registry_name": "byg:lament_vine",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_length": 1,
+      "max_length": 9,
+      "whitelist": [
+        {
+          "Name": "minecraft:netherrack"
+        }
+      ],
+      "base_block_provider": {
+        "state": {
+          "Name": "minecraft:netherrack"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "block_provider": {
+        "state": {
+          "Name": "byg:lament_vine_plant"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "end_block_provider": {
+        "state": {
+          "Properties": {
+            "age": "23"
+          },
+          "Name": "byg:lament_vine"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:hanging_feature"
+  }
+}

@@ -1,0 +1,51 @@
+
+{
+  "registry_name": "terralith:canyon/red_sandstone/scattered_palms",
+  "worldgen/placed_feature": {
+    "feature": "terralith:canyon/red_sandstone/scattered_palms",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 156.0,
+        "noise_offset": 0.3,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 30.0,
+        "noise_offset": -0.5,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": [
+            "minecraft:red_sand",
+            "minecraft:moss_block",
+            "minecraft:grass_block"
+          ],
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

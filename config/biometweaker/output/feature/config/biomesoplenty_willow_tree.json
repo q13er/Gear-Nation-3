@@ -1,0 +1,67 @@
+
+{
+  "registry_name": "biomesoplenty:willow_tree",
+  "worldgen/configured_feature": {
+    "config": {
+      "leaves_offset": 0,
+      "max_leaves_radius": 2,
+      "leaves_layer_height": 2,
+      "hanging_chance": 0.0,
+      "max_height": 10,
+      "decorators": [],
+      "leaf_layers": 4,
+      "hanging_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_fruit_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "alt_foliage_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "min_height": 6,
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "biomesoplenty:willow_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "biomesoplenty:willow_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "vine_provider": {
+        "state": {
+          "Properties": {
+            "west": "false",
+            "up": "false",
+            "south": "false",
+            "north": "false",
+            "east": "false"
+          },
+          "Name": "biomesoplenty:willow_vine"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "biomesoplenty:basic_tree"
+  }
+}

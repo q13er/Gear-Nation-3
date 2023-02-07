@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "mowziesmobs:ice_breath",
+  "category": "MISC",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": true,
+  "tracking_range": 5,
+  "update_interval": 1,
+  "defaul_loot_table": "mowziesmobs:entities/ice_breath",
+  "size": {
+    "height": 0.0,
+    "width": 0.0,
+    "fixed": false
+  }
+}

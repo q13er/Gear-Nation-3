@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:snowy/layer2/first",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "layers": "5"
+              },
+              "Name": "minecraft:snow"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Properties": {
+                "layers": "6"
+              },
+              "Name": "minecraft:snow"
+            },
+            "weight": 2
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

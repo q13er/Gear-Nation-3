@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:cypress_tree_medium",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:cypress_tree_medium",
+    "placement": []
+  }
+}

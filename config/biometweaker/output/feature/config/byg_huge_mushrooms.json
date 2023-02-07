@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "byg:huge_mushrooms",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:huge_green_mushroom",
+            "placement": []
+          },
+          "chance": 0.35
+        },
+        {
+          "feature": {
+            "feature": "byg:huge_wood_blewit",
+            "placement": []
+          },
+          "chance": 0.35
+        },
+        {
+          "feature": {
+            "feature": "byg:huge_weeping_milkcap",
+            "placement": []
+          },
+          "chance": 0.35
+        }
+      ],
+      "default": {
+        "feature": "byg:huge_green_mushroom",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

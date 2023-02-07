@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "repurposed_structures:decor/end_stronghold_chains",
+  "worldgen/configured_feature": {
+    "config": {
+      "attempts": 4
+    },
+    "type": "repurposed_structures:structure_end_rod_chains"
+  }
+}

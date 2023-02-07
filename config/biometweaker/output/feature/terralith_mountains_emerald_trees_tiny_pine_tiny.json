@@ -1,0 +1,17 @@
+
+{
+  "registry_name": "terralith:mountains/emerald/trees/tiny/pine_tiny",
+  "worldgen/placed_feature": {
+    "feature": "terralith:mountains/emerald/trees/tiny/pine_tiny",
+    "placement": [
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      }
+    ]
+  }
+}

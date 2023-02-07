@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:disk_mud",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:disk_mud",
+    "placement": [
+      {
+        "count": 5,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

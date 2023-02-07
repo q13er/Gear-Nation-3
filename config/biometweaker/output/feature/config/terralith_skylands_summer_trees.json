@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "terralith:skylands/summer/trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:skylands/summer/azalea_tree",
+          "chance": 0.125
+        },
+        {
+          "feature": "terralith:jungle/violet/acacia_azalea",
+          "chance": 0.065
+        },
+        {
+          "feature": "terralith:jungle/violet/small_azalea",
+          "chance": 0.065
+        },
+        {
+          "feature": "minecraft:jungle_bush",
+          "chance": 0.2
+        },
+        {
+          "feature": "terralith:coastal/big_hawaii",
+          "chance": 0.075
+        },
+        {
+          "feature": "terralith:skylands/summer/bending_acacia",
+          "chance": 0.4
+        }
+      ],
+      "default": "minecraft:jungle_tree_no_vine"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

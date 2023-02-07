@@ -1,0 +1,68 @@
+
+{
+  "registry_name": "biomesoplenty:tall_spruce_tree_bees",
+  "worldgen/configured_feature": {
+    "config": {
+      "max_height": 13,
+      "decorators": [
+        {
+          "probability": 0.05,
+          "type": "minecraft:beehive"
+        }
+      ],
+      "trunk_width": 1,
+      "alt_foliage_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "min_height": 6,
+      "vine_provider": {
+        "state": {
+          "Properties": {
+            "west": "false",
+            "up": "false",
+            "south": "false",
+            "north": "false",
+            "east": "false"
+          },
+          "Name": "minecraft:vine"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "hanging_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_fruit_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:spruce_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "minecraft:spruce_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "biomesoplenty:taiga_tree"
+  }
+}

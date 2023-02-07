@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:flesh_tendon",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:flesh_tendon"
+  }
+}

@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:rainbow_eucalyptus_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:large_rainbow_eucalyptus_tree1",
+            "placement": []
+          },
+          "chance": 0.333
+        }
+      ],
+      "default": {
+        "feature": "byg:rainbow_eucalyptus_tree1",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

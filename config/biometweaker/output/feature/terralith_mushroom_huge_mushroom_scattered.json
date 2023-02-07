@@ -1,0 +1,119 @@
+
+{
+  "registry_name": "terralith:mushroom/huge_mushroom_scattered",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "feature": "minecraft:huge_red_mushroom",
+            "chance": 0.05
+          },
+          {
+            "feature": "minecraft:huge_brown_mushroom",
+            "chance": 0.05
+          },
+          {
+            "feature": "terralith:mushroom/red_mushroom",
+            "chance": 0.075
+          },
+          {
+            "feature": "terralith:mushroom/brown_mushroom",
+            "chance": 0.075
+          },
+          {
+            "feature": "terralith:mushroom/red_mushroom_2",
+            "chance": 0.075
+          },
+          {
+            "feature": "terralith:mushroom/brown_mushroom_2",
+            "chance": 0.075
+          },
+          {
+            "feature": "terralith:dark/brown_mushroom",
+            "chance": 0.05
+          },
+          {
+            "feature": "terralith:dark/red_mushroom",
+            "chance": 0.05
+          },
+          {
+            "feature": "terralith:dark/brown_mushroom_2",
+            "chance": 0.025
+          },
+          {
+            "feature": "terralith:dark/red_mushroom_2",
+            "chance": 0.025
+          }
+        ],
+        "default": "terralith:nothing"
+      },
+      "type": "minecraft:random_selector"
+    },
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 8,
+            "max_inclusive": 13
+          }
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 1.0,
+        "noise_offset": 1.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "chance": 1,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "type": "minecraft:replaceable"
+            },
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:coarse_dirt",
+                "minecraft:gravel",
+                "minecraft:rooted_dirt",
+                "minecraft:podzol",
+                "minecraft:mycelium"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "predicate": {
+                "blocks": "minecraft:mushroom_stem",
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:not"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

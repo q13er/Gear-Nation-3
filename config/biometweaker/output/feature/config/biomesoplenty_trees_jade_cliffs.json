@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "biomesoplenty:trees_jade_cliffs",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:tall_spruce_tree",
+          "chance": 0.075
+        },
+        {
+          "feature": "minecraft:pine_checked",
+          "chance": 0.075
+        }
+      ],
+      "default": "biomesoplenty:spruce_bush"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

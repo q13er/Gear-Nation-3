@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:lush_stacks_spikes",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:lush_stacks_spike",
+            "placement": []
+          },
+          "chance": 0.75
+        }
+      ],
+      "default": {
+        "feature": "byg:lush_stacks_tall_spike",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

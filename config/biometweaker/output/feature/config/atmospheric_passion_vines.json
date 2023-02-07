@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "atmospheric:passion_vines",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "atmospheric:passion_vine"
+  }
+}

@@ -1,0 +1,90 @@
+
+{
+  "registry_name": "terralith:jungle/mega/giant_tree/branch",
+  "worldgen/configured_feature": {
+    "config": {
+      "decorators": [
+        {
+          "type": "minecraft:leave_vine"
+        }
+      ],
+      "ignore_vines": true,
+      "force_dirt": false,
+      "dirt_provider": {
+        "state": {
+          "Name": "minecraft:dirt"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": {
+        "limit": 1,
+        "lower_size": 0,
+        "upper_size": 1,
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:jungle_wood"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_placer": {
+        "height_rand_b": 9,
+        "min_height_for_leaves": 100,
+        "bend_length": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 7
+          }
+        },
+        "base_height": 7,
+        "height_rand_a": 16,
+        "type": "minecraft:bending_trunk_placer"
+      },
+      "foliage_provider": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "minecraft:jungle_leaves"
+            },
+            "weight": 2
+          },
+          {
+            "data": {
+              "Name": "minecraft:air"
+            },
+            "weight": 1
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "foliage_placer": {
+        "radius": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 2
+          }
+        },
+        "offset": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 2
+          }
+        },
+        "height": 3,
+        "type": "minecraft:pine_foliage_placer"
+      }
+    },
+    "type": "minecraft:tree"
+  }
+}

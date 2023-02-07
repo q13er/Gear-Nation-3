@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "biomesoplenty:umbran_tree",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:umbran_tree",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "biomesoplenty:umbran_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

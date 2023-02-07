@@ -1,0 +1,34 @@
+
+{
+  "registry_name": "terralith:forest/flower/beaches",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:sand"
+      },
+      "radius": {
+        "type": "minecraft:biased_to_bottom",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 6
+        }
+      },
+      "half_height": 4,
+      "targets": [
+        {
+          "Name": "minecraft:gravel"
+        },
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

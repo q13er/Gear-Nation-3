@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:highlands/temperate/small/trees_small",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:highlands/temperate/small/pine_small",
+          "chance": 0.55
+        },
+        {
+          "feature": "terralith:highlands/temperate/small/spruce_small_m",
+          "chance": 0.1
+        }
+      ],
+      "default": "terralith:highlands/temperate/small/spruce_small"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

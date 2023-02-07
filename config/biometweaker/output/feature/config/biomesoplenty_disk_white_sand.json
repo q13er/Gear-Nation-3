@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "biomesoplenty:disk_white_sand",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "biomesoplenty:white_sand"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 6
+        }
+      },
+      "half_height": 2,
+      "targets": [
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

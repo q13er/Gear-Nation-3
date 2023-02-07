@@ -1,0 +1,35 @@
+
+{
+  "registry_name": "terralith:highlands/pillar",
+  "worldgen/placed_feature": {
+    "feature": "terralith:highlands/pillar",
+    "placement": [
+      {
+        "chance": 35,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "count": {
+          "type": "minecraft:clamped_normal",
+          "value": {
+            "mean": 7.0,
+            "deviation": 4.0,
+            "min_inclusive": 5,
+            "max_inclusive": 15
+          }
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

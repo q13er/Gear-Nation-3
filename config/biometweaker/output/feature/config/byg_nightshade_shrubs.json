@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:nightshade_shrubs",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:nightshade_shrub1",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:nightshade_shrub2",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

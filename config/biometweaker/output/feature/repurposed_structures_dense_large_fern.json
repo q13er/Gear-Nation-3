@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:dense_large_fern",
+  "worldgen/placed_feature": {
+    "feature": "repurposed_structures:patch_large_fern_dense",
+    "placement": []
+  }
+}

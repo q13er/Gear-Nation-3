@@ -1,0 +1,75 @@
+
+{
+  "registry_name": "terralith:jungle/vanilla/fancy_oak_bend",
+  "worldgen/configured_feature": {
+    "config": {
+      "decorators": [],
+      "ignore_vines": false,
+      "force_dirt": true,
+      "dirt_provider": {
+        "state": {
+          "Name": "minecraft:dirt"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": {
+        "limit": 0,
+        "lower_size": 0,
+        "upper_size": 0,
+        "min_clipped_height": 4,
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:oak_wood"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_placer": {
+        "height_rand_b": 0,
+        "min_height_for_leaves": 7,
+        "bend_length": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 3
+          }
+        },
+        "base_height": 7,
+        "height_rand_a": 5,
+        "type": "minecraft:bending_trunk_placer"
+      },
+      "foliage_provider": {
+        "entries": [
+          {
+            "data": {
+              "Name": "minecraft:air"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Properties": {
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "minecraft:oak_leaves"
+            },
+            "weight": 4
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "foliage_placer": {
+        "radius": 2,
+        "offset": 2,
+        "height": 4,
+        "type": "minecraft:fancy_foliage_placer"
+      }
+    },
+    "type": "minecraft:tree"
+  }
+}

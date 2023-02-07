@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "terralith:dark/lichen_log",
+  "worldgen/placed_feature": {
+    "feature": "terralith:dark/lichen_log",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 200,
+              "weight": 100
+            },
+            {
+              "data": 200,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 62
+          },
+          "max_inclusive": {
+            "absolute": 200
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

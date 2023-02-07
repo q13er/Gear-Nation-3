@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "terralith:taiga/siberian/tall_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:taiga/siberian/tall_tree",
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 4
+          }
+        },
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

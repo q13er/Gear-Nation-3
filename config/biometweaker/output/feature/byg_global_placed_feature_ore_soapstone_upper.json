@@ -1,0 +1,34 @@
+
+{
+  "registry_name": "byg:global/placed_feature/ore_soapstone_upper",
+  "worldgen/placed_feature": {
+    "feature": "byg:ore_soapstone",
+    "placement": [
+      {
+        "chance": 6,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 64
+          },
+          "max_inclusive": {
+            "absolute": 128
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "valid_dimensions": [
+          "minecraft:overworld"
+        ],
+        "type": "byg:is_dimension_filter"
+      }
+    ]
+  }
+}

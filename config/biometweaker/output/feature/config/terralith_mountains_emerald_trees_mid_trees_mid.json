@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:mountains/emerald/trees/mid/trees_mid",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:mountains/emerald/trees/mid/pine_mid",
+          "chance": 0.3
+        },
+        {
+          "feature": "terralith:mountains/emerald/trees/mid/spruce_mid_m",
+          "chance": 0.2
+        }
+      ],
+      "default": "terralith:mountains/emerald/trees/mid/spruce_mid"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

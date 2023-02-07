@@ -1,0 +1,51 @@
+
+{
+  "registry_name": "byg:hanging_soul_shroom_spores",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_length": 1,
+      "max_length": 9,
+      "whitelist": [
+        {
+          "Name": "minecraft:soul_sand"
+        },
+        {
+          "Name": "minecraft:soul_soil"
+        },
+        {
+          "Name": "byg:warped_soul_sand"
+        }
+      ],
+      "base_block_provider": {
+        "state": {
+          "Properties": {
+            "west": "true",
+            "up": "true",
+            "south": "true",
+            "north": "true",
+            "east": "true",
+            "down": "true"
+          },
+          "Name": "byg:soul_shroom_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "block_provider": {
+        "state": {
+          "Name": "byg:soul_shroom_spore"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "end_block_provider": {
+        "state": {
+          "Properties": {
+            "age": "23"
+          },
+          "Name": "byg:soul_shroom_spore_end"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:hanging_feature"
+  }
+}

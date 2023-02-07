@@ -1,0 +1,40 @@
+
+{
+  "registry_name": "terralith:flower/blue/mycelium_disk",
+  "worldgen/placed_feature": {
+    "feature": "terralith:flower/blue/mycelium_disk",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 64,
+              "weight": 0
+            },
+            {
+              "data": 69,
+              "weight": 100
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "noise_to_count_ratio": -1,
+        "noise_factor": 145.0,
+        "noise_offset": 0.2,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "height": {
+          "absolute": 62
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

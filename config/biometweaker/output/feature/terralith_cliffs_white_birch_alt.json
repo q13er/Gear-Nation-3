@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:cliffs/white/birch_alt",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cliffs/white/birch_alt",
+    "placement": []
+  }
+}

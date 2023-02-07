@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:shrubland/cold/small_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:shrubland/cold/small_tree",
+    "placement": []
+  }
+}

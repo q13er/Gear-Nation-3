@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "atmospheric:red_petrified_yucca",
+  "worldgen/placed_feature": {
+    "feature": "atmospheric:red_petrified_yucca",
+    "placement": []
+  }
+}

@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "biomesoplenty:dying_tree",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:dying_tree",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "biomesoplenty:dead_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

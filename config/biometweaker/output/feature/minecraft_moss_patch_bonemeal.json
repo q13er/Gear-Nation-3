@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:moss_patch_bonemeal",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:moss_patch_bonemeal",
+    "placement": []
+  }
+}

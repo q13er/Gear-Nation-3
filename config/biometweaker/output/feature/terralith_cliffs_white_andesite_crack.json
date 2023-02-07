@@ -1,0 +1,68 @@
+
+{
+  "registry_name": "terralith:cliffs/white/andesite_crack",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cliffs/white/andesite_crack",
+    "placement": [
+      {
+        "count": 60,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 20,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 64
+          },
+          "max_inclusive": {
+            "absolute": 164
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "min_inclusive": -128,
+        "max_inclusive": 2,
+        "type": "minecraft:surface_relative_threshold_filter"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "predicates": [
+                {
+                  "predicates": [
+                    {
+                      "offset": [
+                        0,
+                        1,
+                        0
+                      ],
+                      "blocks": "minecraft:andesite",
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:all_of"
+                }
+              ],
+              "type": "minecraft:any_of"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

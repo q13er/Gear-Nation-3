@@ -1,0 +1,110 @@
+
+{
+  "registry_name": "terralith:canyon/glacial/special_ice",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "tag": "terralith:special_ice_replaceable",
+              "predicate_type": "minecraft:tag_match"
+            },
+            "state": {
+              "Name": "minecraft:ice"
+            }
+          }
+        ],
+        "size": 15,
+        "discard_chance_on_air_exposure": 0.0
+      },
+      "type": "minecraft:ore"
+    },
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 256,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "xz_spread": 0,
+        "y_spread": -1,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "direction_of_search": "down",
+        "target_condition": {
+          "predicates": [
+            {
+              "offset": [
+                0,
+                -4,
+                0
+              ],
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                -3,
+                0
+              ],
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                -2,
+                0
+              ],
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                1,
+                0
+              ],
+              "blocks": [
+                "minecraft:packed_ice",
+                "minecraft:blue_ice",
+                "minecraft:ice",
+                "minecraft:stone"
+              ],
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "max_steps": 32,
+        "type": "minecraft:environment_scan"
+      }
+    ]
+  }
+}

@@ -1,0 +1,283 @@
+
+{
+  "registry_name": "terralith:birch/fallen_tree_base",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "config": {
+              "layers": [
+                {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "value": {
+                      "min_inclusive": 4,
+                      "max_inclusive": 8
+                    }
+                  },
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "axis": "z"
+                      },
+                      "Name": "minecraft:birch_log"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                }
+              ],
+              "direction": "north",
+              "allowed_placement": {
+                "predicates": [
+                  {
+                    "type": "minecraft:replaceable"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:grass_block",
+                      "minecraft:stone",
+                      "minecraft:gravel"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  }
+                ],
+                "type": "minecraft:all_of"
+              },
+              "prioritize_tip": true
+            },
+            "type": "minecraft:block_column"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "offset": [
+                  0,
+                  -1,
+                  -4
+                ],
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:stone",
+                  "minecraft:gravel"
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
+        },
+        {
+          "feature": {
+            "config": {
+              "layers": [
+                {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "value": {
+                      "min_inclusive": 4,
+                      "max_inclusive": 8
+                    }
+                  },
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "axis": "z"
+                      },
+                      "Name": "minecraft:birch_log"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                }
+              ],
+              "direction": "south",
+              "allowed_placement": {
+                "predicates": [
+                  {
+                    "type": "minecraft:replaceable"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:grass_block",
+                      "minecraft:stone",
+                      "minecraft:gravel"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  }
+                ],
+                "type": "minecraft:all_of"
+              },
+              "prioritize_tip": true
+            },
+            "type": "minecraft:block_column"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "offset": [
+                  0,
+                  -1,
+                  4
+                ],
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:stone",
+                  "minecraft:gravel"
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
+        },
+        {
+          "feature": {
+            "config": {
+              "layers": [
+                {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "value": {
+                      "min_inclusive": 4,
+                      "max_inclusive": 8
+                    }
+                  },
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "axis": "x"
+                      },
+                      "Name": "minecraft:birch_log"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                }
+              ],
+              "direction": "east",
+              "allowed_placement": {
+                "predicates": [
+                  {
+                    "type": "minecraft:replaceable"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:grass_block",
+                      "minecraft:stone",
+                      "minecraft:gravel"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  }
+                ],
+                "type": "minecraft:all_of"
+              },
+              "prioritize_tip": true
+            },
+            "type": "minecraft:block_column"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "offset": [
+                  4,
+                  -1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:stone",
+                  "minecraft:gravel"
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
+        },
+        {
+          "feature": {
+            "config": {
+              "layers": [
+                {
+                  "height": {
+                    "type": "minecraft:uniform",
+                    "value": {
+                      "min_inclusive": 4,
+                      "max_inclusive": 8
+                    }
+                  },
+                  "provider": {
+                    "state": {
+                      "Properties": {
+                        "axis": "x"
+                      },
+                      "Name": "minecraft:birch_log"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  }
+                }
+              ],
+              "direction": "west",
+              "allowed_placement": {
+                "predicates": [
+                  {
+                    "type": "minecraft:replaceable"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:grass_block",
+                      "minecraft:stone",
+                      "minecraft:gravel"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  }
+                ],
+                "type": "minecraft:all_of"
+              },
+              "prioritize_tip": true
+            },
+            "type": "minecraft:block_column"
+          },
+          "placement": [
+            {
+              "predicate": {
+                "offset": [
+                  -4,
+                  -1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:stone",
+                  "minecraft:gravel"
+                ],
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
+        }
+      ]
+    },
+    "type": "minecraft:simple_random_selector"
+  }
+}

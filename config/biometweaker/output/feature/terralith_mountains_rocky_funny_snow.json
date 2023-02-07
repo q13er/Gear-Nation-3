@@ -1,0 +1,106 @@
+
+{
+  "registry_name": "terralith:mountains/rocky/funny_snow",
+  "worldgen/placed_feature": {
+    "feature": "terralith:mountains/rocky/funny_snow",
+    "placement": [
+      {
+        "count": 70,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "xz_spread": 1,
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:snow_block",
+                "minecraft:tuff",
+                "minecraft:cobbled_deepslate",
+                "minecraft:cobblestone"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                1,
+                0,
+                0
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:snow"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                0,
+                1
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:snow"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -1,
+                0,
+                0
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:snow"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                0,
+                -1
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:snow"
+              ],
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

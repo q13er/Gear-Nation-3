@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:brown_mushroom_normal",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_brown_mushroom",
+    "placement": []
+  }
+}

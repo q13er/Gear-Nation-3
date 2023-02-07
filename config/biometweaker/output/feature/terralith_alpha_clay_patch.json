@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "terralith:alpha/clay_patch",
+  "worldgen/placed_feature": {
+    "feature": "terralith:alpha/clay_patch",
+    "placement": [
+      {
+        "chance": 3,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 57
+          },
+          "max_inclusive": {
+            "absolute": 62
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:hydrangeas",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:hydrangea_bush",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:hydrangea_hedge",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

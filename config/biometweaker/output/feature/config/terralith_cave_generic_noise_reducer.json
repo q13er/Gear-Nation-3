@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "terralith:cave/generic/noise_reducer",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "terralith:alt_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:stone"
+          }
+        }
+      ],
+      "size": 48,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

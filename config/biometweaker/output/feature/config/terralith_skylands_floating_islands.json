@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "terralith:skylands/floating_islands",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "terralith:skylands/island"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,90 @@
+
+{
+  "registry_name": "terralith:meme/meme_geode",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "min_gen_offset": -64,
+        "max_gen_offset": 64,
+        "noise_multiplier": 0.005,
+        "invalid_blocks_threshold": 128,
+        "outer_wall_distance": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 9
+          }
+        },
+        "distribution_points": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 8,
+            "max_inclusive": 8
+          }
+        },
+        "point_offset": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 3,
+            "max_inclusive": 7
+          }
+        },
+        "use_potential_placements_chance": 0.0,
+        "use_alternate_layer0_chance": 0.0,
+        "placements_require_layer0_alternate": false,
+        "blocks": {
+          "outer_layer_provider": {
+            "state": {
+              "Name": "minecraft:stone"
+            },
+            "type": "minecraft:simple_state_provider"
+          },
+          "inner_placements": [
+            {
+              "Name": "minecraft:stone"
+            }
+          ],
+          "cannot_replace": "#minecraft:jungle_logs",
+          "invalid_blocks": "#minecraft:iron_ores",
+          "filling_provider": {
+            "state": {
+              "Name": "minecraft:stone"
+            },
+            "type": "minecraft:simple_state_provider"
+          },
+          "inner_layer_provider": {
+            "state": {
+              "Name": "minecraft:stone"
+            },
+            "type": "minecraft:simple_state_provider"
+          },
+          "alternate_inner_layer_provider": {
+            "state": {
+              "Name": "minecraft:stone"
+            },
+            "type": "minecraft:simple_state_provider"
+          },
+          "middle_layer_provider": {
+            "state": {
+              "Name": "minecraft:stone"
+            },
+            "type": "minecraft:simple_state_provider"
+          }
+        },
+        "layers": {
+          "filling": 10.0,
+          "inner_layer": 20.0,
+          "middle_layer": 30.0,
+          "outer_layer": 40.0
+        },
+        "crack": {
+          "generate_crack_chance": 1.0,
+          "base_crack_size": 3.0,
+          "crack_point_offset": 2
+        }
+      },
+      "type": "minecraft:geode"
+    },
+    "placement": []
+  }
+}

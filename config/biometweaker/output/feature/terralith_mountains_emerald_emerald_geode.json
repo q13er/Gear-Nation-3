@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "terralith:mountains/emerald/emerald_geode",
+  "worldgen/placed_feature": {
+    "feature": "terralith:mountains/emerald/emerald_geode",
+    "placement": [
+      {
+        "chance": 2,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 110
+          },
+          "max_inclusive": {
+            "absolute": 290
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

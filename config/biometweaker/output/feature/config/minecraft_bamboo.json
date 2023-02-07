@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "minecraft:bamboo",
+  "worldgen/configured_feature": {
+    "config": {
+      "probability": 0.2
+    },
+    "type": "minecraft:bamboo"
+  }
+}

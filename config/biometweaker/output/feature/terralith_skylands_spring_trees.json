@@ -1,0 +1,48 @@
+
+{
+  "registry_name": "terralith:skylands/spring/trees",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cherry/cherry_trees_light",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 192,
+              "weight": 100
+            },
+            {
+              "data": 192,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "chance": 64,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Name": "minecraft:fern"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

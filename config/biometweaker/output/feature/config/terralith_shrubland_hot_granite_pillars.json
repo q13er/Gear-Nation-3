@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:shrubland/hot/granite_pillars",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:no_op"
+  }
+}

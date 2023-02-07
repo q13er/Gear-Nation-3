@@ -1,0 +1,18 @@
+
+{
+  "registry_name": "byg:tall_cryptic_vent",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "state": {
+          "Properties": {
+            "half": "lower"
+          },
+          "Name": "byg:tall_cryptic_vent"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

@@ -1,0 +1,38 @@
+
+{
+  "registry_name": "biomesoplenty:patch_reed",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 96,
+      "xz_spread": 7,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Properties": {
+                  "waterlogged": "true",
+                  "half": "lower"
+                },
+                "Name": "biomesoplenty:reed"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "predicate": {
+              "blocks": "minecraft:water",
+              "type": "minecraft:matching_blocks"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

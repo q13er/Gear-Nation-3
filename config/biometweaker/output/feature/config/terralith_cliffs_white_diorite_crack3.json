@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "terralith:cliffs/white/diorite_crack3",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:calcite",
+            "probability": 0.85,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "minecraft:diorite"
+          }
+        }
+      ],
+      "size": 15,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

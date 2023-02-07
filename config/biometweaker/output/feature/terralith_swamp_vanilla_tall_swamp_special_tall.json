@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "terralith:swamp/vanilla/tall/swamp_special_tall",
+  "worldgen/placed_feature": {
+    "feature": "terralith:swamp/vanilla/tall/swamp_special_tall",
+    "placement": [
+      {
+        "count": 8,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "atmospheric:forest_rock",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "atmospheric:arid_sandstone"
+      }
+    },
+    "type": "atmospheric:dune_rock"
+  }
+}

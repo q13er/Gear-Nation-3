@@ -1,0 +1,90 @@
+
+{
+  "registry_name": "terralith:mountains/scarlet/snow_patch",
+  "worldgen/configured_feature": {
+    "config": {
+      "tries": 35,
+      "xz_spread": 3,
+      "y_spread": 3,
+      "feature": {
+        "feature": {
+          "config": {
+            "targets": [
+              {
+                "target": {
+                  "block": "minecraft:crimson_nylium",
+                  "probability": 0.4,
+                  "predicate_type": "minecraft:random_block_match"
+                },
+                "state": {
+                  "Name": "minecraft:snow_block"
+                }
+              },
+              {
+                "target": {
+                  "block": "minecraft:netherrack",
+                  "probability": 0.4,
+                  "predicate_type": "minecraft:random_block_match"
+                },
+                "state": {
+                  "Name": "minecraft:snow_block"
+                }
+              },
+              {
+                "target": {
+                  "block": "minecraft:blackstone",
+                  "probability": 0.5,
+                  "predicate_type": "minecraft:random_block_match"
+                },
+                "state": {
+                  "Name": "minecraft:snow_block"
+                }
+              },
+              {
+                "target": {
+                  "block": "minecraft:deepslate",
+                  "probability": 0.6,
+                  "predicate_type": "minecraft:random_block_match"
+                },
+                "state": {
+                  "Name": "minecraft:snow_block"
+                }
+              }
+            ],
+            "size": 23,
+            "discard_chance_on_air_exposure": 0.0
+          },
+          "type": "minecraft:ore"
+        },
+        "placement": [
+          {
+            "heightmap": "WORLD_SURFACE_WG",
+            "type": "minecraft:heightmap"
+          },
+          {
+            "xz_spread": 0,
+            "y_spread": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": -3,
+                "max_inclusive": 0
+              }
+            },
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "predicate": {
+                "blocks": "minecraft:air",
+                "type": "minecraft:matching_blocks"
+              },
+              "type": "minecraft:not"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_patch"
+  }
+}

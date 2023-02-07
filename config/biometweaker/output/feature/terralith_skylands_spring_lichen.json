@@ -1,0 +1,90 @@
+
+{
+  "registry_name": "terralith:skylands/spring/lichen",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "can_place_on_wall": true,
+        "chance_of_spreading": 0.1,
+        "can_be_placed_on": [
+          "minecraft:diamond_ore",
+          "minecraft:stone"
+        ],
+        "search_range": 2,
+        "can_place_on_floor": true,
+        "can_place_on_ceiling": true
+      },
+      "type": "minecraft:glow_lichen"
+    },
+    "placement": [
+      {
+        "count": 50,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 50,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -8,
+            "max_inclusive": 8
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 30.0,
+        "noise_offset": 0.07,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "noise_to_count_ratio": -1,
+        "noise_factor": 30.0,
+        "noise_offset": -0.07,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 150
+          },
+          "max_inclusive": {
+            "absolute": 180
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "direction_of_search": "up",
+        "target_condition": {
+          "predicates": [
+            {
+              "offset": [
+                0,
+                1,
+                0
+              ],
+              "blocks": "minecraft:stone",
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "max_steps": 32,
+        "type": "minecraft:environment_scan"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

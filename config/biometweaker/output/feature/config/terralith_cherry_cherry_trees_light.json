@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:cherry/cherry_trees_light",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:cherry/tree_roof",
+          "chance": 0.8
+        }
+      ],
+      "default": "terralith:cherry/bush"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

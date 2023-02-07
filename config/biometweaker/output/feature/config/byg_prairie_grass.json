@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:prairie_grass",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:prairie_grass_patch",
+            "placement": []
+          },
+          "chance": 0.75
+        }
+      ],
+      "default": {
+        "feature": "byg:tall_prairie_grass_patch",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

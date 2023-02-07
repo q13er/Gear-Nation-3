@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "byg:subzero_crystals",
+  "worldgen/placed_feature": {
+    "feature": "byg:subzero_crystal",
+    "placement": [
+      {
+        "count": 35,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

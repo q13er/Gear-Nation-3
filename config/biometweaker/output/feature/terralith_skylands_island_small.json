@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:skylands/island_small",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/island_small",
+    "placement": []
+  }
+}

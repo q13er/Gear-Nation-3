@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "byg:scorched_plants",
+  "worldgen/placed_feature": {
+    "feature": "byg:scorched_plants",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

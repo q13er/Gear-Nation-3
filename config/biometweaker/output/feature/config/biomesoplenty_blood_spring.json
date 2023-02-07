@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:blood_spring",
+  "worldgen/configured_feature": {
+    "config": {
+      "rock_count": 4,
+      "hole_count": 1,
+      "valid_blocks": [
+        "minecraft:netherrack",
+        "biomesoplenty:flesh",
+        "biomesoplenty:porous_flesh"
+      ],
+      "state": {
+        "Properties": {
+          "falling": "true"
+        },
+        "Name": "biomesoplenty:blood"
+      },
+      "requires_block_below": false
+    },
+    "type": "minecraft:spring_feature"
+  }
+}

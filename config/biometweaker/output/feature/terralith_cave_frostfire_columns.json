@@ -1,0 +1,53 @@
+
+{
+  "registry_name": "terralith:cave/frostfire/columns",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/frostfire/columns",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 6,
+              "weight": 50
+            },
+            {
+              "data": 9,
+              "weight": 50
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "absolute": 30
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "noise_to_count_ratio": 14,
+        "noise_factor": 66.0,
+        "noise_offset": 1.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "chance": 14,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

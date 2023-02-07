@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "byg:orange_terracotta_boulder",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:orange_terracotta"
+      }
+    },
+    "type": "minecraft:forest_rock"
+  }
+}

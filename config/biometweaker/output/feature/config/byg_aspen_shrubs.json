@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:aspen_shrubs",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:aspen_shrub1",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:aspen_shrub2",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

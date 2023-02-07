@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "terralith:valley/blue_terra",
+  "worldgen/configured_feature": {
+    "config": {
+      "target": {
+        "Name": "minecraft:brown_terracotta"
+      },
+      "state": {
+        "Name": "minecraft:light_blue_terracotta"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 7,
+          "max_inclusive": 12
+        }
+      }
+    },
+    "type": "minecraft:netherrack_replace_blobs"
+  }
+}

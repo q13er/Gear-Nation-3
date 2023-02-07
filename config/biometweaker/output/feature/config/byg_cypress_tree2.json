@@ -1,0 +1,48 @@
+
+{
+  "registry_name": "byg:cypress_tree2",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_height": 20,
+      "max_height": 31,
+      "disk_radius": 0,
+      "whitelist": [
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ],
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "byg:cypress_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "leaves_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "byg:cypress_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "disk_provider": {
+        "state": {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:podzol"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:cypress_tree2"
+  }
+}

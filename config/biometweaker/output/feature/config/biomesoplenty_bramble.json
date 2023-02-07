@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:bramble",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:bramble"
+  }
+}

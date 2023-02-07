@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:cave/desert/sand_patch",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/desert/sand_patch",
+    "placement": []
+  }
+}

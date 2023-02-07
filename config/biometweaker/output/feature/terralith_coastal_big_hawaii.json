@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "terralith:coastal/big_hawaii",
+  "worldgen/placed_feature": {
+    "feature": "terralith:coastal/big_hawaii",
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 6
+          }
+        },
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

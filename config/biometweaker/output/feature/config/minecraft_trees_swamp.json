@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:trees_swamp",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:swamp_oak"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

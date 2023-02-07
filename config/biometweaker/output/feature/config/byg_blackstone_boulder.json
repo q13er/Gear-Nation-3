@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "byg:blackstone_boulder",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:blackstone"
+      }
+    },
+    "type": "minecraft:forest_rock"
+  }
+}

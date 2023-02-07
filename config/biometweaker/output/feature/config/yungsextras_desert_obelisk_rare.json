@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "yungsextras:desert_obelisk_rare",
+  "worldgen/configured_feature": {
+    "config": {
+      "location": "yungsextras:desert/obelisk/obelisk_rare"
+    },
+    "type": "yungsextras:desert_obelisk"
+  }
+}

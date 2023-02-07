@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:extra_glow_lichen",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:extra_glow_lichen"
+  }
+}

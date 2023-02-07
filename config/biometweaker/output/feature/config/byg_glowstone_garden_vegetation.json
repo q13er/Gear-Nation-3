@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:glowstone_garden_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:soul_shroom",
+            "placement": []
+          },
+          "chance": 0.33
+        },
+        {
+          "feature": {
+            "feature": "byg:death_cap",
+            "placement": []
+          },
+          "chance": 0.33
+        }
+      ],
+      "default": {
+        "feature": "byg:nether_bristle",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

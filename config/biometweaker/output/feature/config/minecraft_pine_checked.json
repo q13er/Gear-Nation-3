@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:pine_checked",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:pine"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

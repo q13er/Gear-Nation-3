@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:embur_bog_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:tall_embur_roots",
+            "placement": []
+          },
+          "chance": 0.333
+        },
+        {
+          "feature": {
+            "feature": "byg:embur_roots",
+            "placement": []
+          },
+          "chance": 0.333
+        }
+      ],
+      "default": {
+        "feature": "byg:embur_wart",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

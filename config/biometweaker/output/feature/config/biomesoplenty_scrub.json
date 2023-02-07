@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:scrub",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:scrub"
+  }
+}

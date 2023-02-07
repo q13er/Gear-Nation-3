@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:ebony_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:ebony_tree1",
+            "placement": []
+          },
+          "chance": 0.45
+        },
+        {
+          "feature": {
+            "feature": "byg:ebony_tree2",
+            "placement": []
+          },
+          "chance": 0.45
+        }
+      ],
+      "default": {
+        "feature": "byg:ebony_bush1",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "mowziesmobs:barakoan_barakoana",
+  "category": "MONSTER",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 5,
+  "update_interval": 1,
+  "defaul_loot_table": "mowziesmobs:entities/barakoan_barakoana",
+  "size": {
+    "height": 1.7,
+    "width": 0.6,
+    "fixed": false
+  }
+}

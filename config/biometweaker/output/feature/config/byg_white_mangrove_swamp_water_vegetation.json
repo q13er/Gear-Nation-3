@@ -1,0 +1,48 @@
+
+{
+  "registry_name": "byg:white_mangrove_swamp_water_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:tiny_lily_pad",
+            "placement": [
+              {
+                "predicate": {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "fluids": "minecraft:water",
+                  "type": "minecraft:matching_fluids"
+                },
+                "type": "minecraft:block_predicate_filter"
+              }
+            ]
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:flowering_tiny_lily_pad",
+        "placement": [
+          {
+            "predicate": {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "fluids": "minecraft:water",
+              "type": "minecraft:matching_fluids"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

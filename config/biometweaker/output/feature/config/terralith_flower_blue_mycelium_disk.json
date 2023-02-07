@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "terralith:flower/blue/mycelium_disk",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Properties": {
+          "snowy": "false"
+        },
+        "Name": "minecraft:mycelium"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 6
+        }
+      },
+      "half_height": 0,
+      "targets": [
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

@@ -1,0 +1,42 @@
+
+{
+  "registry_name": "terralith:birch/fallen_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:birch/fallen_tree_base",
+    "placement": [
+      {
+        "count": 1,
+        "type": "minecraft:count"
+      },
+      {
+        "chance": 2,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": [
+            "minecraft:grass_block",
+            "minecraft:dirt"
+          ],
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

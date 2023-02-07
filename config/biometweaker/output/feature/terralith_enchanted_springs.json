@@ -1,0 +1,40 @@
+
+{
+  "registry_name": "terralith:enchanted/springs",
+  "worldgen/placed_feature": {
+    "feature": "terralith:enchanted/springs",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 70,
+              "weight": 100
+            },
+            {
+              "data": 70,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 140
+          },
+          "max_inclusive": {
+            "absolute": 255
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

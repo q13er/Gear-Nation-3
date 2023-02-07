@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "byg:autumnal_spruce_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:red_spruce_trees",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:orange_spruce_trees",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:yellow_spruce_trees",
+            "placement": []
+          },
+          "chance": 0.25
+        }
+      ],
+      "default": {
+        "feature": "byg:spruce_trees",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

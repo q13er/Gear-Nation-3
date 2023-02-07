@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:ivis_plants",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:ivis_roots",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:ivis_sprout",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,297 @@
+
+{
+  "registry_name": "terralith:highlands/forest/creek_edge",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": {
+        "feature": {
+          "config": {
+            "vegetation_chance": 1.0,
+            "xz_radius": 0,
+            "extra_edge_column_chance": 0.0,
+            "extra_bottom_block_chance": 0.0,
+            "vertical_range": 1,
+            "vegetation_feature": {
+              "feature": {
+                "config": {
+                  "decorators": [],
+                  "ignore_vines": true,
+                  "force_dirt": false,
+                  "dirt_provider": {
+                    "state": {
+                      "Name": "minecraft:clay"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "minimum_size": {
+                    "limit": 1,
+                    "lower_size": 0,
+                    "upper_size": 1,
+                    "type": "minecraft:two_layers_feature_size"
+                  },
+                  "trunk_provider": {
+                    "state": {
+                      "Properties": {
+                        "level": "0"
+                      },
+                      "Name": "minecraft:water"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "trunk_placer": {
+                    "base_height": 1,
+                    "height_rand_a": 0,
+                    "height_rand_b": 0,
+                    "type": "minecraft:straight_trunk_placer"
+                  },
+                  "foliage_provider": {
+                    "state": {
+                      "Name": "minecraft:air"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "foliage_placer": {
+                    "radius": 0,
+                    "offset": 0,
+                    "height": 0,
+                    "type": "minecraft:pine_foliage_placer"
+                  }
+                },
+                "type": "minecraft:tree"
+              },
+              "placement": []
+            },
+            "surface": "floor",
+            "depth": 1,
+            "replaceable": "#minecraft:lush_ground_replaceable",
+            "ground_state": {
+              "state": {
+                "Name": "minecraft:air"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:vegetation_patch"
+        },
+        "placement": [
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": 10,
+                "max_inclusive": 10
+              }
+            },
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": -4,
+                "max_inclusive": 4
+              }
+            },
+            "y_spread": 0,
+            "type": "minecraft:random_offset"
+          },
+          {
+            "heightmap": "WORLD_SURFACE_WG",
+            "type": "minecraft:heightmap"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "predicates": [
+                    {
+                      "offset": [
+                        2,
+                        -2,
+                        0
+                      ],
+                      "blocks": "minecraft:water",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        0,
+                        -2,
+                        2
+                      ],
+                      "blocks": "minecraft:water",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        -2,
+                        -2,
+                        -2
+                      ],
+                      "blocks": "minecraft:water",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        2,
+                        -2,
+                        -2
+                      ],
+                      "blocks": "minecraft:water",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        2,
+                        -2,
+                        -2
+                      ],
+                      "blocks": "minecraft:water",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        2,
+                        -2,
+                        2
+                      ],
+                      "blocks": "minecraft:water",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        -2,
+                        -2,
+                        0
+                      ],
+                      "blocks": "minecraft:water",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        0,
+                        -2,
+                        -2
+                      ],
+                      "blocks": "minecraft:water",
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:any_of"
+                },
+                {
+                  "predicates": [
+                    {
+                      "offset": [
+                        1,
+                        -1,
+                        0
+                      ],
+                      "blocks": "minecraft:air",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        0,
+                        -1,
+                        1
+                      ],
+                      "blocks": "minecraft:air",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        -1,
+                        -1,
+                        0
+                      ],
+                      "blocks": "minecraft:air",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        0,
+                        -1,
+                        -1
+                      ],
+                      "blocks": "minecraft:air",
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:any_of"
+                },
+                {
+                  "blocks": "minecraft:air",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ],
+                  "blocks": "minecraft:clay",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    -2,
+                    0
+                  ],
+                  "blocks": "minecraft:clay",
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "predicates": [
+                    {
+                      "offset": [
+                        1,
+                        -1,
+                        0
+                      ],
+                      "blocks": "minecraft:water",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        0,
+                        -1,
+                        1
+                      ],
+                      "blocks": "minecraft:water",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        -1,
+                        -1,
+                        0
+                      ],
+                      "blocks": "minecraft:water",
+                      "type": "minecraft:matching_blocks"
+                    },
+                    {
+                      "offset": [
+                        0,
+                        -1,
+                        -1
+                      ],
+                      "blocks": "minecraft:water",
+                      "type": "minecraft:matching_blocks"
+                    }
+                  ],
+                  "type": "minecraft:any_of"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

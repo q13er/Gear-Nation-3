@@ -1,0 +1,570 @@
+
+{
+  "registry_name": "terralith:cave/crystal/mega_geode_extra",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/generic/mega_geode",
+    "placement": [
+      {
+        "chance": 80,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 8,
+            "max_inclusive": 8
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -44
+          },
+          "max_inclusive": {
+            "absolute": -24
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "predicate": {
+                "predicates": [
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      8,
+                      0,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      0,
+                      8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -8,
+                      0,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      0,
+                      -8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      8,
+                      0,
+                      8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      8,
+                      0,
+                      -8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -8,
+                      0,
+                      8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -8,
+                      0,
+                      -8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      8,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      8,
+                      8,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      8,
+                      8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -8,
+                      8,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      8,
+                      -8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      8,
+                      8,
+                      8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      8,
+                      8,
+                      -8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -8,
+                      8,
+                      8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -8,
+                      8,
+                      -8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      -8,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      8,
+                      -8,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      -8,
+                      8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -8,
+                      -8,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      0,
+                      -8,
+                      -8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      8,
+                      -8,
+                      8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      8,
+                      -8,
+                      -8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -8,
+                      -8,
+                      8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  },
+                  {
+                    "offset": [
+                      -8,
+                      -8,
+                      -8
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:water"
+                    ],
+                    "type": "minecraft:matching_blocks"
+                  }
+                ],
+                "type": "minecraft:any_of"
+              },
+              "type": "minecraft:not"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "repurposed_structures:decor/swamp_village_structure_vines",
+  "worldgen/configured_feature": {
+    "config": {
+      "attempts": 10,
+      "length": 3,
+      "xz_range": 4,
+      "height_range": 10
+    },
+    "type": "repurposed_structures:structure_vines"
+  }
+}

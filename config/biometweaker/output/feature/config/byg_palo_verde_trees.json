@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:palo_verde_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:palo_verde_tree1",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:palo_verde_tree2",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

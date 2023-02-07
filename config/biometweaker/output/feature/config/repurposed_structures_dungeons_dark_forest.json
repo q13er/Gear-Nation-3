@@ -1,0 +1,42 @@
+
+{
+  "registry_name": "repurposed_structures:dungeons_dark_forest",
+  "worldgen/configured_feature": {
+    "config": {
+      "rs_spawner_resourcelocation": "repurposed_structures:dungeons/dark_forest",
+      "processors": "repurposed_structures:dungeons/dark_forest",
+      "post_processors": "repurposed_structures:dungeons/dark_forest_post_process",
+      "dungeon_nbt_entries": [
+        {
+          "weight": 1,
+          "resourcelocation": "repurposed_structures:dungeons/dark_forest_1"
+        },
+        {
+          "weight": 1,
+          "resourcelocation": "repurposed_structures:dungeons/dark_forest_2"
+        },
+        {
+          "weight": 1,
+          "resourcelocation": "repurposed_structures:dungeons/dark_forest_3"
+        }
+      ],
+      "structure_y_offset": 0,
+      "loot_block": {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "single",
+          "facing": "north"
+        },
+        "Name": "minecraft:chest"
+      },
+      "chest_loottable_resourcelocation": "repurposed_structures:chests/dungeons/dark_forest",
+      "max_air_space": 13,
+      "max_num_of_chests": 2,
+      "air_requirement_is_now_water": false,
+      "configured_feature_name": "repurposed_structures:dungeons_dark_forest",
+      "replace_air": false,
+      "min_air_space": 1
+    },
+    "type": "repurposed_structures:nbt_dungeon"
+  }
+}

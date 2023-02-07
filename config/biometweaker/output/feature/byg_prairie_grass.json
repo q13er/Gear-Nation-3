@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "byg:prairie_grass",
+  "worldgen/placed_feature": {
+    "feature": "byg:prairie_grass",
+    "placement": [
+      {
+        "count": 25,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

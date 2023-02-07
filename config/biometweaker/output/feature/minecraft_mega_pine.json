@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:mega_pine",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:mega_pine",
+    "placement": []
+  }
+}

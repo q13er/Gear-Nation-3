@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:highlands/steppe/bush",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:highlands/steppe/bush_small",
+          "chance": 0.2
+        }
+      ],
+      "default": "terralith:highlands/steppe/bush_small"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

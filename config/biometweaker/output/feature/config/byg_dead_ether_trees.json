@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:dead_ether_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:ether_tree_dead1",
+            "placement": []
+          },
+          "chance": 0.33
+        },
+        {
+          "feature": {
+            "feature": "byg:ether_tree_dead2",
+            "placement": []
+          },
+          "chance": 0.33
+        }
+      ],
+      "default": {
+        "feature": "byg:ether_tree_dead3",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

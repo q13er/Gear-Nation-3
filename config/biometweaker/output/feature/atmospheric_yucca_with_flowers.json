@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "atmospheric:yucca_with_flowers",
+  "worldgen/placed_feature": {
+    "feature": "atmospheric:yucca_with_flowers",
+    "placement": []
+  }
+}

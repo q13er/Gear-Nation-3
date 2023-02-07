@@ -1,0 +1,60 @@
+
+{
+  "registry_name": "terralith:mountains/scarlet/remove_some_snow",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "seed": 15,
+        "noise": {
+          "firstOctave": -3,
+          "amplitudes": [
+            1.0,
+            1.0,
+            1.55
+          ]
+        },
+        "scale": 1.0,
+        "states": [
+          {
+            "Properties": {
+              "layers": "4"
+            },
+            "Name": "minecraft:snow"
+          },
+          {
+            "Properties": {
+              "layers": "3"
+            },
+            "Name": "minecraft:snow"
+          },
+          {
+            "Properties": {
+              "layers": "2"
+            },
+            "Name": "minecraft:snow"
+          },
+          {
+            "Properties": {
+              "layers": "1"
+            },
+            "Name": "minecraft:snow"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          },
+          {
+            "Name": "minecraft:air"
+          }
+        ],
+        "type": "minecraft:noise_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

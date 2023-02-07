@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:scattered_rocks",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:scattered_rocks",
+    "placement": [
+      {
+        "chance": 5,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

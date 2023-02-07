@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "repurposed_structures:decor/ocean_mineshaft_plants",
+  "worldgen/configured_feature": {
+    "config": {
+      "attempts": 40
+    },
+    "type": "repurposed_structures:structure_seagrass"
+  }
+}

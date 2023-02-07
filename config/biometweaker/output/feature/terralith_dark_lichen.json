@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "terralith:dark/lichen",
+  "worldgen/placed_feature": {
+    "feature": "terralith:dark/lichen",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

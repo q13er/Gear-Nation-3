@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:windswept_spikes",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:windswept_spike",
+            "placement": []
+          },
+          "chance": 0.75
+        }
+      ],
+      "default": {
+        "feature": "byg:windswept_tall_spike",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

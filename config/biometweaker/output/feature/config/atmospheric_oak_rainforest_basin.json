@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "atmospheric:oak_rainforest_basin",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:fancy_oak_checked",
+          "chance": 0.16666667
+        }
+      ],
+      "default": "atmospheric:oak_bush"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

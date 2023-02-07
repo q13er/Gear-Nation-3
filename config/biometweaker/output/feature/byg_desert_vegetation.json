@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "byg:desert_vegetation",
+  "worldgen/placed_feature": {
+    "feature": "byg:desert_vegetation",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

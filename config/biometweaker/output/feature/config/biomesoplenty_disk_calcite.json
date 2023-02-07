@@ -1,0 +1,64 @@
+
+{
+  "registry_name": "biomesoplenty:disk_calcite",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:calcite"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 7
+        }
+      },
+      "half_height": 2,
+      "targets": [
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:podzol"
+        },
+        {
+          "Name": "minecraft:sand"
+        },
+        {
+          "Name": "minecraft:gravel"
+        },
+        {
+          "Name": "minecraft:granite"
+        },
+        {
+          "Name": "minecraft:andesite"
+        },
+        {
+          "Name": "minecraft:diorite"
+        },
+        {
+          "Name": "minecraft:coal_ore"
+        },
+        {
+          "Name": "minecraft:iron_ore"
+        },
+        {
+          "Name": "minecraft:stone"
+        },
+        {
+          "Name": "minecraft:calcite"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

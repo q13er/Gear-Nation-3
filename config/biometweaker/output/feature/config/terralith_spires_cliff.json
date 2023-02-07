@@ -1,0 +1,96 @@
+
+{
+  "registry_name": "terralith:spires/cliff",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "seed": 0,
+              "noise": {
+                "firstOctave": -6,
+                "amplitudes": [
+                  1.0,
+                  1.0,
+                  2.0,
+                  3.0,
+                  0.0,
+                  2.75,
+                  5.0
+                ]
+              },
+              "scale": 1.0,
+              "states": [
+                {
+                  "Name": "minecraft:stone"
+                },
+                {
+                  "Name": "minecraft:stone"
+                },
+                {
+                  "Name": "minecraft:stone"
+                },
+                {
+                  "Name": "minecraft:dripstone_block"
+                },
+                {
+                  "Name": "minecraft:granite"
+                },
+                {
+                  "Name": "minecraft:granite"
+                },
+                {
+                  "Name": "minecraft:granite"
+                }
+              ],
+              "type": "minecraft:noise_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": [
+          {
+            "count": 255,
+            "type": "minecraft:count"
+          },
+          {
+            "xz_spread": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": -2,
+                "max_inclusive": 2
+              }
+            },
+            "y_spread": {
+              "type": "minecraft:uniform",
+              "value": {
+                "min_inclusive": -16,
+                "max_inclusive": 0
+              }
+            },
+            "type": "minecraft:random_offset"
+          },
+          {
+            "predicate": {
+              "predicates": [
+                {
+                  "blocks": [
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:stone"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:all_of"
+            },
+            "type": "minecraft:block_predicate_filter"
+          }
+        ]
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

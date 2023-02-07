@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:small_dripleaf",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:small_dripleaf"
+  }
+}

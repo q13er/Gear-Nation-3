@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:firecracker_shrubs",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:firecracker_shrub",
+            "placement": []
+          },
+          "chance": 0.2
+        }
+      ],
+      "default": {
+        "feature": "byg:firecracker_shrub2",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

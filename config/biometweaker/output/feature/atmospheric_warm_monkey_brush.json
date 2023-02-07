@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "atmospheric:warm_monkey_brush",
+  "worldgen/placed_feature": {
+    "feature": "atmospheric:warm_monkey_brush",
+    "placement": []
+  }
+}

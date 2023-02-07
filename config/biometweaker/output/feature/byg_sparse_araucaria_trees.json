@@ -1,0 +1,45 @@
+
+{
+  "registry_name": "byg:sparse_araucaria_trees",
+  "worldgen/placed_feature": {
+    "feature": "byg:araucaria_trees",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 0,
+              "weight": 4
+            },
+            {
+              "data": 3,
+              "weight": 1
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "noise_level": 0.545,
+        "below_noise": 1,
+        "above_noise": 0,
+        "type": "minecraft:noise_threshold_count"
+      }
+    ]
+  }
+}

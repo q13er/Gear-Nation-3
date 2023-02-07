@@ -1,0 +1,25 @@
+
+{
+  "registry_name": "byg:shulkren_hanging_vines",
+  "worldgen/placed_feature": {
+    "feature": "byg:hanging_shulkren_vine",
+    "placement": [
+      {
+        "count": 6,
+        "type": "minecraft:count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "below_top": 0
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

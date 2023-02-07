@@ -1,0 +1,18 @@
+
+{
+  "registry_name": "repurposed_structures:huge_crimson_fungus",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:crimson_fungus",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Name": "minecraft:crimson_fungus"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

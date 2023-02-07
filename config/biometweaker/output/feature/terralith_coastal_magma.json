@@ -1,0 +1,38 @@
+
+{
+  "registry_name": "terralith:coastal/magma",
+  "worldgen/placed_feature": {
+    "feature": "terralith:coastal/magma",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 4,
+              "weight": 50
+            },
+            {
+              "data": 4,
+              "weight": 50
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 175.0,
+        "noise_offset": 1.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

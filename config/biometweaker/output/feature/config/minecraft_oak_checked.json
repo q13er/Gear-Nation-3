@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:oak_checked",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:oak"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

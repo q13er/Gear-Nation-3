@@ -1,0 +1,35 @@
+
+{
+  "registry_name": "terralith:desert/gravel/coral_fans",
+  "worldgen/placed_feature": {
+    "feature": "terralith:desert/gravel/coral_fans",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 32,
+              "weight": 100
+            },
+            {
+              "data": 32,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

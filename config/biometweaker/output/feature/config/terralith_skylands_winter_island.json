@@ -1,0 +1,173 @@
+
+{
+  "registry_name": "terralith:skylands/winter/island",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_gen_offset": -15,
+      "max_gen_offset": 15,
+      "noise_multiplier": 0.035,
+      "invalid_blocks_threshold": 255,
+      "outer_wall_distance": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 5
+        }
+      },
+      "distribution_points": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 3
+        }
+      },
+      "point_offset": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 5,
+          "max_inclusive": 8
+        }
+      },
+      "use_potential_placements_chance": 0.35,
+      "use_alternate_layer0_chance": 0.085,
+      "placements_require_layer0_alternate": true,
+      "blocks": {
+        "outer_layer_provider": {
+          "seed": 66,
+          "noise": {
+            "firstOctave": -6,
+            "amplitudes": [
+              1.0,
+              0.75
+            ]
+          },
+          "scale": 1.0,
+          "states": [
+            {
+              "Name": "minecraft:calcite"
+            },
+            {
+              "Name": "minecraft:diorite"
+            },
+            {
+              "Name": "minecraft:calcite"
+            },
+            {
+              "Name": "minecraft:ice"
+            },
+            {
+              "Name": "minecraft:calcite"
+            },
+            {
+              "Name": "minecraft:calcite"
+            },
+            {
+              "Name": "minecraft:calcite"
+            }
+          ],
+          "variety": [
+            1,
+            3
+          ],
+          "slow_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              5.25,
+              0.75,
+              1.25,
+              5.5
+            ]
+          },
+          "slow_scale": 1.0,
+          "type": "minecraft:dual_noise_provider"
+        },
+        "inner_placements": [
+          {
+            "Name": "minecraft:calcite"
+          }
+        ],
+        "cannot_replace": "#terralith:island_ban_winter",
+        "invalid_blocks": "#minecraft:features_cannot_replace",
+        "filling_provider": {
+          "state": {
+            "Name": "minecraft:cave_air"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "inner_layer_provider": {
+          "state": {
+            "Name": "minecraft:cave_air"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "alternate_inner_layer_provider": {
+          "state": {
+            "Name": "minecraft:cave_air"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "middle_layer_provider": {
+          "seed": 66,
+          "noise": {
+            "firstOctave": -6,
+            "amplitudes": [
+              1.0,
+              0.75
+            ]
+          },
+          "scale": 1.0,
+          "states": [
+            {
+              "Name": "minecraft:calcite"
+            },
+            {
+              "Name": "minecraft:diorite"
+            },
+            {
+              "Name": "minecraft:calcite"
+            },
+            {
+              "Name": "minecraft:ice"
+            },
+            {
+              "Name": "minecraft:calcite"
+            },
+            {
+              "Name": "minecraft:calcite"
+            },
+            {
+              "Name": "minecraft:calcite"
+            }
+          ],
+          "variety": [
+            1,
+            3
+          ],
+          "slow_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              5.25,
+              0.75,
+              1.25,
+              5.5
+            ]
+          },
+          "slow_scale": 1.0,
+          "type": "minecraft:dual_noise_provider"
+        }
+      },
+      "layers": {
+        "filling": 3.0,
+        "inner_layer": 5.0,
+        "middle_layer": 7.0,
+        "outer_layer": 9.0
+      },
+      "crack": {
+        "generate_crack_chance": 0.0,
+        "base_crack_size": 3.0,
+        "crack_point_offset": 2
+      }
+    },
+    "type": "minecraft:geode"
+  }
+}

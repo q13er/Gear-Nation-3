@@ -1,0 +1,47 @@
+
+{
+  "registry_name": "terralith:savanna/baobabs",
+  "worldgen/placed_feature": {
+    "feature": "terralith:savanna/baobabs",
+    "placement": [
+      {
+        "chance": 10000000,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "count": 64,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 32,
+        "type": "minecraft:count"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": [
+            "minecraft:dirt",
+            "minecraft:grass_block",
+            "minecraft:coarse_dirt"
+          ],
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

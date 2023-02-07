@@ -1,0 +1,40 @@
+
+{
+  "registry_name": "terralith:yellowstone/spruce_trees_big_alt",
+  "worldgen/placed_feature": {
+    "feature": "terralith:yellowstone/spruce_big_alt",
+    "placement": [
+      {
+        "count": 110,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 80
+          },
+          "max_inclusive": {
+            "absolute": 125
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Name": "minecraft:fern"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

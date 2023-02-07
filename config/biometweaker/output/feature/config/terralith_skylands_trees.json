@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:skylands/trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:skylands/mega_tree",
+          "chance": 0.03
+        },
+        {
+          "feature": "terralith:skylands/cloud_tree_birch",
+          "chance": 0.05
+        },
+        {
+          "feature": "terralith:nothing",
+          "chance": 0.5
+        },
+        {
+          "feature": "terralith:skylands/big_cone_tree",
+          "chance": 0.22
+        },
+        {
+          "feature": "terralith:skylands/mid_tree",
+          "chance": 0.17
+        }
+      ],
+      "default": "terralith:nothing"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

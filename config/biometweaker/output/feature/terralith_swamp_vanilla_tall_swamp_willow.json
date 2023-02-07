@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "terralith:swamp/vanilla/tall/swamp_willow",
+  "worldgen/placed_feature": {
+    "feature": "terralith:swamp/vanilla/tall/swamp_willow",
+    "placement": [
+      {
+        "count": 3,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

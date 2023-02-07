@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "yungsextras:desert_well_md",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "location": "yungsextras:desert/wells/well_md",
+        "radius": 2
+      },
+      "type": "yungsextras:desert_well"
+    },
+    "placement": [
+      {
+        "chance": 1200,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "type": "yungsextras:rng_initializer"
+      }
+    ]
+  }
+}

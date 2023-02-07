@@ -1,0 +1,35 @@
+
+{
+  "registry_name": "terralith:jungle/mega_tree_2",
+  "worldgen/placed_feature": {
+    "feature": "terralith:jungle/mega_tree_2",
+    "placement": [
+      {
+        "count": 20,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 50,
+        "type": "minecraft:count"
+      },
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": [
+            "minecraft:dirt",
+            "minecraft:grass_block",
+            "minecraft:rooted_dirt",
+            "minecraft:podzol",
+            "minecraft:coarse_dirt"
+          ],
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

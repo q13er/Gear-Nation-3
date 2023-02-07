@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:flower_violet",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:flower_violet",
+    "placement": [
+      {
+        "count": 3,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "atmospheric:monkey_brush",
+  "worldgen/placed_feature": {
+    "feature": "atmospheric:monkey_brush",
+    "placement": [
+      {
+        "chance": 12,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

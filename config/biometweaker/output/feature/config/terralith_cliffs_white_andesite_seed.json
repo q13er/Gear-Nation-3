@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:cliffs/white/andesite_seed",
+  "worldgen/configured_feature": {
+    "config": {
+      "target": {
+        "Name": "minecraft:diorite"
+      },
+      "state": {
+        "Name": "minecraft:andesite"
+      },
+      "radius": 0
+    },
+    "type": "minecraft:netherrack_replace_blobs"
+  }
+}

@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "minecraft:disk_clay",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:disk_clay",
+    "placement": [
+      {
+        "chance": 5,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

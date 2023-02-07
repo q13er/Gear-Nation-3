@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "byg:global/local_modifications",
+  "worldgen/placed_feature": {
+    "feature": "byg:global/local_modifications",
+    "placement": []
+  }
+}

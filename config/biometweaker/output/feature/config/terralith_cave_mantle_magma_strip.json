@@ -1,0 +1,141 @@
+
+{
+  "registry_name": "terralith:cave/mantle/magma_strip",
+  "worldgen/configured_feature": {
+    "config": {
+      "vegetation_chance": 0.001,
+      "xz_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 5
+        }
+      },
+      "extra_edge_column_chance": 0.5,
+      "extra_bottom_block_chance": 0.5,
+      "vertical_range": 5,
+      "vegetation_feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "state": {
+                "Properties": {
+                  "west": "false",
+                  "up": "false",
+                  "south": "false",
+                  "north": "false",
+                  "east": "false",
+                  "age": "0"
+                },
+                "Name": "minecraft:fire"
+              },
+              "type": "minecraft:simple_state_provider"
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": []
+      },
+      "surface": "floor",
+      "depth": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 9,
+          "max_inclusive": 10
+        }
+      },
+      "replaceable": "#minecraft:base_stone_overworld",
+      "ground_state": {
+        "seed": 0,
+        "noise": {
+          "firstOctave": -3,
+          "amplitudes": [
+            0.0,
+            0.0
+          ]
+        },
+        "scale": 1.0,
+        "states": [
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:magma_block"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          },
+          {
+            "Name": "minecraft:blackstone"
+          }
+        ],
+        "variety": 1,
+        "slow_noise": {
+          "firstOctave": -6,
+          "amplitudes": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.5,
+            0.0
+          ]
+        },
+        "slow_scale": 1.0,
+        "type": "minecraft:dual_noise_provider"
+      }
+    },
+    "type": "minecraft:vegetation_patch"
+  }
+}

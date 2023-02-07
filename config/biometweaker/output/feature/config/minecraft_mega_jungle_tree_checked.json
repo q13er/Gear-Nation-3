@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:mega_jungle_tree_checked",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:mega_jungle_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

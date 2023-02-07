@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:enchanted/bush",
+  "worldgen/placed_feature": {
+    "feature": "terralith:enchanted/bush",
+    "placement": []
+  }
+}

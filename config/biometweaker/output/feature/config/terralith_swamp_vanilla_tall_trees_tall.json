@@ -1,0 +1,24 @@
+
+{
+  "registry_name": "terralith:swamp/vanilla/tall/trees_tall",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:swamp/vanilla/tall/swamp_special_tall",
+          "chance": 0.1
+        },
+        {
+          "feature": "terralith:swamp/vanilla/tall/swamp_giant_tall",
+          "chance": 0.2
+        },
+        {
+          "feature": "terralith:swamp/vanilla/tall/swamp_willow",
+          "chance": 0.0
+        }
+      ],
+      "default": "terralith:swamp/vanilla/tall/swamp_tall"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

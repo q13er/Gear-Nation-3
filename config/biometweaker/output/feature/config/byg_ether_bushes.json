@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:ether_bushes",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:ether_bush1",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:ether_bush2",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:trees_birch",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:birch_bees_0002"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

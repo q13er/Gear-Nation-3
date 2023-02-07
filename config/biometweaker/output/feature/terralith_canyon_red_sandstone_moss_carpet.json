@@ -1,0 +1,69 @@
+
+{
+  "registry_name": "terralith:canyon/red_sandstone/moss_carpet",
+  "worldgen/placed_feature": {
+    "feature": "terralith:canyon/red_sandstone/moss_carpet",
+    "placement": [
+      {
+        "count": 120,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": "minecraft:moss_block",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:clamped_normal",
+          "value": {
+            "mean": 0.0,
+            "deviation": 3.0,
+            "min_inclusive": -6,
+            "max_inclusive": 6
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": [
+            "minecraft:red_sand",
+            "minecraft:clay",
+            "minecraft:red_sandstone",
+            "minecraft:smooth_red_sandstone"
+          ],
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

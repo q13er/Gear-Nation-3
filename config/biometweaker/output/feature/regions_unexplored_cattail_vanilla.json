@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "regions_unexplored:cattail_vanilla",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:cattails",
+    "placement": [
+      {
+        "chance": 3,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 60
+          },
+          "max_inclusive": {
+            "absolute": 61
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

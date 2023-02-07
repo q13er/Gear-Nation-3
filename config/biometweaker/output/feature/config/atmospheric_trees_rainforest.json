@@ -1,0 +1,24 @@
+
+{
+  "registry_name": "atmospheric:trees_rainforest",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:fancy_oak_checked",
+          "chance": 0.03333334
+        },
+        {
+          "feature": "atmospheric:oak_bush",
+          "chance": 0.16666667
+        },
+        {
+          "feature": "atmospheric:morado_bees_0002",
+          "chance": 0.1
+        }
+      ],
+      "default": "atmospheric:rosewood_bees_0002"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

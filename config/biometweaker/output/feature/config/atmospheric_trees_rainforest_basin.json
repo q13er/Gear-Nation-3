@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "atmospheric:trees_rainforest_basin",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "atmospheric:water_morado",
+          "chance": 0.1
+        }
+      ],
+      "default": "atmospheric:water_rosewood"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

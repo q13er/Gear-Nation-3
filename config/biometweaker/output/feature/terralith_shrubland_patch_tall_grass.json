@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:shrubland/patch_tall_grass",
+  "worldgen/placed_feature": {
+    "feature": "terralith:shrubland/patch_tall_grass",
+    "placement": []
+  }
+}

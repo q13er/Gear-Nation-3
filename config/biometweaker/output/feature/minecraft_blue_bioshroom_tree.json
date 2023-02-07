@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "minecraft:blue_bioshroom_tree",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:blue_bioshroom",
+    "placement": [
+      {
+        "count": 100,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "above_bottom": 120
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

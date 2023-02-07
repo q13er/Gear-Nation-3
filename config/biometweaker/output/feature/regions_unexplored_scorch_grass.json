@@ -1,0 +1,18 @@
+
+{
+  "registry_name": "regions_unexplored:scorch_grass",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_grass",
+    "placement": [
+      {
+        "noise_level": -1.0,
+        "below_noise": 10,
+        "above_noise": 32,
+        "type": "minecraft:noise_threshold_count"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:flower/white/birch_bending",
+  "worldgen/placed_feature": {
+    "feature": "terralith:flower/white/birch_bending",
+    "placement": []
+  }
+}

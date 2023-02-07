@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "byg:global/vegetal_decoration",
+  "worldgen/configured_feature": {
+    "config": {
+      "features_to_place": "byg:global/placed_feature/palm_trees"
+    },
+    "type": "byg:global"
+  }
+}

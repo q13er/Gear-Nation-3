@@ -1,0 +1,17 @@
+
+{
+  "registry_name": "terralith:highlands/temperate/small/spruce_small_m",
+  "worldgen/placed_feature": {
+    "feature": "terralith:highlands/temperate/small/spruce_small_m",
+    "placement": [
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      }
+    ]
+  }
+}

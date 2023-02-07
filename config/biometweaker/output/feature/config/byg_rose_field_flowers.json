@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:rose_field_flowers",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:osiria_rose",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:rose",
+            "placement": []
+          },
+          "chance": 0.25
+        }
+      ],
+      "default": {
+        "feature": "byg:rose_bush",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

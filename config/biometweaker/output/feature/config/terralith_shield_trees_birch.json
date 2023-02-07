@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "terralith:shield/trees_birch",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "terralith:shield/birch"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

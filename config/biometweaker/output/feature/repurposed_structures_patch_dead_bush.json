@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:patch_dead_bush",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_dead_bush",
+    "placement": []
+  }
+}

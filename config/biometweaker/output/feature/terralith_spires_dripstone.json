@@ -1,0 +1,74 @@
+
+{
+  "registry_name": "terralith:spires/dripstone",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "chance_of_dripstone_column_at_max_distance_from_center": 0.5,
+        "max_distance_from_edge_affecting_chance_of_dripstone_column": 2,
+        "max_distance_from_center_affecting_height_bias": 2,
+        "dripstone_block_layer_thickness": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 1
+          }
+        },
+        "density": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0.1,
+            "max_exclusive": 1.0
+          }
+        },
+        "wetness": 0.0,
+        "radius": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 2
+          }
+        },
+        "max_stalagmite_stalactite_height_diff": 4,
+        "height_deviation": 3,
+        "floor_to_ceiling_search_range": 50,
+        "height": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 7
+          }
+        }
+      },
+      "type": "minecraft:dripstone_cluster"
+    },
+    "placement": [
+      {
+        "count": 13,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": "minecraft:dripstone_block",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

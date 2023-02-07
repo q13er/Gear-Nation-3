@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:clay_pool_with_dripleaves",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:clay_pool_with_dripleaves",
+    "placement": []
+  }
+}

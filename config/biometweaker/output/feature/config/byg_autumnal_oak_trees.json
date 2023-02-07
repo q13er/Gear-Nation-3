@@ -1,0 +1,36 @@
+
+{
+  "registry_name": "byg:autumnal_oak_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:red_oak_trees",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:brown_oak_trees",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:orange_oak_trees",
+            "placement": []
+          },
+          "chance": 0.25
+        }
+      ],
+      "default": {
+        "feature": "byg:oak_trees",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

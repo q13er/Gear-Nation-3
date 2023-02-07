@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "byg:bayou_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:dead_willow_tree1",
+            "placement": []
+          },
+          "chance": 0.1
+        },
+        {
+          "feature": {
+            "feature": "byg:willow_tree1",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:willow_tree2",
+            "placement": []
+          },
+          "chance": 0.25
+        },
+        {
+          "feature": {
+            "feature": "byg:willow_tree3",
+            "placement": []
+          },
+          "chance": 0.25
+        }
+      ],
+      "default": {
+        "feature": "byg:willow_tree4",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

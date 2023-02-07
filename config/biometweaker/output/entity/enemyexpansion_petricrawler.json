@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "enemyexpansion:petricrawler",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 64,
+  "update_interval": 3,
+  "defaul_loot_table": "enemyexpansion:entities/petricrawler",
+  "size": {
+    "height": 1.1,
+    "width": 0.95,
+    "fixed": false
+  }
+}

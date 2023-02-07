@@ -1,0 +1,64 @@
+
+{
+  "registry_name": "terralith:skylands/dirt_tops",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/dirt_tops",
+    "placement": [
+      {
+        "count": 100,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 20,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -9,
+            "max_inclusive": 9
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "direction_of_search": "down",
+        "target_condition": {
+          "predicates": [
+            {
+              "blocks": "minecraft:stone",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                1,
+                0
+              ],
+              "blocks": [
+                "minecraft:grass_block",
+                "minecraft:dirt"
+              ],
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "max_steps": 4,
+        "type": "minecraft:environment_scan"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+
+{
+  "registry_name": "terralith:mountains/misty/tuff_lake_excessive",
+  "worldgen/placed_feature": {
+    "feature": "terralith:mountains/misty/tuff_lake_excessive",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 5,
+              "weight": 100
+            },
+            {
+              "data": 5,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 110.0,
+        "noise_offset": -0.25,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "chance": 1,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

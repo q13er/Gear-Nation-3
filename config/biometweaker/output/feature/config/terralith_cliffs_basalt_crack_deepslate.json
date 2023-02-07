@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "terralith:cliffs/basalt/crack_deepslate",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:smooth_basalt",
+            "probability": 0.4,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "minecraft:cobbled_deepslate"
+          }
+        }
+      ],
+      "size": 19,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

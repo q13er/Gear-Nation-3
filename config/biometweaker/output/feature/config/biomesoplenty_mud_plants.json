@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "biomesoplenty:mud_plants",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "state": {
+          "Name": "biomesoplenty:glowing_moss_carpet"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

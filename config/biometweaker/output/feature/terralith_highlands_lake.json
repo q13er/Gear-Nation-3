@@ -1,0 +1,143 @@
+
+{
+  "registry_name": "terralith:highlands/lake",
+  "worldgen/placed_feature": {
+    "feature": "terralith:highlands/lake",
+    "placement": [
+      {
+        "chance": 19,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "blocks": [
+                "minecraft:air",
+                "minecraft:grass",
+                "minecraft:fern"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                1,
+                0,
+                0
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:grass",
+                "minecraft:fern"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                2,
+                0,
+                0
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:grass",
+                "minecraft:fern"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                0,
+                1
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:grass",
+                "minecraft:fern"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                0,
+                2
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:grass",
+                "minecraft:fern"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -1,
+                0,
+                0
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:grass",
+                "minecraft:fern"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                -2,
+                0,
+                0
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:grass",
+                "minecraft:fern"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                0,
+                -1
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:grass",
+                "minecraft:fern"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                0,
+                -2
+              ],
+              "blocks": [
+                "minecraft:air",
+                "minecraft:grass",
+                "minecraft:fern"
+              ],
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

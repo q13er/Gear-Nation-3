@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "terralith:yellowstone/birch_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "terralith:yellowstone/birch"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "byg:tiny_lily_pad",
+  "worldgen/placed_feature": {
+    "feature": "byg:tiny_lily_pad",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

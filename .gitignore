@@ -5,5 +5,5 @@
 !.gitignore
 
 # whitelist everything in ./config/
-!config/*
-!mods/*
+!config/**
+!mods/**

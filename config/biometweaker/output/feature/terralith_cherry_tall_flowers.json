@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:cherry/tall_flowers",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cherry/tall_flowers",
+    "placement": []
+  }
+}

@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "atmospheric:patch_water_hyacinth_sparse",
+  "worldgen/placed_feature": {
+    "feature": "atmospheric:patch_water_hyacinth",
+    "placement": [
+      {
+        "chance": 48,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

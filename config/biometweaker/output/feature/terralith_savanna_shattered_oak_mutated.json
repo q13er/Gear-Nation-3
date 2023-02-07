@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:savanna/shattered/oak_mutated",
+  "worldgen/placed_feature": {
+    "feature": "terralith:savanna/shattered/oak_mutated",
+    "placement": []
+  }
+}

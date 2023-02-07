@@ -1,0 +1,52 @@
+
+{
+  "registry_name": "terralith:yellowstone/birch_trees",
+  "worldgen/placed_feature": {
+    "feature": "terralith:yellowstone/birch",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 200,
+              "weight": 100
+            },
+            {
+              "data": 200,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 107
+          },
+          "max_inclusive": {
+            "absolute": 160
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Name": "minecraft:fern"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+
+{
+  "registry_name": "minecraft:basalt_blobs",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:basalt_blobs",
+    "placement": [
+      {
+        "count": 170,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 0
+          },
+          "max_inclusive": {
+            "absolute": 255
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "predicate": {
+          "blocks": "minecraft:netherrack",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

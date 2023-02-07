@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:cryptic_vents_patch",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:cryptic_vent_patch",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:tall_cryptic_vent_patch",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

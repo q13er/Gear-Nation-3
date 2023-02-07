@@ -1,0 +1,49 @@
+
+{
+  "registry_name": "terralith:yellowstone/acid_black",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:blackstone"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 4
+        }
+      },
+      "half_height": 2,
+      "targets": [
+        {
+          "Name": "minecraft:gravel"
+        },
+        {
+          "Name": "minecraft:sand"
+        },
+        {
+          "Name": "minecraft:coarse_dirt"
+        },
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        },
+        {
+          "Name": "minecraft:calcite"
+        },
+        {
+          "Name": "minecraft:smooth_basalt"
+        },
+        {
+          "Name": "minecraft:gravel"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

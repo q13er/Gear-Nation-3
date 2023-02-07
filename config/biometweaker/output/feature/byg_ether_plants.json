@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "byg:ether_plants",
+  "worldgen/placed_feature": {
+    "feature": "byg:ether_plants",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

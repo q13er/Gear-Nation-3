@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:fancy_oak_checked",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:fancy_oak"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "byg:desert_vegetation_atacama",
+  "worldgen/placed_feature": {
+    "feature": "byg:desert_vegetation_atacama",
+    "placement": [
+      {
+        "count": 6,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

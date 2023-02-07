@@ -1,0 +1,14 @@
+
+{
+  "registry_name": "minecraft:brown_mushroom_nether",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": {
+        "feature": "minecraft:patch_brown_mushroom",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

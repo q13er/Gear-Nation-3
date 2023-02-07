@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:patch_cactus_decorated",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:patch_cactus"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

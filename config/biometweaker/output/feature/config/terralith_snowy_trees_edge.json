@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:snowy/trees_edge",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:snowy/mega_spruce",
+          "chance": 0.1
+        }
+      ],
+      "default": "terralith:snowy/spruce"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

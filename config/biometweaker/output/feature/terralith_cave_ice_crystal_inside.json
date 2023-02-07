@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "terralith:cave/ice/crystal_inside",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/ice/crystal_inside",
+    "placement": [
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

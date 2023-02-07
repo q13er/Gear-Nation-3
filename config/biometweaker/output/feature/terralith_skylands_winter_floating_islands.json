@@ -1,0 +1,43 @@
+
+{
+  "registry_name": "terralith:skylands/winter/floating_islands",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/winter/island",
+    "placement": [
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 1,
+        "type": "minecraft:count"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0,
+            "max_inclusive": 16
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 250
+          },
+          "max_inclusive": {
+            "absolute": 252
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

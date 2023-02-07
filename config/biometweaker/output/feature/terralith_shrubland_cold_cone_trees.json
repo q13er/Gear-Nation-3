@@ -1,0 +1,61 @@
+
+{
+  "registry_name": "terralith:shrubland/cold/cone_trees",
+  "worldgen/placed_feature": {
+    "feature": "terralith:shrubland/cold/cone_trees",
+    "placement": [
+      {
+        "chance": 5,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 2,
+              "weight": 50
+            },
+            {
+              "data": 4,
+              "weight": 50
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:grass_block",
+                "minecraft:coarse_dirt",
+                "minecraft:podzol",
+                "minecraft:dirt"
+              ],
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+
+{
+  "registry_name": "byg:skyris_tree2",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_height": 3,
+      "max_height": 7,
+      "disk_radius": 0,
+      "whitelist": [
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ],
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "byg:skyris_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "leaves_provider": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "byg:green_apple_skyris_leaves"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "Properties": {
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "byg:skyris_leaves"
+            },
+            "weight": 8
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "disk_provider": {
+        "state": {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:podzol"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:skyris_tree2"
+  }
+}

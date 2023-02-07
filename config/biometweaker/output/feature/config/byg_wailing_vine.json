@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "byg:wailing_vine",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "byg:wailing_vine"
+  }
+}

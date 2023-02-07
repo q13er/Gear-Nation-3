@@ -1,0 +1,42 @@
+
+{
+  "registry_name": "terralith:birch/trees_2",
+  "worldgen/placed_feature": {
+    "feature": "terralith:birch/trees_2",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 200,
+              "weight": 0
+            },
+            {
+              "data": 204,
+              "weight": 100
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "noise_to_count_ratio": -10,
+        "noise_factor": 225.0,
+        "noise_offset": 0.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "chance": 100,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

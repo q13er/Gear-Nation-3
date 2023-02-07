@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomesoplenty:trees_orchard",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:big_flowering_tree",
+          "chance": 0.1
+        }
+      ],
+      "default": "biomesoplenty:flowering_oak_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

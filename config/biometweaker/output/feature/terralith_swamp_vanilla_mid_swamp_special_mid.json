@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "terralith:swamp/vanilla/mid/swamp_special_mid",
+  "worldgen/placed_feature": {
+    "feature": "terralith:swamp/vanilla/mid/swamp_special_mid",
+    "placement": [
+      {
+        "count": 8,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

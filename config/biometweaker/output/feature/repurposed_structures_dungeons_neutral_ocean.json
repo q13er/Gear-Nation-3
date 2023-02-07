@@ -1,0 +1,68 @@
+
+{
+  "registry_name": "repurposed_structures:dungeons_neutral_ocean",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "rs_spawner_resourcelocation": "repurposed_structures:dungeons/ocean_neutral",
+        "processors": "repurposed_structures:dungeons/ocean_neutral",
+        "post_processors": "minecraft:empty",
+        "dungeon_nbt_entries": [
+          {
+            "weight": 1,
+            "resourcelocation": "repurposed_structures:dungeons/ocean_1"
+          },
+          {
+            "weight": 1,
+            "resourcelocation": "repurposed_structures:dungeons/ocean_2"
+          },
+          {
+            "weight": 1,
+            "resourcelocation": "repurposed_structures:dungeons/ocean_3"
+          }
+        ],
+        "structure_y_offset": -1,
+        "loot_block": {
+          "Properties": {
+            "waterlogged": "false",
+            "type": "single",
+            "facing": "north"
+          },
+          "Name": "minecraft:chest"
+        },
+        "chest_loottable_resourcelocation": "repurposed_structures:chests/dungeons/ocean",
+        "max_air_space": 54,
+        "max_num_of_chests": 2,
+        "air_requirement_is_now_water": true,
+        "configured_feature_name": "repurposed_structures:dungeons_neutral_ocean",
+        "replace_air": false,
+        "min_air_space": 1
+      },
+      "type": "repurposed_structures:nbt_dungeon"
+    },
+    "placement": [
+      {
+        "count": 2,
+        "type": "repurposed_structures:unlimited_count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 20
+          },
+          "max_inclusive": {
+            "absolute": 255
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

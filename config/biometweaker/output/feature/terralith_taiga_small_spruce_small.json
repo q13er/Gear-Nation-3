@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:taiga/small/spruce_small",
+  "worldgen/placed_feature": {
+    "feature": "terralith:taiga/small/spruce_small",
+    "placement": []
+  }
+}

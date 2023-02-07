@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "terralith:jungle/violet/bending_acacia",
+  "worldgen/placed_feature": {
+    "feature": "terralith:jungle/violet/bending_acacia",
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 3,
+            "max_inclusive": 4
+          }
+        },
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

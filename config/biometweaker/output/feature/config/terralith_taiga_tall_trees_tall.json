@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:taiga/tall/trees_tall",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:taiga/tall/pine_tall",
+          "chance": 0.01
+        },
+        {
+          "feature": "terralith:taiga/tall/spruce_tall_m",
+          "chance": 0.75
+        }
+      ],
+      "default": "terralith:taiga/tall/spruce_tall"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

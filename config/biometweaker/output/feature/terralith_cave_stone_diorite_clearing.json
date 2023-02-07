@@ -1,0 +1,106 @@
+
+{
+  "registry_name": "terralith:cave/stone/diorite_clearing",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "hanging_root_state_provider": {
+          "state": {
+            "Name": "minecraft:diorite"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "hanging_root_placement_attempts": 20,
+        "allowed_vertical_water_for_tree": 4,
+        "allowed_tree_position": {
+          "offset": [
+            0,
+            13,
+            0
+          ],
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        "root_column_max_height": 100,
+        "hanging_root_radius": 3,
+        "hanging_roots_vertical_span": 2,
+        "root_replaceable": "#minecraft:azalea_root_replaceable",
+        "root_state_provider": {
+          "state": {
+            "Name": "minecraft:diorite"
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "root_placement_attempts": 20,
+        "feature": {
+          "feature": {
+            "config": {
+              "features": [
+                {
+                  "feature": "terralith:cave/stone/diorite_clearing_large",
+                  "chance": 0.4
+                }
+              ],
+              "default": "terralith:cave/stone/diorite_clearing_small"
+            },
+            "type": "minecraft:random_selector"
+          },
+          "placement": []
+        },
+        "required_vertical_space_for_tree": 7,
+        "root_radius": 3
+      },
+      "type": "minecraft:root_system"
+    },
+    "placement": [
+      {
+        "chance": 14,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -64
+          },
+          "max_inclusive": {
+            "absolute": 128
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "direction_of_search": "up",
+        "target_condition": {
+          "predicates": [
+            {
+              "offset": [
+                0,
+                1,
+                0
+              ],
+              "blocks": "minecraft:diorite",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "blocks": [
+                "minecraft:air",
+                "minecraft:cave_air"
+              ],
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "max_steps": 32,
+        "type": "minecraft:environment_scan"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

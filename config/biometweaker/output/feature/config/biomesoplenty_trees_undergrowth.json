@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomesoplenty:trees_undergrowth",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:big_hellbark_tree",
+          "chance": 0.1
+        }
+      ],
+      "default": "biomesoplenty:hellbark_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

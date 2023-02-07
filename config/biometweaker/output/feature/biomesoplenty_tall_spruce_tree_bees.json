@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "biomesoplenty:tall_spruce_tree_bees",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:tall_spruce_tree_bees",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "stage": "0"
+            },
+            "Name": "minecraft:spruce_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

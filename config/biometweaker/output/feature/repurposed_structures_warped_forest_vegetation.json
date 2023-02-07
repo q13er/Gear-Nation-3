@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "repurposed_structures:warped_forest_vegetation",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:warped_forest_vegetation",
+    "placement": [
+      {
+        "count": 5,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

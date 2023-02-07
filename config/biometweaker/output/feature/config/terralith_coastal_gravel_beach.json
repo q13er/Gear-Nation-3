@@ -1,0 +1,25 @@
+
+{
+  "registry_name": "terralith:coastal/gravel_beach",
+  "worldgen/configured_feature": {
+    "config": {
+      "target": {
+        "Properties": {
+          "snowy": "false"
+        },
+        "Name": "minecraft:grass_block"
+      },
+      "state": {
+        "Name": "minecraft:gravel"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 2
+        }
+      }
+    },
+    "type": "minecraft:netherrack_replace_blobs"
+  }
+}

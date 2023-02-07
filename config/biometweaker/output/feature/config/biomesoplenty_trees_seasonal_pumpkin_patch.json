@@ -1,0 +1,24 @@
+
+{
+  "registry_name": "biomesoplenty:trees_seasonal_pumpkin_patch",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:oak_bush",
+          "chance": 0.2
+        },
+        {
+          "feature": "biomesoplenty:orange_autumn_tree",
+          "chance": 0.1
+        },
+        {
+          "feature": "biomesoplenty:big_orange_autumn_tree",
+          "chance": 0.05
+        }
+      ],
+      "default": "biomesoplenty:twiglet_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

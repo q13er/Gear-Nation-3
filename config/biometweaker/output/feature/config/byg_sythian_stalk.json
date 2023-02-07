@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "byg:sythian_stalk",
+  "worldgen/configured_feature": {
+    "config": {
+      "probability": 0.9
+    },
+    "type": "byg:sythian_stalk"
+  }
+}

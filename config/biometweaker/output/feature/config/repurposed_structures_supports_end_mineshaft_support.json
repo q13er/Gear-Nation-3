@@ -1,0 +1,27 @@
+
+{
+  "registry_name": "repurposed_structures:supports/end_mineshaft_support",
+  "worldgen/configured_feature": {
+    "config": {
+      "target_floor_block": "minecraft:purpur_block",
+      "is_water_based": false,
+      "arch_only": false,
+      "arch_blocks": [
+        "minecraft:purpur_pillar"
+      ],
+      "pillar_state": {
+        "Properties": {
+          "axis": "z"
+        },
+        "Name": "minecraft:purpur_pillar"
+      },
+      "fence_state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:purpur_pillar"
+      }
+    },
+    "type": "repurposed_structures:mineshaft_supports"
+  }
+}

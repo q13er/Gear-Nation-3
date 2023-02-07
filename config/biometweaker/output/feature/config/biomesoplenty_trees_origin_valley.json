@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomesoplenty:trees_origin_valley",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:big_origin_tree",
+          "chance": 0.1
+        }
+      ],
+      "default": "biomesoplenty:origin_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

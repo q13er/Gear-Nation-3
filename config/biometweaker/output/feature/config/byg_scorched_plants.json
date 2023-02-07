@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:scorched_plants",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:scorched_grass",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:scorched_bush",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

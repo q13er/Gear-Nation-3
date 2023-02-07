@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:flower/blue/nylium_delta",
+  "worldgen/placed_feature": {
+    "feature": "terralith:flower/blue/nylium_delta",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 7,
+              "weight": 100
+            },
+            {
+              "data": 7,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

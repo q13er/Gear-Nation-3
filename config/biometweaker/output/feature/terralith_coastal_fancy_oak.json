@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:coastal/fancy_oak",
+  "worldgen/placed_feature": {
+    "feature": "terralith:coastal/fancy_oak",
+    "placement": []
+  }
+}

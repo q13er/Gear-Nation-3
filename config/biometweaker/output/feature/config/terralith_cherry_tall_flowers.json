@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:cherry/tall_flowers",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:no_op"
+  }
+}

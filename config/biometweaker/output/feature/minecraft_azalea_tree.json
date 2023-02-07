@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:azalea_tree",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:azalea_tree",
+    "placement": []
+  }
+}

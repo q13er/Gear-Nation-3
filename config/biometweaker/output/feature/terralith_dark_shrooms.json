@@ -1,0 +1,38 @@
+
+{
+  "registry_name": "terralith:dark/shrooms",
+  "worldgen/placed_feature": {
+    "feature": "terralith:dark/disk_soulsoil",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 0,
+              "weight": 0
+            },
+            {
+              "data": 0,
+              "weight": 100
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "noise_to_count_ratio": 1,
+        "noise_factor": 175.0,
+        "noise_offset": 1.0,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

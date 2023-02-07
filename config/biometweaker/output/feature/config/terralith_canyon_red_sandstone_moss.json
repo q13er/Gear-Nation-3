@@ -1,0 +1,34 @@
+
+{
+  "registry_name": "terralith:canyon/red_sandstone/moss",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:moss_block"
+      },
+      "radius": {
+        "type": "minecraft:biased_to_bottom",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 5
+        }
+      },
+      "half_height": 2,
+      "targets": [
+        {
+          "Name": "minecraft:red_sand"
+        },
+        {
+          "Name": "minecraft:red_sandstone"
+        },
+        {
+          "Name": "minecraft:smooth_red_sandstone"
+        },
+        {
+          "Name": "minecraft:terracotta"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

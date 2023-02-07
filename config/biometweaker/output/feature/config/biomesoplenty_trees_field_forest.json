@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomesoplenty:trees_field_forest",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:oak_bush",
+          "chance": 0.25
+        }
+      ],
+      "default": "biomesoplenty:tall_spruce_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

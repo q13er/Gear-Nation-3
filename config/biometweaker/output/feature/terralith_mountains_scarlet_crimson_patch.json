@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "terralith:mountains/scarlet/crimson_patch",
+  "worldgen/placed_feature": {
+    "feature": "terralith:mountains/scarlet/crimson_patch",
+    "placement": [
+      {
+        "count": 12,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

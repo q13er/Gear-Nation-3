@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomesoplenty:inferno_delta",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:inferno_delta",
+    "placement": [
+      {
+        "count": 6,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

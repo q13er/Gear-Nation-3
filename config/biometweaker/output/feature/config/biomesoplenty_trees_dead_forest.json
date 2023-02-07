@@ -1,0 +1,28 @@
+
+{
+  "registry_name": "biomesoplenty:trees_dead_forest",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:dying_tree",
+          "chance": 0.2
+        },
+        {
+          "feature": "biomesoplenty:tall_spruce_tree",
+          "chance": 0.3
+        },
+        {
+          "feature": "biomesoplenty:small_dead_tree",
+          "chance": 0.3
+        },
+        {
+          "feature": "biomesoplenty:dead_twiglet_tree",
+          "chance": 0.2
+        }
+      ],
+      "default": "minecraft:oak_checked"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

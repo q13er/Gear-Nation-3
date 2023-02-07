@@ -1,0 +1,132 @@
+
+{
+  "registry_name": "terralith:snowy/badlands/layer/first",
+  "worldgen/placed_feature": {
+    "feature": "terralith:snowy/badlands/layer/first",
+    "placement": [
+      {
+        "count": 110,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:grass_block",
+                "minecraft:snow_block",
+                "minecraft:blackstone",
+                "minecraft:terracotta",
+                "minecraft:yellow_terracotta",
+                "minecraft:white_terracotta",
+                "minecraft:orange_terracotta",
+                "minecraft:brown_terracotta",
+                "minecraft:red_terracotta"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "predicates": [
+                {
+                  "offset": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:snow_block",
+                    "minecraft:blackstone",
+                    "minecraft:terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:red_terracotta"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:snow_block",
+                    "minecraft:blackstone",
+                    "minecraft:terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:red_terracotta"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    -1,
+                    0,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:snow_block",
+                    "minecraft:blackstone",
+                    "minecraft:terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:red_terracotta"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                },
+                {
+                  "offset": [
+                    0,
+                    0,
+                    -1
+                  ],
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:snow_block",
+                    "minecraft:blackstone",
+                    "minecraft:terracotta",
+                    "minecraft:yellow_terracotta",
+                    "minecraft:white_terracotta",
+                    "minecraft:orange_terracotta",
+                    "minecraft:brown_terracotta",
+                    "minecraft:red_terracotta"
+                  ],
+                  "type": "minecraft:matching_blocks"
+                }
+              ],
+              "type": "minecraft:any_of"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

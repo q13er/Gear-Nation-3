@@ -1,0 +1,40 @@
+
+{
+  "registry_name": "byg:hanging_sythian_roots",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_length": 1,
+      "max_length": 9,
+      "whitelist": [
+        {
+          "Name": "minecraft:netherrack"
+        },
+        {
+          "Name": "byg:sythian_wart_block"
+        }
+      ],
+      "base_block_provider": {
+        "state": {
+          "Name": "byg:sythian_wart_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "block_provider": {
+        "state": {
+          "Name": "byg:hanging_sythian_roots_plant"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "end_block_provider": {
+        "state": {
+          "Properties": {
+            "age": "23"
+          },
+          "Name": "byg:hanging_sythian_roots"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:hanging_feature"
+  }
+}

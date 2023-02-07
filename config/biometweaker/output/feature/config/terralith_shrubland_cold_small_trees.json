@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "terralith:shrubland/cold/small_trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "terralith:shrubland/cold/small_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

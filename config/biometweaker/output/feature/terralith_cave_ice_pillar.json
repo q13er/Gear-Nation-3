@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:cave/ice/pillar",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cave/ice/pillar",
+    "placement": []
+  }
+}

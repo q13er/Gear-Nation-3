@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "terralith:flower/lavender/giant_flower",
+  "worldgen/placed_feature": {
+    "feature": "terralith:flower/lavender/giant_flower",
+    "placement": [
+      {
+        "count": 128,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

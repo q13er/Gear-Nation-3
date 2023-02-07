@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "byg:embur_roots",
+  "worldgen/placed_feature": {
+    "feature": "byg:embur_roots",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

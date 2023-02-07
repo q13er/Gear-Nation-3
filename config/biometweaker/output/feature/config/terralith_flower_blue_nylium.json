@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "terralith:flower/blue/nylium",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:grass_block",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:warped_nylium"
+          }
+        }
+      ],
+      "size": 32,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

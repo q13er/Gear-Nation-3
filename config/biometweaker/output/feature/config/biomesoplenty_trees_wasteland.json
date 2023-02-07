@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomesoplenty:trees_wasteland",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:dead_tree_wasteland",
+          "chance": 0.2
+        }
+      ],
+      "default": "biomesoplenty:dying_tree_wasteland"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

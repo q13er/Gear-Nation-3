@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "biomesoplenty:trees_dryland",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:twiglet_tree",
+          "chance": 0.4
+        },
+        {
+          "feature": "biomesoplenty:sparse_oak_tree",
+          "chance": 0.2
+        }
+      ],
+      "default": "biomesoplenty:acacia_twiglet_small"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

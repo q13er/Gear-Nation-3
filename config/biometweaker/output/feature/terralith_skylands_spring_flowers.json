@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "terralith:skylands/spring/flowers",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/spring/flowers",
+    "placement": [
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

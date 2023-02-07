@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "terralith:enchanted/floating_islands",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "terralith:enchanted/island"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

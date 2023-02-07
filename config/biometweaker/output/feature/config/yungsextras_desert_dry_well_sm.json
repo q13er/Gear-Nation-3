@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "yungsextras:desert_dry_well_sm",
+  "worldgen/configured_feature": {
+    "config": {
+      "location": "yungsextras:desert/wells/dry_well_sm",
+      "radius": 1
+    },
+    "type": "yungsextras:desert_well"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:cave_vine",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:cave_vine",
+    "placement": []
+  }
+}

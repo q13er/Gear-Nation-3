@@ -1,0 +1,18 @@
+
+{
+  "registry_name": "byg:ether_bulb",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "state": {
+          "Properties": {
+            "age": "0"
+          },
+          "Name": "byg:ether_bulbs_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

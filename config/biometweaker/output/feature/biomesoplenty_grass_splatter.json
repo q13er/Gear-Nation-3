@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:grass_splatter",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:grass_splatter",
+    "placement": [
+      {
+        "count": 1,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

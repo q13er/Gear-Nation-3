@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "repurposed_structures:mobs/skeleton_horseman_bow",
+  "worldgen/configured_feature": {
+    "config": {
+      "leggings": "minecraft:chainmail_leggings",
+      "boots": "minecraft:iron_boots",
+      "speed_modifier": 0.25,
+      "health": 24,
+      "held_item": "minecraft:bow",
+      "helmet": "minecraft:iron_helmet",
+      "chestplate": "minecraft:chainmail_chestplate"
+    },
+    "type": "repurposed_structures:skeleton_horseman"
+  }
+}

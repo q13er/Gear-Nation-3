@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "terralith:dark/lichen_log",
+  "worldgen/configured_feature": {
+    "config": {
+      "can_place_on_wall": true,
+      "chance_of_spreading": 0.3,
+      "can_be_placed_on": "minecraft:dark_oak_log",
+      "search_range": 13,
+      "can_place_on_floor": false,
+      "can_place_on_ceiling": true
+    },
+    "type": "minecraft:glow_lichen"
+  }
+}

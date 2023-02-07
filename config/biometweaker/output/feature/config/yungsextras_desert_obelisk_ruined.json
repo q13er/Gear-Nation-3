@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "yungsextras:desert_obelisk_ruined",
+  "worldgen/configured_feature": {
+    "config": {
+      "location": "yungsextras:desert/obelisk/obelisk_ruined"
+    },
+    "type": "yungsextras:desert_obelisk"
+  }
+}

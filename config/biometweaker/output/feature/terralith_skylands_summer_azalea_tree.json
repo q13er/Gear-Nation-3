@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:skylands/summer/azalea_tree",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:azalea_tree",
+    "placement": [
+      {
+        "predicate": {
+          "blocks": [
+            "minecraft:moss_block",
+            "minecraft:sand",
+            "minecraft:grass_block"
+          ],
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:supports/savanna_mineshaft",
+  "worldgen/placed_feature": {
+    "feature": "repurposed_structures:supports/savanna_mineshaft",
+    "placement": []
+  }
+}

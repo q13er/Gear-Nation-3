@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:flower_lavender",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:flower_lavender",
+    "placement": [
+      {
+        "count": 20,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "byg:red_rock_arches",
+  "worldgen/configured_feature": {
+    "config": {
+      "block_provider": {
+        "state": {
+          "Name": "byg:red_rock"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:arch"
+  }
+}

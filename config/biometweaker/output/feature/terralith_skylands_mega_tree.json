@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:skylands/mega_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/mega_tree",
+    "placement": []
+  }
+}

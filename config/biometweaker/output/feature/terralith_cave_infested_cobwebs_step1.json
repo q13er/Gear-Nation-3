@@ -1,0 +1,145 @@
+
+{
+  "registry_name": "terralith:cave/infested/cobwebs_step1",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "to_place": {
+          "seed": 1512,
+          "noise": {
+            "firstOctave": -5,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "scale": 1.0,
+          "states": [
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:void_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            },
+            {
+              "Name": "minecraft:cave_air"
+            }
+          ],
+          "type": "minecraft:noise_provider"
+        }
+      },
+      "type": "minecraft:simple_block"
+    },
+    "placement": [
+      {
+        "count": 10,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 256,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -62
+          },
+          "max_inclusive": {
+            "absolute": 192
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "predicate": {
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "count": 75,
+        "type": "minecraft:count"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -5,
+            "max_inclusive": 5
+          }
+        },
+        "y_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -5,
+            "max_inclusive": 5
+          }
+        },
+        "type": "minecraft:random_offset"
+      },
+      {
+        "predicate": {
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

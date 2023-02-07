@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "atmospheric:patch_aloe_vera",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "atmospheric:patch_tall_aloe_vera",
+          "chance": 0.5
+        }
+      ],
+      "default": "atmospheric:patch_short_aloe_vera"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

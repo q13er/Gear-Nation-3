@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:canyon/sandstone/palm_tall",
+  "worldgen/placed_feature": {
+    "feature": "terralith:canyon/sandstone/palm_tall",
+    "placement": []
+  }
+}

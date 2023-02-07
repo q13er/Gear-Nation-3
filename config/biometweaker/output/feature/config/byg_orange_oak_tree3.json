@@ -1,0 +1,48 @@
+
+{
+  "registry_name": "byg:orange_oak_tree3",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_height": 13,
+      "max_height": 19,
+      "disk_radius": 0,
+      "whitelist": [
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ],
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:oak_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "leaves_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "false",
+            "distance": "7"
+          },
+          "Name": "byg:orange_oak_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "disk_provider": {
+        "state": {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:podzol"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:oak_tree3"
+  }
+}

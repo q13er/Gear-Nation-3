@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "byg:brimstone_volcano",
+  "worldgen/configured_feature": {
+    "config": {
+      "block_provider": {
+        "state": {
+          "Name": "byg:brimstone"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:volcano"
+  }
+}

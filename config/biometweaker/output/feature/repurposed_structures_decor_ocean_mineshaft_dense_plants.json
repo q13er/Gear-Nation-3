@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "repurposed_structures:decor/ocean_mineshaft_dense_plants",
+  "worldgen/placed_feature": {
+    "feature": "repurposed_structures:decor/ocean_mineshaft_dense_plants",
+    "placement": []
+  }
+}

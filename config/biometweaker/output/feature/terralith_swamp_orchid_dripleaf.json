@@ -1,0 +1,49 @@
+
+{
+  "registry_name": "terralith:swamp/orchid/dripleaf",
+  "worldgen/placed_feature": {
+    "feature": "terralith:swamp/vanilla/dripleaf",
+    "placement": [
+      {
+        "count": 37,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "absolute": 62
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "blocks": "minecraft:water",
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:clay",
+                "minecraft:dirt"
+              ],
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+
+{
+  "registry_name": "terralith:cherry/birch_sparse",
+  "worldgen/placed_feature": {
+    "feature": "terralith:birch/cloud_tree_tall",
+    "placement": [
+      {
+        "chance": 3,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:grass_block",
+                "minecraft:podzol"
+              ],
+              "type": "minecraft:matching_blocks"
+            },
+            {
+              "blocks": "minecraft:air",
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

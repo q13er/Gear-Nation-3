@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:skylands/big_cone_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/big_cone_tree",
+    "placement": []
+  }
+}

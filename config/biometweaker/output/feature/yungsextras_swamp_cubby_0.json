@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "yungsextras:swamp_cubby_0",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "location": "yungsextras:swamp/cubby/swamp_cubby_0"
+      },
+      "type": "yungsextras:swamp_cubby"
+    },
+    "placement": [
+      {
+        "chance": 1000,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "type": "yungsextras:rng_initializer"
+      }
+    ]
+  }
+}

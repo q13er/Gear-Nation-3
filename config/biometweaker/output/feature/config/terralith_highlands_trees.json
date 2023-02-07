@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:highlands/trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:spruce",
+          "chance": 0.2
+        }
+      ],
+      "default": "minecraft:pine"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

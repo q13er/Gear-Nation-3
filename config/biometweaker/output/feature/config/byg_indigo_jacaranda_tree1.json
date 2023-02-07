@@ -1,0 +1,63 @@
+
+{
+  "registry_name": "byg:indigo_jacaranda_tree1",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_height": 9,
+      "max_height": 16,
+      "disk_radius": 0,
+      "whitelist": [
+        {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ],
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "byg:jacaranda_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "leaves_provider": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "byg:flowering_indigo_jacaranda_leaves"
+            },
+            "weight": 10
+          },
+          {
+            "data": {
+              "Properties": {
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "byg:indigo_jacaranda_leaves"
+            },
+            "weight": 40
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "disk_provider": {
+        "state": {
+          "Properties": {
+            "snowy": "false"
+          },
+          "Name": "minecraft:podzol"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "byg:jacaranda_tree1"
+  }
+}

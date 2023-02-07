@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "terralith:cave/desert/smooth_sandstone",
+  "worldgen/configured_feature": {
+    "config": {
+      "target": {
+        "Name": "minecraft:stone"
+      },
+      "state": {
+        "Name": "minecraft:smooth_sandstone"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 6,
+          "max_inclusive": 12
+        }
+      }
+    },
+    "type": "minecraft:netherrack_replace_blobs"
+  }
+}

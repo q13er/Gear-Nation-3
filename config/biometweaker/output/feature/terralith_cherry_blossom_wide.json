@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:cherry/blossom_wide",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cherry/blossom_wide",
+    "placement": []
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:mountains/emerald/trees/tall/trees_tall",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:mountains/emerald/trees/tall/pine_tall",
+          "chance": 0.01
+        },
+        {
+          "feature": "terralith:mountains/emerald/trees/tall/spruce_tall_m",
+          "chance": 0.75
+        }
+      ],
+      "default": "terralith:mountains/emerald/trees/tall/spruce_tall"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

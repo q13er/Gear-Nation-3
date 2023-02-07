@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "terralith:enchanted/floating_islands",
+  "worldgen/placed_feature": {
+    "feature": "terralith:enchanted/island",
+    "placement": [
+      {
+        "chance": 221,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "count": 1,
+        "type": "minecraft:count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 160
+          },
+          "max_inclusive": {
+            "absolute": 230
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

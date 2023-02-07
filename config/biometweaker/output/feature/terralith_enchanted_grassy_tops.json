@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "terralith:enchanted/grassy_tops",
+  "worldgen/placed_feature": {
+    "feature": "terralith:enchanted/grassy_tops",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 255,
+              "weight": 100
+            },
+            {
+              "data": 255,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

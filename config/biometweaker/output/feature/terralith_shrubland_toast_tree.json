@@ -1,0 +1,40 @@
+
+{
+  "registry_name": "terralith:shrubland/toast_tree",
+  "worldgen/placed_feature": {
+    "feature": "terralith:shrubland/toast_tree",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 128,
+              "weight": 100
+            },
+            {
+              "data": 128,
+              "weight": 0
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -64
+          },
+          "max_inclusive": {
+            "absolute": 64
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

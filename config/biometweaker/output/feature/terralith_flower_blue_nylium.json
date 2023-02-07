@@ -1,0 +1,34 @@
+
+{
+  "registry_name": "terralith:flower/blue/nylium",
+  "worldgen/placed_feature": {
+    "feature": "terralith:flower/blue/nylium",
+    "placement": [
+      {
+        "count": 30,
+        "type": "minecraft:count"
+      },
+      {
+        "count": 50,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "noise_to_count_ratio": 10,
+        "noise_factor": 70.0,
+        "noise_offset": -0.4,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "chance": 300,
+        "type": "minecraft:rarity_filter"
+      }
+    ]
+  }
+}

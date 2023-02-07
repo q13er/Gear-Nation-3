@@ -1,0 +1,25 @@
+
+{
+  "registry_name": "terralith:cave/generic/ds_reducer",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_overworld",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Properties": {
+              "axis": "y"
+            },
+            "Name": "minecraft:deepslate"
+          }
+        }
+      ],
+      "size": 48,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

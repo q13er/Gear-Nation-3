@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "terralith:alpha/sand_beaches",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "terralith:soil_and_gravel",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:sand"
+          }
+        }
+      ],
+      "size": 50,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

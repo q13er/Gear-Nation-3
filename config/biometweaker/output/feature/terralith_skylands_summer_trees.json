@@ -1,0 +1,58 @@
+
+{
+  "registry_name": "terralith:skylands/summer/trees",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/summer/trees",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 15,
+              "weight": 90
+            },
+            {
+              "data": 16,
+              "weight": 10
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "type": "minecraft:replaceable"
+            },
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:grass_block",
+                "minecraft:moss_block"
+              ],
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

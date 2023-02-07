@@ -1,0 +1,72 @@
+
+{
+  "registry_name": "terralith:taiga/birch/oak",
+  "worldgen/configured_feature": {
+    "config": {
+      "decorators": [],
+      "ignore_vines": true,
+      "force_dirt": true,
+      "dirt_provider": {
+        "state": {
+          "Name": "minecraft:dirt"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "minimum_size": {
+        "limit": 1,
+        "lower_size": 3,
+        "upper_size": 2,
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "minecraft:oak_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_placer": {
+        "base_height": 7,
+        "height_rand_a": 6,
+        "height_rand_b": 4,
+        "type": "minecraft:straight_trunk_placer"
+      },
+      "foliage_provider": {
+        "entries": [
+          {
+            "data": {
+              "Properties": {
+                "persistent": "false",
+                "distance": "7"
+              },
+              "Name": "minecraft:oak_leaves"
+            },
+            "weight": 12
+          }
+        ],
+        "type": "minecraft:weighted_state_provider"
+      },
+      "foliage_placer": {
+        "radius": 1,
+        "offset": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 4,
+            "max_inclusive": 6
+          }
+        },
+        "crown_height": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 8,
+            "max_inclusive": 10
+          }
+        },
+        "type": "minecraft:mega_pine_foliage_placer"
+      }
+    },
+    "type": "minecraft:tree"
+  }
+}

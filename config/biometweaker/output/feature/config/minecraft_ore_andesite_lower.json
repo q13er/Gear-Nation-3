@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "minecraft:ore_andesite_lower",
+  "worldgen/configured_feature": {
+    "config": {
+      "target": {
+        "Name": "minecraft:stone"
+      },
+      "state": {
+        "Name": "minecraft:andesite"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 5,
+          "max_inclusive": 12
+        }
+      }
+    },
+    "type": "minecraft:netherrack_replace_blobs"
+  }
+}

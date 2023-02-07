@@ -1,0 +1,21 @@
+
+{
+  "registry_name": "biomesoplenty:acacia_bush_tree",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:acacia_bush_tree",
+    "placement": [
+      {
+        "predicate": {
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": "biomesoplenty:orange_sand",
+          "type": "minecraft:matching_blocks"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

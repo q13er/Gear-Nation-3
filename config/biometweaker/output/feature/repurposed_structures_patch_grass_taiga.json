@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "repurposed_structures:patch_grass_taiga",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:patch_taiga_grass",
+    "placement": [
+      {
+        "count": 7,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

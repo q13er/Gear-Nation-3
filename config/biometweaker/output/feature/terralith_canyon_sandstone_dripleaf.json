@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "terralith:canyon/sandstone/dripleaf",
+  "worldgen/placed_feature": {
+    "feature": "terralith:canyon/sandstone/dripleaf",
+    "placement": [
+      {
+        "count": 32,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

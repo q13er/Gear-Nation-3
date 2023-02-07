@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "byg:cherry_foliage",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "byg:white_cherry_foliage",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "byg:pink_cherry_foliage",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  }
+}

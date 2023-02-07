@@ -1,0 +1,33 @@
+
+{
+  "registry_name": "terralith:mountains/misty/tuff",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:dirt",
+            "probability": 0.2,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "minecraft:tuff"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:grass_block",
+            "probability": 0.13,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "minecraft:tuff"
+          }
+        }
+      ],
+      "size": 50,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

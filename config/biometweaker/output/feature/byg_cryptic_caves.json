@@ -1,0 +1,34 @@
+
+{
+  "registry_name": "byg:cryptic_caves",
+  "worldgen/placed_feature": {
+    "feature": "byg:cryptic_caves",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "xz_spread": 0,
+        "y_spread": {
+          "type": "minecraft:biased_to_bottom",
+          "value": {
+            "min_inclusive": -15,
+            "max_inclusive": -7
+          }
+        },
+        "type": "minecraft:random_offset"
+      }
+    ]
+  }
+}

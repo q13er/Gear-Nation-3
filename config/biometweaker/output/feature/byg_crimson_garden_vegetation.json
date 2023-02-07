@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "byg:crimson_garden_vegetation",
+  "worldgen/placed_feature": {
+    "feature": "byg:crimson_garden_vegetation",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count_on_every_layer"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

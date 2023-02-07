@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomesoplenty:goldenrod_extra",
+  "worldgen/placed_feature": {
+    "feature": "biomesoplenty:goldenrod",
+    "placement": [
+      {
+        "chance": 2,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

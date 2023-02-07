@@ -1,0 +1,42 @@
+
+{
+  "registry_name": "terralith:cherry/cherry_trees",
+  "worldgen/placed_feature": {
+    "feature": "terralith:cherry/cherry_trees",
+    "placement": [
+      {
+        "count": 128,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "noise_to_count_ratio": 8,
+        "noise_factor": 202.0,
+        "noise_offset": 0.25,
+        "type": "minecraft:noise_based_count"
+      },
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "chance": 100,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "predicate": {
+          "state": {
+            "Name": "minecraft:fern"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

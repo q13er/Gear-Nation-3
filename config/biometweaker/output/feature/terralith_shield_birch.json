@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:shield/birch",
+  "worldgen/placed_feature": {
+    "feature": "terralith:shield/birch",
+    "placement": []
+  }
+}

@@ -1,0 +1,88 @@
+
+{
+  "registry_name": "terralith:skylands/winter/grassy_tops",
+  "worldgen/configured_feature": {
+    "config": {
+      "layers": [
+        {
+          "height": 1,
+          "provider": {
+            "state": {
+              "Properties": {
+                "snowy": "true"
+              },
+              "Name": "minecraft:grass_block"
+            },
+            "type": "minecraft:simple_state_provider"
+          }
+        },
+        {
+          "height": 1,
+          "provider": {
+            "seed": 56,
+            "noise": {
+              "firstOctave": -4,
+              "amplitudes": [
+                1.4,
+                1.0,
+                1.25
+              ]
+            },
+            "scale": 1.0,
+            "states": [
+              {
+                "Properties": {
+                  "layers": "1"
+                },
+                "Name": "minecraft:snow"
+              },
+              {
+                "Properties": {
+                  "layers": "1"
+                },
+                "Name": "minecraft:snow"
+              },
+              {
+                "Properties": {
+                  "layers": "1"
+                },
+                "Name": "minecraft:snow"
+              },
+              {
+                "Properties": {
+                  "layers": "1"
+                },
+                "Name": "minecraft:snow"
+              },
+              {
+                "Properties": {
+                  "layers": "1"
+                },
+                "Name": "minecraft:snow"
+              },
+              {
+                "Properties": {
+                  "layers": "1"
+                },
+                "Name": "minecraft:snow"
+              }
+            ],
+            "type": "minecraft:noise_provider"
+          }
+        }
+      ],
+      "direction": "up",
+      "allowed_placement": {
+        "blocks": [
+          "minecraft:stone",
+          "minecraft:calcite",
+          "minecraft:diorite",
+          "minecraft:air"
+        ],
+        "type": "minecraft:matching_blocks"
+      },
+      "prioritize_tip": false
+    },
+    "type": "minecraft:block_column"
+  }
+}

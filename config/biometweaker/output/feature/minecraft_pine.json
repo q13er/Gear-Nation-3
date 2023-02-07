@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:pine",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:pine",
+    "placement": []
+  }
+}

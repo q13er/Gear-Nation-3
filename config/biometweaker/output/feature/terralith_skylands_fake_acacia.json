@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:skylands/fake_acacia",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/fake_acacia",
+    "placement": []
+  }
+}

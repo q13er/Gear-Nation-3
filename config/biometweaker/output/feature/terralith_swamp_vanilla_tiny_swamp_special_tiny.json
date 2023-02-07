@@ -1,0 +1,13 @@
+
+{
+  "registry_name": "terralith:swamp/vanilla/tiny/swamp_special_tiny",
+  "worldgen/placed_feature": {
+    "feature": "terralith:swamp/vanilla/tiny/swamp_special_tiny",
+    "placement": [
+      {
+        "count": 8,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

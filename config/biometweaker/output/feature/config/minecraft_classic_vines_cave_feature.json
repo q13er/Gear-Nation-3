@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:classic_vines_cave_feature",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "minecraft:vines"
+  }
+}

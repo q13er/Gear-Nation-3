@@ -1,0 +1,45 @@
+
+{
+  "registry_name": "byg:windswept_spikes",
+  "worldgen/placed_feature": {
+    "feature": "byg:windswept_spikes",
+    "placement": [
+      {
+        "noise_level": 0.6,
+        "below_noise": 0,
+        "above_noise": 1,
+        "type": "minecraft:noise_threshold_count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "predicate": {
+            "predicates": [
+              {
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "fluids": "minecraft:water",
+                "type": "minecraft:matching_fluids"
+              }
+            ],
+            "type": "minecraft:any_of"
+          },
+          "type": "minecraft:not"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

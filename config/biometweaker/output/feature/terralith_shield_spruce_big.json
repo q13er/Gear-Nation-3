@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "terralith:shield/spruce_big",
+  "worldgen/placed_feature": {
+    "feature": "terralith:shield/spruce_big",
+    "placement": []
+  }
+}

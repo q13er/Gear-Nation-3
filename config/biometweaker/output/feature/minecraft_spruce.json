@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:spruce",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:spruce",
+    "placement": []
+  }
+}

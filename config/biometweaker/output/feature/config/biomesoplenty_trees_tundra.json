@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomesoplenty:trees_tundra",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomesoplenty:dead_twiglet_tree_small",
+          "chance": 0.1
+        }
+      ],
+      "default": "biomesoplenty:maple_twiglet_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "minecraft:spring_open",
+  "worldgen/configured_feature": {
+    "config": {
+      "rock_count": 4,
+      "hole_count": 1,
+      "valid_blocks": [
+        "minecraft:netherrack",
+        "minecraft:basalt"
+      ],
+      "state": {
+        "Properties": {
+          "falling": "true"
+        },
+        "Name": "minecraft:lava"
+      },
+      "requires_block_below": false
+    },
+    "type": "minecraft:spring_feature"
+  }
+}

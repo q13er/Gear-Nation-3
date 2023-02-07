@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "yungsextras:swamp_cubby_3",
+  "worldgen/configured_feature": {
+    "config": {
+      "location": "yungsextras:swamp/cubby/swamp_cubby_3"
+    },
+    "type": "yungsextras:swamp_cubby"
+  }
+}

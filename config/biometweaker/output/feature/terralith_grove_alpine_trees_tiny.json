@@ -1,0 +1,59 @@
+
+{
+  "registry_name": "terralith:grove/alpine/trees_tiny",
+  "worldgen/placed_feature": {
+    "feature": "terralith:grove/alpine/trees_tiny",
+    "placement": [
+      {
+        "count": {
+          "distribution": [
+            {
+              "data": 2,
+              "weight": 50
+            },
+            {
+              "data": 3,
+              "weight": 30
+            }
+          ],
+          "type": "minecraft:weighted_list"
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "predicate": {
+          "predicates": [
+            {
+              "type": "minecraft:replaceable"
+            },
+            {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:dirt",
+                "minecraft:snow_block",
+                "minecraft:grass_block"
+              ],
+              "type": "minecraft:matching_blocks"
+            }
+          ],
+          "type": "minecraft:all_of"
+        },
+        "type": "minecraft:block_predicate_filter"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

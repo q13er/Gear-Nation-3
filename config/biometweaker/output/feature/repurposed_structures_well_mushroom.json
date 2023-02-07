@@ -1,0 +1,37 @@
+
+{
+  "registry_name": "repurposed_structures:well_mushroom",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {
+        "height_offset": -2,
+        "nbt_entries": [
+          {
+            "weight": 1,
+            "resourcelocation": "repurposed_structures:wells/mushroom"
+          }
+        ],
+        "processors": "repurposed_structures:wells/mushroom",
+        "configured_feature_name": "repurposed_structures:well_mushroom",
+        "allow_liquid": false
+      },
+      "type": "repurposed_structures:nbt_feature"
+    },
+    "placement": [
+      {
+        "chance": 450,
+        "type": "minecraft:rarity_filter"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

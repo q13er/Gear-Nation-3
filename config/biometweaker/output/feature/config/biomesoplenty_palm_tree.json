@@ -1,0 +1,55 @@
+
+{
+  "registry_name": "biomesoplenty:palm_tree",
+  "worldgen/configured_feature": {
+    "config": {
+      "min_height": 10,
+      "max_height": 14,
+      "decorators": [],
+      "trunk_fruit_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "alt_foliage_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "trunk_provider": {
+        "state": {
+          "Properties": {
+            "axis": "y"
+          },
+          "Name": "biomesoplenty:palm_log"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "foliage_provider": {
+        "state": {
+          "Properties": {
+            "persistent": "true",
+            "distance": "7"
+          },
+          "Name": "biomesoplenty:palm_leaves"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "vine_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      },
+      "hanging_provider": {
+        "state": {
+          "Name": "minecraft:air"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "biomesoplenty:palm_tree"
+  }
+}

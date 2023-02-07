@@ -1,0 +1,17 @@
+
+{
+  "registry_name": "terralith:forest/flower/tall/oak_tall_m",
+  "worldgen/placed_feature": {
+    "feature": "terralith:forest/flower/tall/oak_tall_m",
+    "placement": [
+      {
+        "heightmap": "WORLD_SURFACE",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "max_water_depth": 0,
+        "type": "minecraft:surface_water_depth_filter"
+      }
+    ]
+  }
+}

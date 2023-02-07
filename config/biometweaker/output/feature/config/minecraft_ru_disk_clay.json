@@ -1,0 +1,37 @@
+
+{
+  "registry_name": "minecraft:ru_disk_clay",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:clay"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 3
+        }
+      },
+      "half_height": 1,
+      "targets": [
+        {
+          "Name": "regions_unexplored:forest_mud"
+        },
+        {
+          "Name": "regions_unexplored:forest_dirt"
+        },
+        {
+          "Name": "regions_unexplored:plains_dirt"
+        },
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Name": "minecraft:clay"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

@@ -1,0 +1,45 @@
+
+{
+  "registry_name": "terralith:skylands/ex_down_test2",
+  "worldgen/placed_feature": {
+    "feature": "terralith:skylands/ex_down_test2",
+    "placement": [
+      {
+        "count": 35,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "xz_spread": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": -5,
+            "max_inclusive": 5
+          }
+        },
+        "y_spread": 0,
+        "type": "minecraft:random_offset"
+      },
+      {
+        "height": {
+          "absolute": 150
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "direction_of_search": "up",
+        "target_condition": {
+          "type": "minecraft:solid"
+        },
+        "allowed_search_condition": {
+          "blocks": "minecraft:air",
+          "type": "minecraft:matching_blocks"
+        },
+        "max_steps": 32,
+        "type": "minecraft:environment_scan"
+      }
+    ]
+  }
+}

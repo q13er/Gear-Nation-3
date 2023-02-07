@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "terralith:mountains/scarlet/snow_seed",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "state": {
+          "Name": "minecraft:snow_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

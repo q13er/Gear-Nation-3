@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "atmospheric:patch_water_hyacinth",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "atmospheric:water_hyacinth_patch"
+  }
+}

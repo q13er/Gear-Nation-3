@@ -1,0 +1,95 @@
+
+{
+  "registry_name": "terralith:savanna/terracotta",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "config": {
+              "target": {
+                "Name": "minecraft:terracotta"
+              },
+              "state": {
+                "Name": "minecraft:white_terracotta"
+              },
+              "radius": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 7,
+                  "max_inclusive": 12
+                }
+              }
+            },
+            "type": "minecraft:netherrack_replace_blobs"
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "config": {
+              "target": {
+                "Name": "minecraft:yellow_terracotta"
+              },
+              "state": {
+                "Name": "minecraft:brown_terracotta"
+              },
+              "radius": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 7,
+                  "max_inclusive": 12
+                }
+              }
+            },
+            "type": "minecraft:netherrack_replace_blobs"
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "config": {
+              "target": {
+                "Name": "minecraft:orange_terracotta"
+              },
+              "state": {
+                "Name": "minecraft:light_gray_terracotta"
+              },
+              "radius": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 7,
+                  "max_inclusive": 12
+                }
+              }
+            },
+            "type": "minecraft:netherrack_replace_blobs"
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "config": {
+              "target": {
+                "Name": "minecraft:red_terracotta"
+              },
+              "state": {
+                "Name": "minecraft:black_terracotta"
+              },
+              "radius": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 7,
+                  "max_inclusive": 12
+                }
+              }
+            },
+            "type": "minecraft:netherrack_replace_blobs"
+          },
+          "placement": []
+        }
+      ]
+    },
+    "type": "minecraft:simple_random_selector"
+  }
+}

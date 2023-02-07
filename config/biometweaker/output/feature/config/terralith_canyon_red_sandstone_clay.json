@@ -1,0 +1,40 @@
+
+{
+  "registry_name": "terralith:canyon/red_sandstone/clay",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:clay"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 2
+        }
+      },
+      "half_height": 2,
+      "targets": [
+        {
+          "Name": "minecraft:stone"
+        },
+        {
+          "Name": "minecraft:moss_block"
+        },
+        {
+          "Name": "minecraft:red_sand"
+        },
+        {
+          "Name": "minecraft:red_sandstone"
+        },
+        {
+          "Name": "minecraft:smooth_red_sandstone"
+        },
+        {
+          "Name": "minecraft:terracotta"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

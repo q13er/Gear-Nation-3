@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "minecraft:fancy_oak",
+  "worldgen/placed_feature": {
+    "feature": "minecraft:fancy_oak",
+    "placement": []
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "terralith:savanna/shattered/med/trees_med",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:savanna/shattered/med/acacia_med",
+          "chance": 0.8
+        }
+      ],
+      "default": "terralith:savanna/shattered/med/oak_med"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

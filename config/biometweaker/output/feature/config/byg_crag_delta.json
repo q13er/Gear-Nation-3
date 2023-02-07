@@ -1,0 +1,29 @@
+
+{
+  "registry_name": "byg:crag_delta",
+  "worldgen/configured_feature": {
+    "config": {
+      "contents": {
+        "Properties": {
+          "level": "0"
+        },
+        "Name": "minecraft:water"
+      },
+      "rim": {
+        "Properties": {
+          "snowy": "false"
+        },
+        "Name": "byg:overgrown_stone"
+      },
+      "size": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 7,
+          "max_inclusive": 15
+        }
+      },
+      "rim_size": 0
+    },
+    "type": "minecraft:delta_feature"
+  }
+}

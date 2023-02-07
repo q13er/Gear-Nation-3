@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "terralith:flower/lavender/trees",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "terralith:flower/lavender/flower",
+          "chance": 0.01
+        },
+        {
+          "feature": "minecraft:birch",
+          "chance": 0.325
+        }
+      ],
+      "default": "terralith:flower/lavender/main_tree"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

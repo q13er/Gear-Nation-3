@@ -1,0 +1,11 @@
+
+{
+  "registry_name": "minecraft:lush_caves_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [],
+      "default": "minecraft:moss_patch"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomesoplenty:corner_cobwebs",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomesoplenty:corner_cobwebs"
+  }
+}

@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "terralith:enchanted/springs",
+  "worldgen/configured_feature": {
+    "config": {
+      "rock_count": 5,
+      "hole_count": 1,
+      "valid_blocks": [
+        "minecraft:grass_block",
+        "minecraft:stone",
+        "minecraft:air"
+      ],
+      "state": {
+        "Properties": {
+          "falling": "false"
+        },
+        "Name": "minecraft:water"
+      },
+      "requires_block_below": true
+    },
+    "type": "minecraft:spring_feature"
+  }
+}

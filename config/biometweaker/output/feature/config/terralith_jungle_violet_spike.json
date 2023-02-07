@@ -1,0 +1,15 @@
+
+{
+  "registry_name": "terralith:jungle/violet/spike",
+  "worldgen/configured_feature": {
+    "config": {
+      "to_place": {
+        "state": {
+          "Name": "minecraft:amethyst_block"
+        },
+        "type": "minecraft:simple_state_provider"
+      }
+    },
+    "type": "minecraft:simple_block"
+  }
+}

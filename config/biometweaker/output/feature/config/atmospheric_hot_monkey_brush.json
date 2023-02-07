@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "atmospheric:hot_monkey_brush",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "atmospheric:hot_monkey_brush"
+  }
+}
