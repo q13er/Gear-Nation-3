@@ -4,6 +4,8 @@
 # track this file
 !.gitignore
 
-# whitelist everything in ./config/
+# whitelist
 !config/**
 !mods/**
+
+
