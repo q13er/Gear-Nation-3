@@ -1,0 +1,16 @@
+
+[entities]
+	#A list of biomes where Snails can spawn
+	#The list does not include biomes from this mod
+	"Snail Spawn Biomes" = []
+	#A list of biomes where Turkeys replace Chicken spawns
+	#The list does not include biomes from this mod
+	"Turkey Spawn Biomes" = []
+
+[generation]
+	#If colored Maple Trees should generate sparsely in Forests, Dark Forests, and Taigas respectively
+	"Generate Spotted Forests" = true
+	#A list of biomes where green Maple Trees can generate naturally
+	#The list does not include biomes from this mod
+	"Maple Tree Biomes" = ["minecraft:forest", "minecraft:wooded_hills", "minecraft:flower_forest"]
+

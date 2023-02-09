@@ -132,6 +132,17 @@
         "value": 10000000
       }
     },
+    "environmental:stealth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.attack_damage": {
       "enabled": true,
       "min": {
@@ -206,6 +217,17 @@
       },
       "max": {
         "default": 30,
+        "value": 10000000
+      }
+    },
+    "savage_and_ravage:explosive_damage_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
         "value": 10000000
       }
     },
