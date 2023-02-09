@@ -39,7 +39,7 @@
 	#Enable/disable Water Ripple effects for rain and water splash
 	"Water Ripples" = true
 	#Enable/disable Aurora processing
-	Auroras = true
+	Auroras = false
 	#Cap the maximum bands that will be rendered
 	#Range: 0 ~ 3
 	"Maximum Bands" = 3
