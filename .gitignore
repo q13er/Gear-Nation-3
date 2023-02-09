@@ -5,10 +5,11 @@
 !.gitignore
 
 # whitelist
+config/oculus.properties
+config/byg/backups/last_working_configs_backup.zip
+config/controllable-client.toml
+config/byg/nether-biomes.json5
 !config/**
 !mods/**
 !icon.png
 saves/**/icon.png
-config/oculus.properties
-config/byg/backups/last_working_configs_backup.zip
-config/controllable-client.toml
