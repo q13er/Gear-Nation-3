@@ -8,5 +8,5 @@
 		# Whether or not vanilla witch huts should be disabled.
 		# Default: true
 		#
-		"Disable Vanilla Witch Huts" = false
+		"Disable Vanilla Witch Huts" = true
 

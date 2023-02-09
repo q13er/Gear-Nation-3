@@ -16,5 +16,5 @@
 		# Whether or not vanilla ocean monuments should be disabled.
 		# Default: true
 		#
-		"Disable Vanilla Ocean Monuments" = false
+		"Disable Vanilla Ocean Monuments" = true
 
