@@ -12,4 +12,5 @@ config/byg/nether-biomes.json5
 !config/**
 !mods/**
 !icon.png
+!global_packs/**
 saves/**/icon.png
