@@ -1,0 +1,114 @@
+
+["Spawn Configurations"]
+
+	#Spawn Configurations for all the mobs in goodall.
+	["Spawn Configurations".Rhino]
+		#The spawn weighting.
+		#Range: > -2147483648
+		weight = 2
+		#The min group size.
+		#Range: > -2147483648
+		min = 1
+		#The max group size.
+		#Range: > -2147483648
+		max = 1
+
+	["Spawn Configurations"."Dumbo Octopus"]
+		#The spawn weighting.
+		#Range: > -2147483648
+		weight = 2
+		#The min group size.
+		#Range: > -2147483648
+		min = 0
+		#The max group size.
+		#Range: > -2147483648
+		max = 2
+
+	["Spawn Configurations"."Blue Footed Booby"]
+		#The spawn weighting.
+		#Range: > -2147483648
+		weight = 4
+		#The min group size.
+		#Range: > -2147483648
+		min = 0
+		#The max group size.
+		#Range: > -2147483648
+		max = 1
+
+	["Spawn Configurations"."Fennec Fox"]
+		#The spawn weighting.
+		#Range: > -2147483648
+		weight = 2
+		#The min group size.
+		#Range: > -2147483648
+		min = 0
+		#The max group size.
+		#Range: > -2147483648
+		max = 1
+
+	["Spawn Configurations".Kiwi]
+		#The spawn weighting.
+		#Range: > -2147483648
+		weight = 10
+		#The min group size.
+		#Range: > -2147483648
+		min = 1
+		#The max group size.
+		#Range: > -2147483648
+		max = 2
+
+	["Spawn Configurations".Manatee]
+		#The spawn weighting.
+		#Range: > -2147483648
+		weight = 5
+		#The min group size.
+		#Range: > -2147483648
+		min = 0
+		#The max group size.
+		#Range: > -2147483648
+		max = 1
+
+	["Spawn Configurations"."Red Deer"]
+		#The spawn weighting.
+		#Range: > -2147483648
+		weight = 10
+		#The min group size.
+		#Range: > -2147483648
+		min = 0
+		#The max group size.
+		#Range: > -2147483648
+		max = 1
+
+	["Spawn Configurations"."White Tailed Deer"]
+		#The spawn weighting. Note: +5 is added for flower forests.
+		#Range: > -2147483648
+		weight = 20
+		#The min group size.
+		#Range: > -2147483648
+		min = 1
+		#The max group size.
+		#Range: > -2147483648
+		max = 3
+
+	["Spawn Configurations".Seal]
+		#The spawn weighting.
+		#Range: > -2147483648
+		weight = 5
+		#The min group size.
+		#Range: > -2147483648
+		min = 0
+		#The max group size.
+		#Range: > -2147483648
+		max = 1
+
+	["Spawn Configurations".Flamingo]
+		#The spawn weighting.
+		#Range: > -2147483648
+		weight = 1
+		#The min group size.
+		#Range: > -2147483648
+		min = 0
+		#The max group size.
+		#Range: > -2147483648
+		max = 1
+
